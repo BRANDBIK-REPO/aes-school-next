@@ -6,6 +6,7 @@ import Features from "@components/Features";
 import AboutSection from "@components/AboutSection";
 import Faq from "@components/Faq";
 import Badge from "@components/Badge";
+import TestimonialSection from "@components/TestimonialSection";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <CoursesSection />
       <Features />
       <AboutSection />
+      <TestimonialSection />
       <Faq />
       <Badge />  
     </>

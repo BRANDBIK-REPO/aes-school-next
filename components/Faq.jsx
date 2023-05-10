@@ -16,7 +16,7 @@ const Faq = () => {
     <section className="overflow-hidden relative bg-[#fbfbfb] px-5% font-main pt-24 pb-[106px]">
       <div className="mx-auto max-w-7xl text-center">
         <div className="max-w-[616px] mx-auto px-6">
-          <h2 className="text-black font-bold leading-tight text-[28px] lg:text-[40px]">
+          <h2 className="text-black font-bold leading-tight text-[28px] md:text-4xl lg:text-[40px]">
             Frequently Asked Questions
           </h2>
           <p className="text-textgray text-lg mt-6">
@@ -24,7 +24,7 @@ const Faq = () => {
             laborum ut adipisicing adipisicing.
           </p>
         </div>
-        <div className="grid lg:grid-cols-2 gap-14 mt-10">
+        <div className="grid lg:grid-cols-2 gap-5 lg:gap-14 mt-10">
           <div className="relative gap-5 flex flex-col">
             {faqLeft.map((faq, index) => (
               <div
@@ -60,7 +60,7 @@ const Faq = () => {
                   <div
                     className={`${
                       indexItem === faq.id && isActive ? "text-primary" : "text-black"
-                    } text-lg text-left lg:text-[22px] font-bold duration-200`}
+                    } text-lg text-left md:text-[22px] font-bold duration-200`}
                   >
                     {faq.question}
                   </div>
@@ -69,7 +69,7 @@ const Faq = () => {
                   <p
                     className={`text-textgray ease-in transition  ${
                       indexItem === faq.id && isActive ? "opacity-1 h-full" : "opacity-0 h-0"
-                    } duration-75  text-left lg:ml-14 text-base lg:text-lg`}
+                    } duration-75  text-left lg:ml-14 text-base md:text-lg`}
                   >
                     {faq.answer}
                   </p>
@@ -113,7 +113,7 @@ const Faq = () => {
                   <div
                     className={`${
                       indexItem === faq.id && isActive ? "text-primary" : "text-black"
-                    } text-lg text-left lg:text-[22px] font-bold duration-200`}
+                    } text-lg text-left md:text-[22px] font-bold duration-200`}
                   >
                     {faq.question}
                   </div>
@@ -122,7 +122,7 @@ const Faq = () => {
                   <p
                     className={`text-textgray ease-in transition  ${
                       indexItem === faq.id && isActive ? "opacity-1 h-full" : "opacity-0 h-0"
-                    } duration-75  text-left lg:ml-14 text-base lg:text-lg`}
+                    } duration-75  text-left lg:ml-14 text-base md:text-lg`}
                   >
                     {faq.answer}
                   </p>

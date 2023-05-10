@@ -130,5 +130,37 @@ export const courses = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
     slug: "ifrs",
   },
+];
 
+export const testimonials = [
+  {
+    id: 1,
+    name: "Fadhil ibu Shaheed",
+    title:
+      '"The best campus course available to power up your accounting skills"',
+    desciption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
+    image: "/assets/avatar.jpg",
+    place : 'Kozhikode'
+  },
+  {
+    id: 2,
+    name: "Fadhil ibu Shaheed",
+    title:
+      '"The best campus course available to power up your accounting skills"',
+    desciption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
+    image: "./assets/avatar.jpg",
+    place : 'Kozhikode'
+  },
+  {
+    id: 3,
+    name: "Fadhil ibu Shaheed",
+    title:
+      '"The best campus course available to power up your accounting skills"',
+    desciption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
+    image: "./assets/avatar.jpg",
+    place : 'Kozhikode'
+  },
 ];

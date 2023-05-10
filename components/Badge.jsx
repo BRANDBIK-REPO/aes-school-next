@@ -7,7 +7,7 @@ const Badge = () => {
       <div className="mx-auto max-w-7xl   ">
         <div className="relative flex flex-col lg:flex-row overflow-hidden text-center lg:text-left gap-14 px-6 py-12 lg:p-20 justify-between bg-black items-center ">
           <div className="relative z-10  overflow-hidden w-full lg:max-w-[555px] lg:mr-8 flex-1">
-            <h2 className="text-white text-center lg:text-left mb-6 font-bold leading-tight text-[28px] lg:text-[40px]">
+            <h2 className="text-white text-center lg:text-left mb-6 font-bold leading-tight text-[28px] md:text-4xl lg:text-[40px]">
               Start Learning Today!
             </h2>
             <p className="text-slate-400 text-center lg:text-left text-lg">

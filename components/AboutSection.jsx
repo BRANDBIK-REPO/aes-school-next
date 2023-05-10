@@ -84,7 +84,7 @@ const AboutSection = () => {
           <div className="relative flex order-1 lg:order-2 flex-col justify-center lg:mr-5" data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="300">
-            <h2 className="text-black font-bold leading-tight text-[28px] lg:text-[40px]">
+            <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">
               About Us
             </h2>
             <p className="mt-6 text-textgray text-lg ">
@@ -94,7 +94,7 @@ const AboutSection = () => {
               <br /> Tempor in labore pariatur enim anim exercitation duis
               commodo adipisicing irure.
             </p>
-            <div className="lg:mt-20 mt-14 flex flex-col text-center  lg:flex-row gap-5 lg:gap-3">
+            <div className="md:mt-20 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3">
               <Button text="About Us" />
               <AnimatedButton
                 text="View Courses"
