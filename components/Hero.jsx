@@ -1,8 +1,13 @@
+'use client'
+
 import AnimatedButton from "@components/AnimatedButton";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Button from "@components/Button";
-import animationData from "@lottie/system-outline-19-book.json";
+import animationData from '@lottie/system-outline-19-book.json';
 
 const Hero = () => {
+  AOS.init();
   return (
     <section className="overflow-hidden px-5% font-main pt-10 lg:pt-20 pb-20">
       <div className="mx-auto max-w-7xl   ">
@@ -14,7 +19,7 @@ const Hero = () => {
             data-aos-delay="300"
           >
             <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[61px] lg:leading-[1.233] font-bold">
-              The ultimate finance campus
+              The ultimate finance  campus
             </h1>
             <p className=" text-lg text-textgray">
               Eiusmod nisi enim minim dolore fugiat cillum tempor officia aliqua
@@ -25,7 +30,8 @@ const Hero = () => {
               <Button text="Get Free Consultation" />
               <AnimatedButton
                 text="View Courses"
-                animationData={animationData}
+                
+                animationData = {animationData}
               />
             </div>
           </div>
@@ -115,7 +121,7 @@ const Hero = () => {
               </svg>
             </div>
             <img
-              src="/assets/hero.jpeg"
+              src='/assets/hero.jpeg'
               alt="Image of a student holding laptop"
               data-aos="zoom-out"
               data-aos-duration="600"
@@ -185,6 +191,7 @@ const Hero = () => {
                 <circle cx="158.711" cy="106.8" r="2.9778" fill="#2e328d" />
               </svg>
             </div>
+            
           </div>
         </div>
 
@@ -194,19 +201,19 @@ const Hero = () => {
           data-aos-duration="1000"
         >
           <div className="max-w-[100px] flex">
-            <img className="flex-custom" src="/assets/ca.png" />
+            <img className="flex-custom" src='/assets/ca.png' />
           </div>
           <div className="max-w-[100px] flex">
-            <img className="flex-custom" src="/assets/cma.png" />
+            <img className="flex-custom" src='/assets/cma.png' />
           </div>
           <div className="max-w-[100px] flex">
-            <img className="flex-custom" src="/assets/cs.jpg" />
+            <img className="flex-custom" src='/assets/cs.jpg'/>
           </div>
           <div className="max-w-[100px] flex">
-            <img className="flex-custom" src="/assets/ifrs.png" />
+            <img className="flex-custom" src='/assets/ifrs.png'/>
           </div>
           <div className="max-w-[100px] flex">
-            <img className="flex-custom" src="/assets/catlam.png" />
+            <img className="flex-custom" src='/assets/catlam.png' />
           </div>
         </div>
       </div>
