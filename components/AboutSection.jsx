@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div className="grid gap-20 lg:gap-32 place-items-center lg:grid-cols-2">
           <div className="w-full order-2 lg:order-1 relative h-auto  flex flex-col justify-center items-center">
             <div
-              className="absolute -bottom-2 lg:-bottom-4 -right-4 lg:-right-10 w-36 h-36  "
+              className="absolute z-0 -bottom-2 lg:-bottom-4 -right-4 lg:-right-10 w-36 h-36  "
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-delay="400"
@@ -78,6 +78,7 @@ const AboutSection = () => {
               alt="AE'S School of Commerce Classroom image"
               data-aos="zoom-out"
               data-aos-duration="1000"
+              className="z-10"
             />
           </div>
           <div className="relative flex order-1 lg:order-2 flex-col justify-center lg:mr-5" data-aos="fade-in"
