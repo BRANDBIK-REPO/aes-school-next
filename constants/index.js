@@ -164,3 +164,5 @@ export const testimonials = [
     place : 'Kozhikode'
   },
 ];
+
+

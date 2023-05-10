@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Faq from "@components/Faq";
+import Badge from "@components/Badge";
+import ContactPage from "./Contact";
 
-const page = () => {
+const Contact = () => {
   return (
-    <div>page</div>
-  )
-}
+    <>
+      <ContactPage />
+      <Faq />
+      <Badge />
+    </>
+  );
+};
 
-export default page
+export default Contact;

@@ -1,0 +1,48 @@
+import React from "react";
+import ContactForm from "./ContactForm";
+import Link from "next/link";
+import { Mail , Phone , Map } from "lucide-react";
+
+
+const ContactPage = () => {
+  return (
+    <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20">
+      <div className="mx-auto max-w-7xl ">
+        <div className="grid grid-cols-none lg:grid-cols-2 mb-40 ">
+          <div className="z-10 relative max-w-xl min-w-[380px] mr-8">
+            <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[61px] md:text-[58px] md:leading-[1.233] font-bold">
+              Get in touch today
+            </h1>
+            <p className=" text-lg text-textgray mb-10 ">
+              Eiusmod nisi enim minim dolore fugiat cillum tempor officia aliqua
+              aliqua. Elit dolore do exercitation officia adipisicing duis irure
+              laborum eiusmod Lorem fugiat cillum.
+            </p>
+            <div className="grid gap-5  md:gap-7 lg:gap-8">
+                <Link className="flex items-center hover:text-primary hover:gap-2 duration-200 group box-border text-blackbg leading-none font-bold text-base gap-3 " href="mailto:aeschoolofcommerce@gmail.com" >
+                    <div className="w-[35px] group-hover:scale-110 duration-200 lg:w-[42px] lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center flex-1 rounded-full items-center bg-primary h-[35px] max-w-[35px] max-h-[35px]  mb-[10px]">
+                        <Mail color="white" size={20}  />
+                    </div>
+                    <div className="mb-[10px]">aeschoolofcommerce@gmail.com</div>
+                </Link>
+                <Link className="flex items-center hover:text-primary text-blackbg group hover:gap-2 duration-200 leading-none font-bold text-base gap-3 " href="tel:+918089145551" >
+                    <div className="w-[35px] lg:w-[42px] group-hover:scale-110 duration-200 lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center flex-1 rounded-full items-center bg-primary h-[35px] max-w-[35px] max-h-[35px]  mb-[10px]">
+                        <Phone color="white" size={20}  />
+                    </div>
+                    <div className="mb-[10px] ">+91 80891 45551</div>
+                </Link>
+                <div className="flex items-center text-blackbg  leading-none font-bold text-base gap-3"  >
+                    <div className="w-[35px] lg:w-[42px] lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center flex-1 flex-shrink-0 rounded-full items-center bg-primary h-[35px] min-w-[35px] min-h-[35px]  mb-[10px]">
+                        <Map color="white" size={20}  />
+                    </div>
+                    <div className="mb-[10px] leading-tight">2nd floor, Sahari building, Jubilee Rd, Perintalmanna,Malappuram, Kerala 679322</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ContactPage;

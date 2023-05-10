@@ -1,11 +1,17 @@
 'use client'
 
 import AnimatedButton from "@components/AnimatedButton";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Button from "@components/Button";
 import animationData from '@lottie/system-outline-19-book.json';
+import { useEffect } from "react";
 
 const Hero = () => {
+
+  useEffect (() => {
+    AOS.init();
+  })
   
   return (
     <section className="overflow-hidden px-5% font-main pt-10 lg:pt-20 pb-20">
