@@ -17,7 +17,7 @@ const CoursesSection = () => {
             elit senectus mauris blandit tempore gestas.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6">
+        <div data-aos="fade-up" data-aos-duration="1000" className="grid md:grid-cols-2 lg:grid-cols-3 text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6">
           {courses.map((course) => (
             <div className="bg-white flex flex-col justify-center shadow-faq  text-left ">
               <div className="w-full object-cover h-56">
