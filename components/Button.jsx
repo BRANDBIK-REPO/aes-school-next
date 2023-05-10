@@ -1,0 +1,15 @@
+import React from "react";
+import Link from "next/link";
+
+const Button = ({text}) => {
+  return (
+    <Link
+      className="bg-primary duration-200 tap-highlight-color-transparent lg:hover:bg-indigo-700 px-10 py-5 shadow-cta lg:hover:shadow-none rounded-full text-white"
+      href="/about"
+    >
+      {text}
+    </Link>
+  );
+};
+
+export default Button;
