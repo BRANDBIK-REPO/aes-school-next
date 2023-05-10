@@ -11,7 +11,7 @@ const Hero = () => {
 
   useEffect (() => {
     AOS.init();
-  })
+  },[])
   
   return (
     <section className="overflow-hidden px-5% font-main pt-10 lg:pt-20 pb-20">

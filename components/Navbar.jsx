@@ -1,14 +1,18 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import { navLinks } from "../constants";
 import Image from "next/image";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Link from "next/link";
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
 
 const Navbar = () => {
-  // AOS.init()
+  useEffect (() => {
+    AOS.init();
+  },[])
   const [isMenu, setIsMenu] = useState(false);
   return (
     <header
