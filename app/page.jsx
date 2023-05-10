@@ -1,3 +1,5 @@
+'use client'
+
 import Hero from "@components/Hero";
 import CoursesSection from "@components/CoursesSection";
 import Features from "@components/Features";
