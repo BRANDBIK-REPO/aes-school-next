@@ -15,7 +15,7 @@ const Home = () => {
       <Features />
       <AboutSection />
       <Faq />
-      <Badge />
+      <Badge />  
     </>
   );
 };
