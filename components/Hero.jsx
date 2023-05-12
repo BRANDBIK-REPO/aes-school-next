@@ -4,8 +4,8 @@ import animationData from "@lottie/system-outline-19-book.json";
 
 const Hero = () => {
   return (
-    <section className="overflow-hidden font-main pt-10 lg:pt-20 ">
-      <div className="mx-auto max-w-7xl  px-5%  ">
+    <section className="overflow-hidden px-5% font-main pt-10 lg:pt-20 ">
+      <div className="mx-auto max-w-7xl    ">
         <div className="grid grid-rows-auto gap-24 lg:grid-cols-2">
           <div
             className="w-full  h-auto relative flex flex-col justify-center"
@@ -189,9 +189,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div
-        className="bg-[#fbfbfb] pt-16 w-full lg:flex hidden  justify-center  items-center gap-20"
+        <div
+        className="bg-[#f8f8f8] py-10 mb-9 w-full lg:flex hidden  justify-center  items-center gap-20"
         data-aos="fade-up"
         data-aos-duration="800"
       >
@@ -211,6 +210,8 @@ const Hero = () => {
           <img className="flex-custom" src="/assets/catlam.png" />
         </div>
       </div>
+      </div>
+      
     </section>
   );
 };

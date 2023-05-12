@@ -25,7 +25,7 @@ const Navbar = () => {
           <Image
             src="/assets/logo.png"
             loading="lazy"
-            width="150"
+            width="180"
             height="50"
             alt="Main Logo"
             className="relative z-30"

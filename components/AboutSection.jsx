@@ -10,14 +10,14 @@ const AboutSection = () => {
         <div className="grid gap-20 lg:gap-32 place-items-center lg:grid-cols-2">
           <div className="w-full order-2 lg:order-1 relative h-auto  flex flex-col justify-center items-center">
             <div
-              className="absolute z-0 -bottom-2 lg:-bottom-4 -right-4 lg:-right-10 w-36 h-36  "
+              className="absolute z-0 -bottom-2 lg:-bottom-[4.5rem] -right-4 lg:-right-[5.5rem] w-36 h-36  "
               data-aos="zoom-in"
               data-aos-duration="800"
               data-aos-delay="100"
             >
               <svg
-                width="162"
-                height="162"
+                width="100"
+                height="100"
                 viewBox="0 0 162 162"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
