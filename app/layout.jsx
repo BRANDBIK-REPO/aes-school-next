@@ -1,5 +1,6 @@
 import "@styles/globals.css";
 import Navbar from "@components/Navbar";
+import Footer from "@components/Footer";
 
 export const metadata = {
   title: "AE's School Of Commerce",
@@ -11,8 +12,9 @@ const RootLayout = ({ children }) => {
     <html lang="en">
       <body>
         <div className="overflow-hidden">
-        <Navbar />
+          <Navbar />
           <main className="app">{children}</main>
+          <Footer />
         </div>
       </body>
     </html>

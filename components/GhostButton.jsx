@@ -1,18 +1,23 @@
 import Link from "next/link";
 
-const GhostButton = ({ text , href }) => {
+const GhostButton = ({ text, href, icon }) => {
   return (
-    <Link href={href}>
+    <div href={href}>
       <div className="flex  items-center">
-        <div className="bg-transparent font-medium  tap-highlight-color-transparent  text-lg   text-black">
-          {text}
+        <div>
+          <div className="bg-transparent  duration-200 font-bold tap-highlight-color-transparent  text-lg   text-primary">
+            {text}
+          </div>
+          <div className="min-h-[2px] w-0 duration-200 bg-primary mt-[1px] lg:group-hover:w-full"></div>
         </div>
 
-        <div className="bg-secondaygreen flex justify-center items-center py-[14px] px-2">
-          <img width="20" height="20" src='/assets/arrow.png' alt="" />
-        </div>
+        {icon && (
+          <div className="bg-secondaygreen flex justify-center items-center py-[14px] px-2">
+            <img width="20" height="20" src="/assets/arrow.png" alt="" />
+          </div>
+        )}
       </div>
-    </Link>
+    </div>
   );
 };
 

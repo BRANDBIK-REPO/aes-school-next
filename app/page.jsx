@@ -10,7 +10,7 @@ import TestimonialSection from "@components/TestimonialSection";
 
 const Home = () => {
   return (
-    <>
+    < >
       <Hero />
       <CoursesSection />
       <Features />

@@ -19,23 +19,23 @@ const ContactPage = () => {
               laborum eiusmod Lorem fugiat cillum.
             </p>
             <div className="grid gap-5  md:gap-7 lg:gap-8">
-                <Link className="flex items-center hover:text-primary hover:gap-2 duration-200 group box-border text-blackbg leading-none font-bold text-base gap-3 " href="mailto:aeschoolofcommerce@gmail.com" >
-                    <div className="w-[35px] group-hover:scale-110 duration-200 lg:w-[42px] lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center flex-1 rounded-full items-center bg-primary h-[35px] max-w-[35px] max-h-[35px]  mb-[10px]">
+                <Link className="flex items-center lg:hover:text-primary hover:gap-2 duration-200 group box-border text-blackbg leading-none font-bold text-base gap-3 " href="mailto:aeschoolofcommerce@gmail.com" >
+                    <div className="w-[35px] lg:group-hover:scale-110 duration-200 lg:w-[42px] lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center flex-1 rounded-full items-center bg-primary h-[35px] max-w-[35px] max-h-[35px]  mb-[10px]">
                         <Mail color="white" size={20}  />
                     </div>
                     <div className="mb-[10px]">aeschoolofcommerce@gmail.com</div>
                 </Link>
-                <Link className="flex items-center hover:text-primary text-blackbg group hover:gap-2 duration-200 leading-none font-bold text-base gap-3 " href="tel:+918089145551" >
-                    <div className="w-[35px] lg:w-[42px] group-hover:scale-110 duration-200 lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center flex-1 rounded-full items-center bg-primary h-[35px] max-w-[35px] max-h-[35px]  mb-[10px]">
+                <Link className="flex items-center lg:hover:text-primary text-blackbg group hover:gap-2 duration-200 leading-none font-bold text-base gap-3 " href="tel:+918089145551" >
+                    <div className="w-[35px] lg:w-[42px] lg:group-hover:scale-110 duration-200 lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center flex-1 rounded-full items-center bg-primary h-[35px] max-w-[35px] max-h-[35px]  mb-[10px]">
                         <Phone color="white" size={20}  />
                     </div>
                     <div className="mb-[10px] ">+91 80891 45551</div>
                 </Link>
                 <div className="flex items-center text-blackbg  leading-none font-bold text-base gap-3"  >
-                    <div className="w-[35px] lg:w-[42px] lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center flex-1 flex-shrink-0 rounded-full items-center bg-primary h-[35px] min-w-[35px] min-h-[35px]  mb-[10px]">
+                    <div className="w-[35px] lg:w-[42px] lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] lg:max-h-[42px] lg:max-w-[42px]  flex justify-center flex-1 flex-shrink-0 rounded-full items-center bg-primary h-[35px] min-w-[35px] min-h-[35px]  mb-[10px]">
                         <Map color="white" size={20}  />
                     </div>
-                    <div className="mb-[10px] leading-tight">2nd floor, Sahari building, Jubilee Rd, Perintalmanna,Malappuram, Kerala 679322</div>
+                    <div className="mb-[10px] max-w-sm leading-tight">2nd floor, Sahari building, Jubilee Rd, Perintalmanna,Malappuram, Kerala 679322</div>
                 </div>
             </div>
           </div>

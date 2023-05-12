@@ -21,7 +21,7 @@ const TestimonialSection = () => {
       </div>
       <div className="relative px-[5%] lg:px-6 max-w-[1048px] mx-auto ">
         <div className="">
-          <div className="relative inline-block w-full h-full whitespace-normal text-left">
+          <div className="relative inline-block w-full h-full whitespace-normal text-left" >
             <Swiper
             
               autoplay={{
@@ -35,6 +35,8 @@ const TestimonialSection = () => {
                   <div
                     key={testimonial.id}
                     className="px-6 pt-10 md:pb-10 flex z-10 relative gap-10 lg:gap-20 pb-11 items-center flex-col md:flex-row overflow-hidden lg:pt-20 lg:pb-[75px] lg:px-[92px] shadow-faq bg-white"
+                    data-aos="zoom-up"
+                    data-aos-duration="800"
                   >
                     <img
                       src={testimonial.image}

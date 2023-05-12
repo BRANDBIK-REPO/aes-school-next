@@ -24,7 +24,7 @@ const Faq = () => {
             laborum ut adipisicing adipisicing.
           </p>
         </div>
-        <div className="grid lg:grid-cols-2 gap-5 lg:gap-14 mt-10">
+        <div className="grid lg:grid-cols-2 gap-5 lg:gap-14 mt-10" data-aos="fade-up" data-aos-duration="800">
           <div className="relative gap-5 flex flex-col">
             {faqLeft.map((faq, index) => (
               <div

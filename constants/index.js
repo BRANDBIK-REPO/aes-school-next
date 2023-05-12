@@ -15,6 +15,10 @@ export const navLinks = [
     page: "About us",
     link: "/about",
   },
+  {
+    page: "Contact us",
+    link: "/contact",
+  },
 ];
 
 export const features = [
