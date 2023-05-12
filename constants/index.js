@@ -24,23 +24,23 @@ export const navLinks = [
 export const features = [
   {
     id: "1",
-    feature: "Feature",
-    number: "4",
+    feature: "Students",
+    number: "56",
   },
   {
     id: "2",
-    feature: "Feature",
-    number: "4",
+    feature: "Years",
+    number: "5+",
   },
   {
     id: "3",
-    feature: "Feature",
-    number: "4",
+    feature: "Faculties",
+    number: "15",
   },
   {
     id: "4",
-    feature: "Feature",
-    number: "4",
+    feature: "Alumnis",
+    number: "200+",
   },
 ];
 
@@ -105,41 +105,46 @@ export const courses = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
     slug: "ifrs",
+    isImportant : true,
   },
   {
     id: 2,
     title: "CATLAM",
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
-    slug: "ifrs",
+    slug: "catlam",
+    isImportant : true
   },
   {
     id: 3,
     title: "CA",
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
-    slug: "ifrs",
+    slug: "ca",
+    isImportant : false
   },
   {
     id: 4,
     title: "CMA",
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
-    slug: "ifrs",
+    slug: "cma",
+    isImportant : false
   },
   {
     id: 5,
     title: "CS",
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
-    slug: "ifrs",
+    slug: "cs",
+    isImportant : false
   },
 ];
 
 export const testimonials = [
   {
     id: 1,
-    name: "Fadhil ibu Shaheed",
+    name: "Ashfaq Ahammed",
     title:
       '"The best campus course available to power up your accounting skills"',
     desciption:
@@ -149,23 +154,23 @@ export const testimonials = [
   },
   {
     id: 2,
-    name: "Fadhil ibu Shaheed",
+    name: "Kishore Krishna",
     title:
       '"The best campus course available to power up your accounting skills"',
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
     image: "./assets/avatar.jpg",
-    place : 'Kozhikode'
+    place : 'Tirur'
   },
   {
     id: 3,
-    name: "Fadhil ibu Shaheed",
+    name: "Thahini Bandar",
     title:
       '"The best campus course available to power up your accounting skills"',
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
     image: "./assets/avatar.jpg",
-    place : 'Kozhikode'
+    place : 'Perinthalmanna'
   },
 ];
 

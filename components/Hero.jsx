@@ -1,20 +1,20 @@
 import AnimatedButton from "@components/AnimatedButton";
 import Button from "@components/Button";
-import animationData from '@lottie/system-outline-19-book.json';
+import animationData from "@lottie/system-outline-19-book.json";
 
 const Hero = () => {
   return (
-    <section className="overflow-hidden px-5% font-main pt-10 lg:pt-20 pb-20">
-      <div className="mx-auto max-w-7xl   ">
+    <section className="overflow-hidden font-main pt-10 lg:pt-20 ">
+      <div className="mx-auto max-w-7xl  px-5%  ">
         <div className="grid grid-rows-auto gap-24 lg:grid-cols-2">
           <div
             className="w-full  h-auto relative flex flex-col justify-center"
             data-aos="fade-in"
             data-aos-duration="800"
-            data-aos-delay="300"
+            data-aos-delay="100"
           >
             <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[61px] md:text-[58px] md:leading-[1.233] font-bold">
-              The ultimate finance  campus
+              The ultimate finance campus
             </h1>
             <p className=" text-lg text-textgray">
               Eiusmod nisi enim minim dolore fugiat cillum tempor officia aliqua
@@ -25,21 +25,20 @@ const Hero = () => {
               <Button text="Get Free Consultation" />
               <AnimatedButton
                 text="View Courses"
-                
-                animationData = {animationData}
+                animationData={animationData}
               />
             </div>
           </div>
-          <div className="relative">
+          <div className="relative flex justify-center items-center">
             <div
-              className="absolute hidden lg:block -top-20 right-1/2 w-36 h-36 -z-10"
+              className="absolute hidden lg:block -top-12 left-40 w-36 h-36 -z-10"
               data-aos="fade-in"
-              data-aos-duration="500"
-              data-aos-delay="800"
+              data-aos-duration="800"
+              data-aos-delay="500"
             >
               <svg
-                width="309"
-                height="309"
+                width="200"
+                height="200"
                 viewBox="0 0 309 309"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,15 +50,15 @@ const Hero = () => {
               </svg>
             </div>
             <div
-              className="absolute -top-2 lg:top-auto lg:-bottom-4 -left-4 lg:-left-10 w-36 h-36 -z-10 "
+              className="absolute -top-2 lg:top-auto lg:bottom-4 left- lg:left-8 w-36 h-36 -z-10 "
               data-aos="fade-in"
-              data-aos-duration="500"
-              data-aos-delay="800"
+              data-aos-duration="800"
+              data-aos-delay="300"
               data-aos-offset="-200"
             >
               <svg
-                width="162"
-                height="162"
+                width="100"
+                height="100"
                 viewBox="0 0 162 162"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -116,21 +115,22 @@ const Hero = () => {
               </svg>
             </div>
             <img
-              src='/assets/hero.jpeg'
+              src="/assets/hero.png"
               alt="Image of a student holding laptop"
+              width={420}
               data-aos="zoom-out"
-              data-aos-duration="600"
-              data-aos-delay="500"
+              data-aos-duration="800"
+              data-aos-delay="300"
             />
             <div
-              className="absolute top-36 -right-6 lg:-right-8 w-36 h-36 -z-10 "
+              className="absolute top-48 -right-6 lg:right-0 w-36 h-36 -z-10 "
               data-aos="fade-in"
-              data-aos-duration="500"
-              data-aos-delay="800"
+              data-aos-duration="800"
+              data-aos-delay="500"
             >
               <svg
-                width="162"
-                height="162"
+                width="100"
+                height="100"
                 viewBox="0 0 162 162"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -186,30 +186,28 @@ const Hero = () => {
                 <circle cx="158.711" cy="106.8" r="2.9778" fill="#2e328d" />
               </svg>
             </div>
-            
           </div>
         </div>
-
-        <div
-          className="mt-32 w-full lg:flex hidden  justify-center  items-center gap-20"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <div className="max-w-[100px] flex">
-            <img className="flex-custom" src='/assets/ca.png' />
-          </div>
-          <div className="max-w-[100px] flex">
-            <img className="flex-custom" src='/assets/cma.png' />
-          </div>
-          <div className="max-w-[100px] flex">
-            <img className="flex-custom" src='/assets/cs.jpg'/>
-          </div>
-          <div className="max-w-[100px] flex">
-            <img className="flex-custom" src='/assets/ifrs.png'/>
-          </div>
-          <div className="max-w-[100px] flex">
-            <img className="flex-custom" src='/assets/catlam.png' />
-          </div>
+      </div>
+      <div
+        className="bg-[#fbfbfb] pt-16 w-full lg:flex hidden  justify-center  items-center gap-20"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
+        <div className="max-w-[100px] flex">
+          <img className="flex-custom" src="/assets/ca.png" />
+        </div>
+        <div className="max-w-[100px] flex">
+          <img className="flex-custom" src="/assets/cma.png" />
+        </div>
+        <div className="max-w-[100px] flex">
+          <img className="flex-custom" src="/assets/cs.jpg" />
+        </div>
+        <div className="max-w-[100px] flex">
+          <img className="flex-custom" src="/assets/ifrs.png" />
+        </div>
+        <div className="max-w-[100px] flex">
+          <img className="flex-custom" src="/assets/catlam.png" />
         </div>
       </div>
     </section>

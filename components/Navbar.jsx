@@ -10,14 +10,15 @@ import Link from "next/link";
 
 const Navbar = () => {
   useEffect (() => {
-    AOS.init();
+    AOS.init({
+      once: true,
+    });
   },[])
   const [isMenu, setIsMenu] = useState(false);
   return (
     <header
       className={`flex   relative w-full h-auto min-h-[6rem] font-main px-5% items-center z-50 bg-white border-b border-b-white/10`}
-      data-aos="fade-in"
-      data-aos-duration="1000"
+      data-aos="fade-in" data-aos-duration="500"
     >
       <div className="flex w-full h-full py-6 mx-auto max-w-7xl justify-between items-center">
         <Link href="/" aria-current="page" className="" aria-label="home">

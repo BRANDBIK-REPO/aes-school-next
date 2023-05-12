@@ -12,8 +12,8 @@ const AboutSection = () => {
             <div
               className="absolute z-0 -bottom-2 lg:-bottom-4 -right-4 lg:-right-10 w-36 h-36  "
               data-aos="zoom-in"
-              data-aos-duration="500"
-              data-aos-delay="400"
+              data-aos-duration="800"
+              data-aos-delay="100"
             >
               <svg
                 width="162"
@@ -77,13 +77,13 @@ const AboutSection = () => {
               src='/assets/classroom.jpg'
               alt="AE'S School of Commerce Classroom image"
               data-aos="zoom-out"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               className="z-10"
             />
           </div>
           <div className="relative flex order-1 lg:order-2 flex-col justify-center lg:mr-5" data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="300">
+              data-aos-duration="800"
+              data-aos-delay="200">
             <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">
               About Us
             </h2>

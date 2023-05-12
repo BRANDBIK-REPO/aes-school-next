@@ -34,12 +34,12 @@ const TestimonialSection = () => {
                 <SwiperSlide>
                   <div
                     key={testimonial.id}
-                    className="px-6 pt-10 md:pb-10 flex z-10 relative gap-10 lg:gap-20 pb-11 items-center flex-col md:flex-row overflow-hidden lg:pt-20 lg:pb-[75px] lg:px-[92px] shadow-faq bg-white"
+                    className="px-6 pt-10 md:pb-10 flex z-10 relative gap-10 lg:gap-20 pb-11 lg:items-center flex-col md:flex-row overflow-hidden lg:pt-20 lg:pb-[75px] lg:px-[92px] shadow-faq bg-white"
                     data-aos="zoom-up"
                     data-aos-duration="800"
                   >
                     <img
-                      src={testimonial.image}
+                      src={`/assets/student-${testimonial.id}.jpg`}
                       sizes="(max-width: 768px) 10vw"
                       className="rounded-[100%] lg:w-[300px] lg:h-[300px] md:w-[200px] md:h-[200px] w-[150px] h-[150px]   lg:mt-0"
                       alt="Image of a person"
