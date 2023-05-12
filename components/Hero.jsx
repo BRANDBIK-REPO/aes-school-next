@@ -121,6 +121,7 @@ const Hero = () => {
               data-aos="zoom-out"
               data-aos-duration="800"
               data-aos-delay="300"
+              data-aos-offset="-500"
             />
             <div
               className="absolute top-48 -right-6 lg:right-0 w-36 h-36 -z-10 "
