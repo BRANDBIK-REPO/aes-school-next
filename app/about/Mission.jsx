@@ -1,0 +1,185 @@
+import React from "react";
+
+const Mission = () => {
+  return (
+    <section className="overflow-hidden bg-[#fbfbfb] px-5% font-main pt-16 lg:pt-20 py-32">
+      <div className="mx-auto max-w-7xl">
+        <div className="relative flex z-10 justify-between items-center">
+          <div className="relative z-10 max-w-[610px] mt-[52px] mb-8">
+            <div className="mb-[156px]">
+              <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">
+                Our Mission
+              </h2>
+              <p className="mt-6 text-textgray text-lg ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
+                venenatis dictum et nec. Fringilla dictum tristique cras
+                pellentesque morbi consequat, maecenas egestas a. Mi feugiat
+                urna turpis placerat faucibus bibendum hac vulputate. Elit lacus
+                accumsan, nullam semper gravida nunc, magna porta. Leo quis
+                netus ac consequat sed. Volutpat ante donec.
+              </p>
+            </div>
+            <div className="relative">
+              <img src="/assets/hero.jpeg" className="z-10 relative" />
+              <div
+                className="absolute  lg:-top-10  lg:left-8 w-36 h-36 z-0 "
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="300"
+                data-aos-offset="-200"
+              >
+                <svg
+                  width="100"
+                  height="100"
+                  viewBox="0 0 162 162"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="2.9778" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="106.8" r="2.9778" fill="#2e328d" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div className="relative z-10 max-w-[610px] mt-[52px] mb-8">
+            <div className="relative  mb-[171px]">
+              <img
+                src="/assets/hero.jpeg"
+                alt="An Image of Classroom "
+                className="z-10 relative"
+              />
+              <div
+                className="absolute  lg:-bottom-20  lg:right-2 w-36 h-36 z-0 "
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="300"
+                data-aos-offset="-200"
+              >
+                <svg
+                  width="100"
+                  height="100"
+                  viewBox="0 0 162 162"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="2.9778" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="2.9778" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="28.9334" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="54.8889" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="80.8445" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="106.8" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="132.756" cy="106.8" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="2.9778" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="28.9334" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="80.8446" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="132.756" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="158.711" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="54.8889" r="2.9778" fill="#2e328d" />
+                  <circle cx="158.711" cy="106.8" r="2.9778" fill="#2e328d" />
+                </svg>
+              </div>
+            </div>
+            <div className="">
+              <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">
+                Our Mission
+              </h2>
+              <p className="mt-6 text-textgray text-lg ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
+                venenatis dictum et nec. Fringilla dictum tristique cras
+                pellentesque morbi consequat, maecenas egestas a. Mi feugiat
+                urna turpis placerat faucibus bibendum hac vulputate. Elit lacus
+                accumsan, nullam semper gravida nunc, magna porta. Leo quis
+                netus ac consequat sed. Volutpat ante donec.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Mission;

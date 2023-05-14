@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import AboutPageHead from "./AboutPageHead";
+import Mission from "./Mission";
 
 const about = () => {
   return (
-    <div>about</div>
-  )
-}
+    <div>
+      <AboutPageHead />
+      <Mission />
+    </div>
+  );
+};
 
-export default about
+export default about;

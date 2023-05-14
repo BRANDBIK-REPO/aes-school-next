@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 
+
 .tap-highlight-color-transparent {
     -webkit-tap-highlight-color: transparent;
 }

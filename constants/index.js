@@ -8,10 +8,6 @@ export const navLinks = [
     link: "/courses",
   },
   {
-    page: "Testimonials",
-    link: "/testimonials",
-  },
-  {
     page: "About us",
     link: "/about",
   },

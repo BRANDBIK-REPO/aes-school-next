@@ -1,19 +1,26 @@
 import React from "react";
-import Button from "./Button";
-import AnimatedButton from "./AnimatedButton";
-import AnimationJson from "@lottie/system-outline-19-book.json";
+import Button from "@components/Button";
+import AnimatedButton from "@components/AnimatedButton";
+import animationData from "@lottie/system-outline-19-book.json";
 
-const AboutSection = () => {
+const AboutPageHead = () => {
   return (
-    <section className="overflow-hidden bg-[#fbfbfb] px-5% font-main pt-16 lg:pt-20 py-32">
-      <div className="mx-auto max-w-7xl">
-        <div className="grid gap-20 lg:gap-32 place-items-center lg:grid-cols-2">
-          <div className="w-full order-2 lg:order-1 relative h-auto  flex flex-col justify-center items-center">
+    <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20 pb-20 lg:pb-32">
+      <div className="mx-auto max-w-7xl ">
+        <div className="flex lg:flex-row flex-col relative justify-between items-center">
+          <div
+            className="relative  flex max-w-2xl mr-9 justify-center items-center"
+            
+          >
+            <img className="relative z-10" src="/assets/hero.jpeg" data-aos="zoom-out"
+            data-aos-duration="800"
+            data-aos-delay="100" />
             <div
-              className="absolute z-0 -bottom-2 lg:-bottom-[4.5rem] -right-4 lg:-right-[5.5rem] w-36 h-36  "
-              data-aos="zoom-in"
+              className="absolute  lg:-top-2 left- lg:left-8 w-36 h-36 z-0 "
+              data-aos="fade-in"
               data-aos-duration="800"
-              data-aos-delay="100"
+              data-aos-delay="300"
+              data-aos-offset="-200"
             >
               <svg
                 width="100"
@@ -73,32 +80,88 @@ const AboutSection = () => {
                 <circle cx="158.711" cy="106.8" r="2.9778" fill="#2e328d" />
               </svg>
             </div>
-            <img
-              src='/assets/classroom.jpg'
-              alt="AE'S School of Commerce Classroom image"
-              data-aos="zoom-out"
-              data-aos-duration="800"
-              className="z-10 "
-            />
           </div>
-          <div className="relative flex order-1 lg:order-2 flex-col justify-center lg:mr-5" data-aos="fade-in"
-              data-aos-duration="800"
-              data-aos-delay="200">
-            <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">
-              About Us
-            </h2>
-            <p className="mt-6 text-textgray text-lg ">
-              Tempor in labore pariatur enim anim exercitation duis commodo
-              adipisicing irure. Tempor in labore pariatur enim anim
-              exercitation duis commodo adipisicing irure. <br />
-              <br /> Tempor in labore pariatur enim anim exercitation duis
-              commodo adipisicing irure.
+          <div
+            className="relative z-10 max-w-[43%] min-w-[438px]"
+            data-aos="zoom-up"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
+            <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[61px] md:text-[58px] md:leading-[1.233] font-bold">
+              About us
+            </h1>
+            <p className=" text-lg  text-textgray mb-10 ">
+              Eiusmod nisi enim minim dolore fugiat cillum tempor officia aliqua
+              aliqua. Elit dolore do exercitation officia adipisicing duis irure
+              laborum eiusmod Lorem fugiat cillum.
             </p>
-            <div className="md:mt-20 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3">
-              <Button text="About Us" />
+            <div className="mb-3 grid grid-cols-1  gap-4 ">
+              <div className="flex gap-4 items-center text-blackbg leading-[1.1]">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx={13} cy={13} r="13" fill="#2e328d" />
+                  <path
+                    d="M19.5 8.66666L10.8334 17.3333L6.50003 13"
+                    stroke="white"
+                    stroke-miterlimit="10"
+                  />
+                </svg>
+                <div className="text-lg font-medium">
+                  15+ years of experience
+                </div>
+              </div>
+            </div>
+            <div className="mb-12 grid grid-cols-1  gap-4 ">
+              <div className="flex gap-4 items-center text-blackbg leading-[1.1]">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx={13} cy={13} r="13" fill="#2e328d" />
+                  <path
+                    d="M19.5 8.66666L10.8334 17.3333L6.50003 13"
+                    stroke="white"
+                    stroke-miterlimit="10"
+                  />
+                </svg>
+                <div className="text-lg font-medium">10+ Experts to teach</div>
+              </div>
+              <div className="mb-3 grid grid-cols-1  gap-4 ">
+                <div className="flex gap-4 items-center text-blackbg leading-[1.1]">
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx={13} cy={13} r="13" fill="#2e328d" />
+                    <path
+                      d="M19.5 8.66666L10.8334 17.3333L6.50003 13"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                    />
+                  </svg>
+                  <div className="text-lg font-medium">
+                    Teached over 255+ students{" "}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className=" flex flex-col text-center  md:flex-row gap-5 md:gap-3 ">
+              <Button text="Get Free Consultation" />
               <AnimatedButton
                 text="View Courses"
-                animationData={AnimationJson}
+                animationData={animationData}
               />
             </div>
           </div>
@@ -108,4 +171,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default AboutPageHead;
