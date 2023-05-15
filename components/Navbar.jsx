@@ -54,7 +54,7 @@ const Navbar = () => {
         <div className="md:flex z-40 gap-8 ">
           <Link
             href="/contact"
-            className="py-[16px] hidden md:flex  gap-4 items-center text-base rounded-full duration-200 shadow-cta lg:hover:shadow-none  px-[34px] bg-primary lg:hover:bg-indigo-700 backdrop-blur-sm  text-white  leading-[20px]  font-semibold"
+            className="py-[16px] hidden md:flex  gap-4 items-center text-base rounded-full duration-200 shadow-cta lg:hover:shadow-none  px-[34px] bg-primary lg:hover:bg-indigo-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-primary focus:outline-none backdrop-blur-sm  text-white  leading-[20px]  font-semibold"
           >
             <div className="text-base">Get in touch</div>
           </Link>
