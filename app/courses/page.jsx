@@ -1,5 +1,3 @@
-import React from 'react'
-import Badge from '@components/Badge'
 import CourseGrid from '@components/CourseGrid'
 import CoursesHero from './CoursesHero'
 
@@ -19,7 +17,6 @@ const page = () => {
         
       </div>
       </section>
-      <Badge />
       </>
   )
 }

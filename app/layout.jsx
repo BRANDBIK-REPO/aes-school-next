@@ -1,6 +1,7 @@
 import "@styles/globals.css";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
+import Badge from "@components/Badge";
 
 export const metadata = {
   title: "AE's School Of Commerce",
@@ -14,6 +15,7 @@ const RootLayout = ({ children }) => {
         <div className="overflow-hidden">
           <Navbar />
           <main className="app">{children}</main>
+          <Badge />
           <Footer />
         </div>
       </body>

@@ -1,3 +1,10 @@
+import { ArrowUpRight, Users2 } from "lucide-react";
+import { Lightbulb } from "lucide-react";
+import { User2 } from "lucide-react";
+import { Zap } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
+import { Target } from "lucide-react";
+
 export const navLinks = [
   {
     page: "Home",
@@ -101,7 +108,7 @@ export const courses = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
     slug: "ifrs",
-    isImportant : true,
+    isImportant: true,
   },
   {
     id: 2,
@@ -109,7 +116,7 @@ export const courses = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
     slug: "catlam",
-    isImportant : true
+    isImportant: true,
   },
   {
     id: 3,
@@ -117,7 +124,7 @@ export const courses = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
     slug: "ca",
-    isImportant : false
+    isImportant: false,
   },
   {
     id: 4,
@@ -125,7 +132,7 @@ export const courses = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
     slug: "cma",
-    isImportant : false
+    isImportant: false,
   },
   {
     id: 5,
@@ -133,7 +140,7 @@ export const courses = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
     slug: "cs",
-    isImportant : false
+    isImportant: false,
   },
 ];
 
@@ -146,7 +153,7 @@ export const testimonials = [
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
     image: "/assets/avatar.jpg",
-    place : 'Kozhikode'
+    place: "Kozhikode",
   },
   {
     id: 2,
@@ -156,7 +163,7 @@ export const testimonials = [
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
     image: "./assets/avatar.jpg",
-    place : 'Tirur'
+    place: "Tirur",
   },
   {
     id: 3,
@@ -166,8 +173,52 @@ export const testimonials = [
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
     image: "./assets/avatar.jpg",
-    place : 'Perinthalmanna'
+    place: "Perinthalmanna",
   },
 ];
 
+export const offering = [
+  {
+    id: 1,
+    icon: <Target color="white" size={48} />,
+    title: "Thrive for Results",
+    desciption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
+  },
+  {
+    id: 2,
+    icon: <Zap color="white" size={48} />,
+    title: "Move Fast",
+    desciption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
+  },
+  {
+    id: 3,
+    icon: <User2 color="white" size={48} />,
+    title: "Collaboratives",
+    desciption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
+  },
+  {
+    id: 4,
+    icon: <Lightbulb color="white" size={48} />,
+    title: "Be Open",
+    desciption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
+  },
+  {
+    id: 5,
+    icon: <ShieldCheck color="white" size={48} />,
+    title: "Trust",
+    desciption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
+  },
+  {
+    id: 6,
+    icon: <ArrowUpRight color="white" size={48} />,
+    title: "Focus on Impact",
+    desciption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
+  },
 
+];

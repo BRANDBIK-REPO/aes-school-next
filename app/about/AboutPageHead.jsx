@@ -5,18 +5,18 @@ import animationData from "@lottie/system-outline-19-book.json";
 
 const AboutPageHead = () => {
   return (
-    <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20 pb-20 lg:pb-32">
+    <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20 pb-14 lg:pb-32">
       <div className="mx-auto max-w-7xl ">
-        <div className="flex lg:flex-row flex-col relative justify-between items-center">
+        <div className="flex lg:flex-row flex-col-reverse gap-y-14 relative justify-between items-center">
           <div
-            className="relative  flex max-w-2xl mr-9 justify-center items-center"
+            className="relative  flex max-w-2xl lg:mr-9 justify-center items-center"
             
           >
             <img className="relative z-10" src="/assets/hero.jpeg" data-aos="zoom-out"
             data-aos-duration="800"
             data-aos-delay="100" />
             <div
-              className="absolute  lg:-top-2 left- lg:left-8 w-36 h-36 z-0 "
+              className="absolute  lg:-top-2 -bottom-8 lg:left-8  z-0 "
               data-aos="fade-in"
               data-aos-duration="800"
               data-aos-delay="300"
@@ -82,7 +82,7 @@ const AboutPageHead = () => {
             </div>
           </div>
           <div
-            className="relative z-10 max-w-[43%] min-w-[438px]"
+            className="relative z-10 lg:max-w-[43%] lg:min-w-[438px]"
             data-aos="zoom-up"
             data-aos-duration="800"
             data-aos-delay="300"
