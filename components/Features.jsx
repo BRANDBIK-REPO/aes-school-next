@@ -9,7 +9,7 @@ const Features = () => {
           <h2 className="text-2xl mb-12 text-center font-bold text-white">
             Why Should you consider our campus?
           </h2>
-          <div className="grid z-10 grid-cols-2 overflow-hidden relative lg:grid-cols-none lg:grid-flow-col text-center gap-y-10  ">
+          <div className="grid z-10 grid-cols-2 overflow-hidden relative lg:grid-cols-none lg:grid-flow-col text-center gap-y-10  " data-aos="zoom-up" data-aos-duration='800'>
             {features.map((feature) => (
               <div
                 key={feature.id}

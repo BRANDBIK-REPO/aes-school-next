@@ -180,42 +180,42 @@ export const testimonials = [
 export const offering = [
   {
     id: 1,
-    icon: <Target color="white" size={48} />,
+    icon: <Target color="white" strokeWidth={1} size={48} />,
     title: "Thrive for Results",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },
   {
     id: 2,
-    icon: <Zap color="white" size={48} />,
+    icon: <Zap color="white" strokeWidth={1} size={48} />,
     title: "Move Fast",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },
   {
     id: 3,
-    icon: <User2 color="white" size={48} />,
+    icon: <User2 color="white" strokeWidth={1} size={48} />,
     title: "Collaboratives",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },
   {
     id: 4,
-    icon: <Lightbulb color="white" size={48} />,
+    icon: <Lightbulb color="white" strokeWidth={1} size={48} />,
     title: "Be Open",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },
   {
     id: 5,
-    icon: <ShieldCheck color="white" size={48} />,
+    icon: <ShieldCheck color="white" strokeWidth={1} size={48} />,
     title: "Trust",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },
   {
     id: 6,
-    icon: <ArrowUpRight color="white" size={48} />,
+    icon: <ArrowUpRight color="white" strokeWidth={1} size={48} />,
     title: "Focus on Impact",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",

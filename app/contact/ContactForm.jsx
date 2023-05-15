@@ -7,8 +7,9 @@ const ContactForm = () => {
       data-aos="zoom-out"
       data-aos-duration="800"
       data-aos-delay="300"
+      data-aos-offset="-200"
     >
-      <div className="min-h-[933px] shadow-faq py-12 px-6 md:min-h-[951px] md:py-14 md:px-9 lg:min-h-[729px] relative z-10 lg:py-20 lg:px-10 flex items-center border border-[#eaeaea]">
+      <div className="min-h-[850px] shadow-faq py-12 px-6 md:min-h-[951px] md:py-14 md:px-9 lg:min-h-[729px] relative z-10 lg:py-20 lg:px-10 flex items-center border border-[#eaeaea]">
         <div className="flex-1 mr-4">
           <form>
             <div className="grid grid-cols-1 lg:grid-cols-2 mb-4 gap-y-5 gap-x-9">
@@ -91,7 +92,7 @@ const ContactForm = () => {
             <input
               type="submit"
               value="Contact Us"
-              className="block md:px-6 lg:py-6 lg:px-12 bg-primary lg:hover:bg-indigo-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-primary focus:outline-none shadow-cta  rounded-full mt-6 text-white leading-[1.1] font-bold text-center"
+              className="block px-6 py-6 w-full lg:w-auto lg:py-6 lg:px-12 bg-primary lg:hover:bg-indigo-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-primary focus:outline-none shadow-cta  rounded-full mt-7 text-white leading-[1.1] font-bold text-center"
             />
           </form>
         </div>

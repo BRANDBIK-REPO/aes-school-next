@@ -8,10 +8,11 @@ const ContactPage = () => {
     <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20">
       <div className="mx-auto max-w-7xl ">
         <div
-          className="grid grid-cols-none lg:grid-cols-2 mb-40 "
+          className="grid grid-cols-none lg:grid-cols-2 gap-y-10 mb-40 "
           data-aos="zoom-up"
           data-aos-duration="800"
           data-aos-delay="100"
+          
         >
           <div className="z-10 relative w-full lg:max-w-xl lg:min-w-[380px] mr-8">
             <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[61px] md:text-[58px] md:leading-[1.233] font-bold">
