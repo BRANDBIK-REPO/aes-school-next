@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ImportantCourses } from "@constants";
 import GhostButton from "@components/GhostButton";
 
@@ -51,14 +52,14 @@ const ImportantCourse = () => {
         data-aos-delay="1000"
         className="absolute -top-4  lg:-top-8 -right-14 lg:-right-[5.5rem] w-36 h-36 z-0 "
       >
-        <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape"   />
       </div>
       <div
         className="absolute -bottom-14 lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
         data-aos="fade-in"
         data-aos-duration="800"
       >
-        <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
       </div>
     </div>
   );

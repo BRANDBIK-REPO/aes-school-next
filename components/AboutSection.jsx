@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 import AnimatedButton from "./AnimatedButton";
 import AnimationJson from "@lottie/system-outline-19-book.json";
+import Image from "next/image";
 
 const AboutSection = () => {
   return (
@@ -15,7 +16,7 @@ const AboutSection = () => {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
             </div>
             <img
               src='/assets/classroom.jpg'

@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const Mission = () => {
   return (
@@ -38,7 +38,7 @@ const Mission = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+                <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
               </div>
             </div>
           </div>
@@ -57,63 +57,7 @@ const Mission = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                <svg
-                  width="100"
-                  height="100"
-                  viewBox="0 0 162 162"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="2.9778" cy="2.9778" r="2.9778" fill="#2e328d" />
-                  <circle cx="2.9778" cy="28.9334" r="2.9778" fill="#2e328d" />
-                  <circle cx="2.9778" cy="80.8446" r="2.9778" fill="#2e328d" />
-                  <circle cx="2.9778" cy="132.756" r="2.9778" fill="#2e328d" />
-                  <circle cx="2.9778" cy="158.711" r="2.9778" fill="#2e328d" />
-                  <circle cx="2.9778" cy="54.8889" r="2.9778" fill="#2e328d" />
-                  <circle cx="2.9778" cy="106.8" r="2.9778" fill="#2e328d" />
-                  <circle cx="28.9334" cy="2.9778" r="2.9778" fill="#2e328d" />
-                  <circle cx="28.9334" cy="28.9334" r="2.9778" fill="#2e328d" />
-                  <circle cx="28.9334" cy="80.8446" r="2.9778" fill="#2e328d" />
-                  <circle cx="28.9334" cy="132.756" r="2.9778" fill="#2e328d" />
-                  <circle cx="28.9334" cy="158.711" r="2.9778" fill="#2e328d" />
-                  <circle cx="28.9334" cy="54.8889" r="2.9778" fill="#2e328d" />
-                  <circle cx="28.9334" cy="106.8" r="2.9778" fill="#2e328d" />
-                  <circle cx="54.8889" cy="2.9778" r="2.9778" fill="#2e328d" />
-                  <circle cx="54.8889" cy="28.9334" r="2.9778" fill="#2e328d" />
-                  <circle cx="54.8889" cy="80.8446" r="2.9778" fill="#2e328d" />
-                  <circle cx="54.8889" cy="132.756" r="2.9778" fill="#2e328d" />
-                  <circle cx="54.8889" cy="158.711" r="2.9778" fill="#2e328d" />
-                  <circle cx="54.8889" cy="54.8889" r="2.9778" fill="#2e328d" />
-                  <circle cx="54.8889" cy="106.8" r="2.9778" fill="#2e328d" />
-                  <circle cx="80.8445" cy="2.9778" r="2.9778" fill="#2e328d" />
-                  <circle cx="80.8445" cy="28.9334" r="2.9778" fill="#2e328d" />
-                  <circle cx="80.8445" cy="80.8446" r="2.9778" fill="#2e328d" />
-                  <circle cx="80.8445" cy="132.756" r="2.9778" fill="#2e328d" />
-                  <circle cx="80.8445" cy="158.711" r="2.9778" fill="#2e328d" />
-                  <circle cx="80.8445" cy="54.8889" r="2.9778" fill="#2e328d" />
-                  <circle cx="80.8445" cy="106.8" r="2.9778" fill="#2e328d" />
-                  <circle cx="106.8" cy="2.9778" r="2.9778" fill="#2e328d" />
-                  <circle cx="106.8" cy="28.9334" r="2.9778" fill="#2e328d" />
-                  <circle cx="106.8" cy="80.8446" r="2.9778" fill="#2e328d" />
-                  <circle cx="106.8" cy="132.756" r="2.9778" fill="#2e328d" />
-                  <circle cx="106.8" cy="158.711" r="2.9778" fill="#2e328d" />
-                  <circle cx="106.8" cy="54.8889" r="2.9778" fill="#2e328d" />
-                  <circle cx="106.8" cy="106.8" r="2.9778" fill="#2e328d" />
-                  <circle cx="132.756" cy="2.9778" r="2.9778" fill="#2e328d" />
-                  <circle cx="132.756" cy="28.9334" r="2.9778" fill="#2e328d" />
-                  <circle cx="132.756" cy="80.8446" r="2.9778" fill="#2e328d" />
-                  <circle cx="132.756" cy="132.756" r="2.9778" fill="#2e328d" />
-                  <circle cx="132.756" cy="158.711" r="2.9778" fill="#2e328d" />
-                  <circle cx="132.756" cy="54.8889" r="2.9778" fill="#2e328d" />
-                  <circle cx="132.756" cy="106.8" r="2.9778" fill="#2e328d" />
-                  <circle cx="158.711" cy="2.9778" r="2.9778" fill="#2e328d" />
-                  <circle cx="158.711" cy="28.9334" r="2.9778" fill="#2e328d" />
-                  <circle cx="158.711" cy="80.8446" r="2.9778" fill="#2e328d" />
-                  <circle cx="158.711" cy="132.756" r="2.9778" fill="#2e328d" />
-                  <circle cx="158.711" cy="158.711" r="2.9778" fill="#2e328d" />
-                  <circle cx="158.711" cy="54.8889" r="2.9778" fill="#2e328d" />
-                  <circle cx="158.711" cy="106.8" r="2.9778" fill="#2e328d" />
-                </svg>
+                <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
               </div>
             </div>
             <div

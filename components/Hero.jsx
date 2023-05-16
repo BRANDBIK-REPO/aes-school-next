@@ -1,6 +1,7 @@
 import AnimatedButton from "@components/AnimatedButton";
 import Button from "@components/Button";
 import animationData from "@lottie/system-outline-19-book.json";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -56,7 +57,7 @@ const Hero = () => {
               data-aos-delay="300"
               data-aos-offset="-200"
             >
-              <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
             </div>
             <img
               src="/assets/hero.webp"
@@ -73,7 +74,7 @@ const Hero = () => {
               data-aos-duration="800"
               data-aos-delay="500"
             >
-              <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
             </div>
           </div>
         </div>

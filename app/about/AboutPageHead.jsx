@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@components/Button";
 import AnimatedButton from "@components/AnimatedButton";
 import animationData from "@lottie/system-outline-19-book.json";
+import Image from "next/image";
 
 const AboutPageHead = () => {
   return (
@@ -19,11 +20,11 @@ const AboutPageHead = () => {
             <div
               className="absolute  lg:-top-2 -bottom-8 lg:left-8  z-0 "
               data-aos="fade-in"
-              data-aos-duration="800"
-              data-aos-delay="300"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               data-aos-offset="-200"
             >
-              <img src="/assets/pattern-grid.svg" alt="Pattern shape" />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
             </div>
           </div>
           <div

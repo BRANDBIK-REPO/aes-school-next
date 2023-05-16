@@ -2,6 +2,7 @@ import Button from "@components/Button";
 import AnimatedButton from "@components/AnimatedButton";
 import animationJson from "@/lottie/system-outline-19-book.json";
 import { offering } from "@constants";
+import Image from "next/image";
 
 const OurOffers = () => {
   return (
@@ -41,7 +42,7 @@ const OurOffers = () => {
             data-aos-duration="500"
             data-aos-delay="800"
           >
-            <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+            <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
           </div>
           <div
             className="absolute top-auto lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
@@ -50,7 +51,7 @@ const OurOffers = () => {
             data-aos-delay="800"
             data-aos-offset="-200"
           >
-            <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+            <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
           </div>
         </div>
         <div className="md:mt-20 mt-14 flex flex-col text-center w-full md:justify-center md:items-center  md:flex-row gap-5 md:gap-3">

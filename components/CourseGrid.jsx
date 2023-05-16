@@ -1,7 +1,7 @@
-import React from "react";
 import Link from "next/link";
 import GhostButton from "./GhostButton";
 import { courses } from "@constants";
+import Image from "next/image";
 
 const CourseGrid = () => {
   return (
@@ -49,7 +49,7 @@ const CourseGrid = () => {
         data-aos-duration="500"
         data-aos-delay="800"
       >
-        <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
       </div>
       <div
         className="absolute -bottom-14 lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
@@ -58,7 +58,7 @@ const CourseGrid = () => {
         data-aos-delay="800"
         data-aos-offset="-200"
       >
-        <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
+        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
       </div>
     </div>
   );
