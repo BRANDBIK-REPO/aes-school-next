@@ -37,10 +37,10 @@ const AnimatedButton = ({animationData,text}) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       className="border tap-highlight-color-transparent border-slate-200 duration-200 lg:hover:text-primary flex justify-center items-center gap-3 lg:hover:border-primary px-8 py-[16px]  rounded-full text-slate-800"
-      href="/about"
+      href="/courses"
     >
-      {" "}
-      <div>{text}</div> <div ref={containerRef} className="w-5"></div>{" "}
+      
+      <div>{text}</div> <div ref={containerRef} className="w-5"></div>
     </Link>
   );
 };

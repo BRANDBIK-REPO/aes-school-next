@@ -1,6 +1,11 @@
+'use client'
+
 import React from "react";
 
 const ContactForm = () => {
+  const handleSubmit =(e) => {
+    e.preventDefault();
+  }
   return (
     <div
       className="relative w-full lg:max-w-[687px] max-w-full"
@@ -92,7 +97,8 @@ const ContactForm = () => {
             <input
               type="submit"
               value="Contact Us"
-              className="block px-6 py-6 w-full lg:w-auto lg:py-6 lg:px-12 bg-primary lg:hover:bg-indigo-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-primary focus:outline-none shadow-cta  rounded-full mt-7 text-white leading-[1.1] font-bold text-center"
+              className="block px-6 cursor-pointer py-6 w-full lg:w-auto lg:py-6 lg:px-12 bg-primary lg:hover:bg-indigo-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-primary focus:outline-none shadow-cta  rounded-full mt-7 text-white leading-[1.1] font-bold text-center"
+              onClick={(e) => handleSubmit(e)}
             />
           </form>
         </div>

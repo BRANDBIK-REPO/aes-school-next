@@ -95,7 +95,7 @@ const AboutSection = () => {
               commodo adipisicing irure.
             </p>
             <div className="md:mt-20 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3">
-              <Button text="About Us" />
+              <Button text="About Us" href="/about" />
               <AnimatedButton
                 text="View Courses"
                 animationData={AnimationJson}
