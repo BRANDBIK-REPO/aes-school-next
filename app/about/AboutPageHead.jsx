@@ -14,6 +14,7 @@ const AboutPageHead = () => {
               className="relative z-10"
               src="/assets/hero.jpeg"
               data-aos="zoom-out"
+              alt="Image of a Person"
               data-aos-duration="800"
               data-aos-delay="100"
             />

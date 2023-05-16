@@ -29,6 +29,7 @@ const Mission = () => {
                 src="/assets/hero.jpeg"
                 className="z-10 relative"
                 data-aos="zoom-out"
+                alt="Classroom image"
                 data-aos-duration="800"
                 data-aos-delay="300"
               />

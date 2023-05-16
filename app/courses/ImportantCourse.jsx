@@ -14,7 +14,7 @@ const ImportantCourse = () => {
       >
         {ImportantCourses.map((course) => (
           <Link
-            className="group shadow-faq lg:hover:shadow-faq-hover relative z-10 duration-200 lg:hover:-translate-y-2"
+            className="group tap-highlight-color-transparent  shadow-faq lg:hover:shadow-faq-hover relative z-10 duration-200 lg:hover:-translate-y-2"
             href={`${
               course.isImportant ? `/consultation` : `/courses/${course.slug}`
             } `}
@@ -24,6 +24,7 @@ const ImportantCourse = () => {
                 <img
                   className="object-cover h-full w-full "
                   loading="lazy"
+                  alt="Accounting related image"
                   src={`./assets/${course.id}.jpg`}
                 ></img>
               </div>

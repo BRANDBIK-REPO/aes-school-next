@@ -15,7 +15,7 @@ const ContactForm = () => {
       data-aos-offset="-200"
     >
       <div className="min-h-[850px] shadow-faq py-12 px-6 md:min-h-[951px] md:py-14 md:px-9 lg:min-h-[729px] relative z-10 lg:py-20 lg:px-10 flex items-center border border-[#eaeaea]">
-        <div className="flex-1 mr-4">
+        <div className="flex-1 lg:mr-4">
           <form>
             <div className="grid grid-cols-1 lg:grid-cols-2 mb-4 gap-y-5 gap-x-9">
               <div className="">
