@@ -115,7 +115,7 @@ const Hero = () => {
               </svg>
             </div>
             <img
-              src="/assets/hero.png"
+              src="/assets/hero.webp"
               alt="Image of a student holding laptop"
               width={420}
               data-aos="zoom-out"
@@ -198,10 +198,10 @@ const Hero = () => {
           <img className="flex-custom" src="/assets/ca.png" />
         </div>
         <div className="max-w-[100px] flex">
-          <img className="flex-custom" src="/assets/cma.png" />
+          <img className="flex-custom" src="/assets/cma.webp" />
         </div>
         <div className="max-w-[100px] flex">
-          <img className="flex-custom" src="/assets/cs.jpg" />
+          <img className="flex-custom" src="/assets/cs.webp" />
         </div>
         <div className="max-w-[100px] flex">
           <img className="flex-custom" src="/assets/ifrs.png" />
