@@ -51,126 +51,14 @@ const ImportantCourse = () => {
         data-aos-delay="1000"
         className="absolute -top-4  lg:-top-8 -right-14 lg:-right-[5.5rem] w-36 h-36 z-0 "
       >
-        <svg
-          width="100"
-          height="100"
-          viewBox="0 0 162 162"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <circle cx="2.9778" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="106.8" r="2.9778" fill="#2e328d" />
-        </svg>
+        <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
       </div>
       <div
         className="absolute -bottom-14 lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
         data-aos="fade-in"
         data-aos-duration="800"
       >
-        <svg
-          width="100"
-          height="100"
-          viewBox="0 0 162 162"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <circle cx="2.9778" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="2.9778" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="28.9334" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="54.8889" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="80.8445" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="106.8" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="132.756" cy="106.8" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="2.9778" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="28.9334" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="80.8446" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="132.756" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="158.711" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="54.8889" r="2.9778" fill="#2e328d" />
-          <circle cx="158.711" cy="106.8" r="2.9778" fill="#2e328d" />
-        </svg>
+        <img src="/assets/pattern-grid.svg" alt="Pattern shape"  />
       </div>
     </div>
   );
