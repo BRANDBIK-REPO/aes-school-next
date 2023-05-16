@@ -41,6 +41,7 @@ const TestimonialSection = () => {
                     <img
                       src={`/assets/student-${testimonial.id}.jpg`}
                       sizes="(max-width: 768px) 10vw"
+                      loading="lazy"
                       className="rounded-[100%] lg:w-[300px] lg:h-[300px] md:w-[200px] md:h-[200px] w-[150px] h-[150px]   lg:mt-0"
                       alt="Image of a person"
                     />
