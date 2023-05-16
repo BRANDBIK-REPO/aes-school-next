@@ -59,10 +59,11 @@ const Hero = () => {
             >
               <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
             </div>
-            <img
+            <Image
               src="/assets/hero.webp"
               alt="Image of a student holding laptop"
               width={420}
+              height={520}
               data-aos="zoom-out"
               data-aos-duration="800"
               data-aos-delay="300"
