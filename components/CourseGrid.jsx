@@ -23,7 +23,7 @@ const CourseGrid = () => {
                 <img
                   className="object-cover h-full w-full "
                   loading="lazy"
-                  about="Accounting related image"
+                  alt="Accounting related image"
                   src={`./assets/${course.id}.jpg`}
                 ></img>
               </div>
