@@ -7,7 +7,10 @@ export const metadata = {
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <div className="flex justify-between items-center">
+                <div className="py-[18px] px-[26px] bg-black text-white leading-[1.1] font-bold text-center">Featured Course</div>
+                <GhostButton text="Learn More" />
+              </div>
   )
 }
 

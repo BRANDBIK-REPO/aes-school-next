@@ -144,6 +144,25 @@ export const courses = [
   },
 ];
 
+export const ImportantCourses = [
+  {
+    id: 1,
+    title: "IFRS",
+    shortDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
+    slug: "ifrs",
+    isImportant: true,
+  },
+  {
+    id: 2,
+    title: "CATLAM",
+    shortDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
+    slug: "catlam",
+    isImportant: true,
+  },
+];
+
 export const testimonials = [
   {
     id: 1,
@@ -220,5 +239,4 @@ export const offering = [
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },
-
 ];

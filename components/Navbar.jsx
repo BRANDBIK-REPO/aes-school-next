@@ -13,7 +13,7 @@ const Navbar = () => {
     AOS.init({
       once: true,
     });
-  },[])
+  },[AOS])
   const [isMenu, setIsMenu] = useState(false);
   return (
     <header
