@@ -44,7 +44,7 @@ const CourseGrid = () => {
         ))}
       </div>
       <div
-        className="absolute -top-2  lg:-top-8 -right-4 lg:-right-[5.5rem] w-36 h-36 z-0 "
+        className="absolute -top-2 lg:-top-8 -right-14 lg:-right-[5.5rem] w-36 h-36 z-0 "
         data-aos="fade-in"
         data-aos-duration="500"
         data-aos-delay="800"
@@ -108,7 +108,7 @@ const CourseGrid = () => {
         </svg>
       </div>
       <div
-        className="absolute top-auto lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
+        className="absolute -bottom-14 lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
         data-aos="fade-in"
         data-aos-duration="500"
         data-aos-delay="800"

@@ -19,7 +19,7 @@ const ImportantCourse = () => {
             } `}
           >
             <div className="bg-white flex flex-col justify-center text-left ">
-              <div className="w-full object-cover h-80">
+              <div className="w-full object-cover h-56 lg:h-80">
                 <img
                   className="object-cover h-full w-full "
                   loading="lazy"
@@ -49,7 +49,7 @@ const ImportantCourse = () => {
         data-aos="fade-in"
         data-aos-duration="800"
         data-aos-delay="1000"
-        className="absolute -top-2  lg:-top-8 -right-4 lg:-right-[5.5rem] w-36 h-36 z-0 "
+        className="absolute -top-4  lg:-top-8 -right-14 lg:-right-[5.5rem] w-36 h-36 z-0 "
       >
         <svg
           width="100"
@@ -110,7 +110,7 @@ const ImportantCourse = () => {
         </svg>
       </div>
       <div
-        className="absolute top-auto lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
+        className="absolute -bottom-14 lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
         data-aos="fade-in"
         data-aos-duration="800"
       >

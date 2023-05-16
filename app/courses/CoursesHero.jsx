@@ -2,9 +2,9 @@ import ImportantCourse from "./ImportantCourse";
 
 const CoursesHero = () => {
   return (
-    <section className="overflow-hidden px-5%  font-main pt-16 lg:pt-20 py-32">
+    <section className="overflow-hidden px-5%  font-main pt-10 lg:pt-20 py-32">
       <div
-        className="mx-auto max-w-[671px] px-6  text-center"
+        className="mx-auto max-w-[671px] lg:px-6  text-center"
         data-aos="zoom-up"
         data-aos-duration="800"
         data-aos-delay="100"
