@@ -64,6 +64,7 @@ const Hero = () => {
               alt="Image of a student holding laptop"
               width={420}
               height={520}
+              loading="eager"
               data-aos="zoom-out"
               data-aos-duration="800"
               data-aos-delay="300"
