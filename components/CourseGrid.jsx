@@ -19,13 +19,14 @@ const CourseGrid = () => {
             } `}
           >
             <div className="bg-white flex flex-col justify-center text-left ">
-              <div className="w-full object-cover h-56">
-                <img
+              <div className="w-full relative object-cover h-56">
+                <Image
                   className="object-cover h-full w-full "
                   loading="lazy"
                   alt="Accounting related image"
-                  src={`./assets/${course.id}.jpg`}
-                ></img>
+                  src={`/assets/${course.id}.jpg`}
+                  fill={true}
+                />
               </div>
 
               <div className="pt-8 px-6 pb-10 md:px-10 md:pb-12 lg:px-8 lg:pt-10 lg:pb-14 ">
