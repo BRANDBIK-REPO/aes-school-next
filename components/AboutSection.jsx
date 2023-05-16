@@ -79,6 +79,7 @@ const AboutSection = () => {
               data-aos="zoom-out"
               data-aos-duration="800"
               className="z-10 "
+              loading="lazy"
             />
           </div>
           <div className="relative flex order-1 lg:order-2 flex-col justify-center lg:mr-5" data-aos="fade-in"
