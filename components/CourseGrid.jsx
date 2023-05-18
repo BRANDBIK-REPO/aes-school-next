@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import GhostButton from "./GhostButton";
-import { courses } from "@constants";
 import Image from "next/image";
 import { urlFor } from "@lib/client";
 
@@ -18,7 +17,7 @@ const CourseGrid = ({data}) => {
           
           <Link
             className="group tap-highlight-color-transparent shadow-faq lg:hover:shadow-faq-hover relative z-10 duration-200 lg:hover:-translate-y-2"
-            href={`${course.slug ?  `/courses/${course.slug}` : '/courses'}`}
+            href={`${course.slug.current ?  `/courses/${course.slug.current}` : '/courses'}`}
           >
             <div className="bg-white flex flex-col justify-center text-left ">
               <div className="w-full relative object-cover h-56">

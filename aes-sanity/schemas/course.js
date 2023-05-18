@@ -29,7 +29,11 @@ export default {
     {
       name: 'slug',
       title: 'Slug',
-      type: 'string',
+      type: 'slug',
+      options: {
+        source: 'title',
+        maxLength: 200,
+      },
     },
     {
         name : 'isFeature',

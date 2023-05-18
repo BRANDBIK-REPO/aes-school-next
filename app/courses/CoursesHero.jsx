@@ -1,6 +1,15 @@
 import ImportantCourse from "./ImportantCourse";
+import { client } from "@lib/client";
 
-const CoursesHero = () => {
+async function getCourse() {
+  const query = '*[_type=="course" && isFeature]'
+  const importantCourses = await client.fetch(query);
+  return importantCourses;
+}
+
+const CoursesHero = async () => {
+  const data = await getCourse();
+  console.log(data)
   return (
     <section className="overflow-hidden px-5%  font-main pt-10 lg:pt-20 py-32">
       <div
@@ -19,7 +28,7 @@ const CoursesHero = () => {
         </p>
       </div>
       <div className="max-w-[1342px] mx-auto ">
-        <ImportantCourse />
+        <ImportantCourse data={data} />
       </div>
     </section>
   );

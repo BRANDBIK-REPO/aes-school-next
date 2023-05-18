@@ -8,6 +8,8 @@ async function getData() {
   return products;
 }
 
+
+
 const page = async () => {
   const data = await getData()
   return (
