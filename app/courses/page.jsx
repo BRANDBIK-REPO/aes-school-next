@@ -27,5 +27,5 @@ const page = async () => {
       </>
   )
 }
-
+export const revalidate = 60;
 export default page
