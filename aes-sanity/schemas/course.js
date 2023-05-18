@@ -31,5 +31,10 @@ export default {
       title: 'Slug',
       type: 'string',
     },
+    {
+        name : 'isFeature',
+        title : 'Is Featured',
+        type : 'boolean'
+    },
   ],
 }

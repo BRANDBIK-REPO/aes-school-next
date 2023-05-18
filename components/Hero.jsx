@@ -15,12 +15,10 @@ const Hero = () => {
             data-aos-delay="100"
           >
             <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[61px] md:text-[58px] md:leading-[1.233] font-bold">
-              The ultimate finance campus
+              The best accounting campus in malappuram
             </h1>
             <p className=" text-lg text-textgray">
-              Eiusmod nisi enim minim dolore fugiat cillum tempor officia aliqua
-              aliqua. Elit dolore do exercitation officia adipisicing duis irure
-              laborum eiusmod Lorem fugiat cillum.{" "}
+              Learn accounting from the best campus in malappuram under the guidence of the best faculties. Top the world of accounting with AE's school of commerce.
             </p>
             <div className="md:mt-20 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3 ">
               <Button text="Get Free Consultation" />
