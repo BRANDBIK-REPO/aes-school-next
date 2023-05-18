@@ -3,8 +3,7 @@ import AnimatedButton from "./AnimatedButton";
 import animationJson from "@/lottie/system-outline-19-book.json";
 import CourseGrid from "./CourseGrid";
 
-
-const CoursesSection = () => {
+const CoursesSection = ({data}) => {
   return (
     <section className="overflow-hidden bg-[#fbfbfb] px-5% font-main pt-16 lg:pt-20 py-32">
       <div className="mx-auto max-w-7xl">
@@ -17,7 +16,7 @@ const CoursesSection = () => {
             elit senectus mauris blandit tempore gestas.
           </p>
         </div>
-        <CourseGrid />
+        <CourseGrid data={data} />
         <div className="md:mt-20 mt-14 flex flex-col text-center w-full md:justify-center md:items-center  md:flex-row gap-5 md:gap-3">
           <Button text="Get Free Consultation" />
           <AnimatedButton text="View Courses" animationData={animationJson} />

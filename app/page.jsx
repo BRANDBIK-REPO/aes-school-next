@@ -5,12 +5,20 @@ import AboutSection from "@components/AboutSection";
 import Faq from "@components/Faq";
 import TestimonialSection from "@components/TestimonialSection";
 import { Analytics } from '@vercel/analytics/react';
+import { client } from "@lib/client";
 
-const Home = () => {
+async function getData() {
+  const query = '*[_type=="course"]'
+  const products = client.fetch(query)
+  return products;
+}
+
+const Home = async ()  => {
+  const data = await getData();
   return (
     < >
-      <Hero />
-      <CoursesSection />
+      <Hero  />
+      <CoursesSection data={data} />
       <Features />
       <AboutSection />
       <TestimonialSection />

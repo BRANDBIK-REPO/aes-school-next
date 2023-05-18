@@ -1,9 +1,12 @@
+'use client'
+
 import Link from "next/link";
 import GhostButton from "./GhostButton";
 import { courses } from "@constants";
 import Image from "next/image";
+import { urlFor } from "@lib/client";
 
-const CourseGrid = () => {
+const CourseGrid = ({data}) => {
   return (
     <div className="relative z-10">
       <div
@@ -11,20 +14,19 @@ const CourseGrid = () => {
         data-aos-duration="800"
         className="grid md:grid-cols-2 lg:grid-cols-3 relative text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6"
       >
-        {courses.map((course) => (
+        {data?.map((course) =>  (
+          
           <Link
             className="group tap-highlight-color-transparent shadow-faq lg:hover:shadow-faq-hover relative z-10 duration-200 lg:hover:-translate-y-2"
-            href={`${
-              course.isImportant ? `/consultation` : `/courses/${course.slug}`
-            } `}
+            href={`${course.slug ?  `/courses/${course.slug}` : '/courses'}`}
           >
             <div className="bg-white flex flex-col justify-center text-left ">
               <div className="w-full relative object-cover h-56">
-                <Image
+                <img
                   className="object-cover h-full w-full "
                   loading="lazy"
                   alt="Accounting related image"
-                  src={`/assets/${course.id}.jpg`}
+                  src={urlFor(course.image)}
                   fill={true}
                 />
               </div>
