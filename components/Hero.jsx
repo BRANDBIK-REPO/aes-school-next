@@ -60,8 +60,8 @@ const Hero = () => {
             <Image
               src="/assets/hero.webp"
               alt="Image of a student holding laptop"
-              width={420}
-              height={520}
+              width={410}
+              height={410}
               priority
               loading="eager"
               data-aos="zoom-out"
