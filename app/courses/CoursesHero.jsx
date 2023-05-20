@@ -22,9 +22,7 @@ const CoursesHero = async () => {
           Our Courses
         </h1>
         <p className=" text-lg text-textgray">
-          Eiusmod nisi enim minim dolore fugiat cillum tempor officia aliqua
-          aliqua. Elit dolore do exercitation officia adipisicing duis irure
-          laborum eiusmod Lorem fugiat cillum.
+          Discover some of our well designed courses and build a great career out of it. We have sketched some of the most important certification courses to enrich your experience in the field of accountancy that help you realize your dreams
         </p>
       </div>
       <div className="max-w-[1342px] mx-auto ">

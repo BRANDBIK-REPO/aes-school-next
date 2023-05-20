@@ -15,8 +15,7 @@ const TestimonialSection = () => {
           Hear what our amazing students say
         </h2>
         <p className="text-slate-100 max-w-lg text-center mx-auto flex-1  text-lg mt-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac eu et ac
-          elit senectus mauris blandit tempore gestas.
+          Having the best alumni is what make an institute great. Hear to what some of our notable alumni have to say about us.
         </p>
       </div>
       <div className="relative px-[5%] lg:px-6 max-w-[1048px] mx-auto ">

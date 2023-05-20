@@ -1,9 +1,9 @@
-import { ArrowUpRight, Users2 } from "lucide-react";
-import { Lightbulb } from "lucide-react";
-import { User2 } from "lucide-react";
+import { Briefcase } from "lucide-react";
+import { Users2 } from "lucide-react";
 import { Zap } from "lucide-react";
-import { ShieldCheck } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import { Target } from "lucide-react";
+import { Globe } from "lucide-react";
 
 export const navLinks = [
   {
@@ -213,29 +213,29 @@ export const offering = [
   },
   {
     id: 3,
-    icon: <User2 color="white" strokeWidth={1} size={48} />,
-    title: "Collaboratives",
+    icon: <Globe color="white" strokeWidth={1} size={48} />,
+    title: "Connect with the world",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },
   {
     id: 4,
-    icon: <Lightbulb color="white" strokeWidth={1} size={48} />,
-    title: "Be Open",
+    icon: <Users2 color="white" strokeWidth={1} size={48} />,
+    title: "Community building",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },
   {
     id: 5,
-    icon: <ShieldCheck color="white" strokeWidth={1} size={48} />,
-    title: "Trust",
+    icon: <Briefcase color="white" strokeWidth={1} size={48} />,
+    title: "Job placement assistance",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },
   {
     id: 6,
-    icon: <ArrowUpRight color="white" strokeWidth={1} size={48} />,
-    title: "Focus on Impact",
+    icon: <BookOpen color="white" strokeWidth={1} size={48} />,
+    title: "Industry driven curriculum",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac euet ac elit senectus mauris blandit tempore gestas.",
   },

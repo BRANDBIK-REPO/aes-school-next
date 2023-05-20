@@ -8,6 +8,11 @@ async function getData() {
   return products;
 }
 
+export const metadata = {
+  title : 'Our Courses',
+  description : ''
+}
+
 
 
 const page = async () => {

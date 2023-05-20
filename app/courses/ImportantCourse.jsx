@@ -1,5 +1,3 @@
-'use client'
-
 import Link from "next/link";
 import Image from "next/image";
 import GhostButton from "@components/GhostButton";
@@ -26,7 +24,7 @@ const ImportantCourse =  ({data})  => {
                   className="object-cover h-full w-full "
                   loading="lazy"
                   alt="Accounting related image"
-                  src={urlFor(course.image)}
+                  src={urlFor(course.image).url()}
                 ></img>
               </div>
 

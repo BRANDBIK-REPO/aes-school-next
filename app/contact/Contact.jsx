@@ -3,7 +3,10 @@ import ContactForm from "./ContactForm";
 import Link from "next/link";
 import { Mail, Phone, Map } from "lucide-react";
 
+
+
 const ContactPage = () => {
+  
   return (
     <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20">
       <div className="mx-auto max-w-7xl ">
@@ -19,9 +22,7 @@ const ContactPage = () => {
               Get in touch today
             </h1>
             <p className=" text-lg text-textgray mb-10 ">
-              Eiusmod nisi enim minim dolore fugiat cillum tempor officia aliqua
-              aliqua. Elit dolore do exercitation officia adipisicing duis irure
-              laborum eiusmod Lorem fugiat cillum.
+              Want to know more about how to enroll in our specially designed courses and build a great career out of it. Lets talk and start realizing your dreams now.
             </p>
             <div className="grid gap-5  md:gap-7 lg:gap-8">
               <Link
@@ -59,5 +60,10 @@ const ContactPage = () => {
     </section>
   );
 };
+
+export const metadata = {
+  title : 'Get in touch today',
+  description : 'Want to know more about how to enroll in our specially designed courses and build a great career out of it. Lets talk and start realizing your dreams now.'
+}
 
 export default ContactPage;

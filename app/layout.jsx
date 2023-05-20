@@ -4,8 +4,8 @@ import Footer from "@components/Footer";
 import Badge from "@components/Badge";
 
 export const metadata = {
-  title: "AE's School Of Commerce",
-  description: `Best Description for AE's School of commerce `,
+  title: "AE'S School of Commerce : The best accounting campus in malappuram",
+  description: `Learn accounting from the best campus in malappuram under the guidance of the best faculties. Top the world of accounting with AE's school of commerce.`,
 };
 
 const RootLayout = ({ children }) => {

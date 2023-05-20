@@ -1,5 +1,3 @@
-'use client'
-
 import Link from "next/link";
 import GhostButton from "./GhostButton";
 import Image from "next/image";
@@ -25,7 +23,7 @@ const CourseGrid = ({data}) => {
                   className="object-cover h-full w-full "
                   loading="lazy"
                   alt="Accounting related image"
-                  src={urlFor(course.image)}
+                  src={urlFor(course.image).url()}
                   fill={true}
                 />
               </div>

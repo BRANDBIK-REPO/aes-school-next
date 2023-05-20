@@ -9,11 +9,10 @@ const CoursesSection = ({data}) => {
       <div className="mx-auto max-w-7xl">
         <div className="flex relative flex-col text-center lg:text-left lg:flex-row justify-between items-center">
           <h2 className="text-black md:max-w-lg font-bold leading-tight text-[28px] md:text-4xl lg:text-[40px]">
-            What courses are teaches in our campus ?
+            What courses are taught in our campus ?
           </h2>
           <p className="text-textgray flex-1 md:max-w-lg text-lg mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac eu et ac
-            elit senectus mauris blandit tempore gestas.
+            Enroll in some of the well designed courses and brighten your future in the field of accountancy
           </p>
         </div>
         <CourseGrid data={data} />
