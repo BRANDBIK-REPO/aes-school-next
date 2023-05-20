@@ -2,7 +2,6 @@
 
 import React, { useState , useEffect } from "react";
 import { navLinks } from "../constants";
-import Image from "next/image";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from "next/link";
@@ -22,11 +21,10 @@ const Navbar = () => {
     >
       <div className="flex w-full h-full py-6 mx-auto max-w-7xl justify-between items-center">
         <Link href="/" aria-current="page" className="" aria-label="home">
-          <Image
+          <img
             src="/assets/logo.png"
-            loading="lazy"
-            width="180"
-            height="50"
+            width={180}
+            height={50}
             alt="Main Logo"
             className="relative z-30"
           />
