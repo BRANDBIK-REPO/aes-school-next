@@ -22,7 +22,6 @@ const ImportantCourse =  ({data})  => {
               <div className="w-full object-cover h-56 lg:h-80">
                 <img
                   className="object-cover h-full w-full "
-                  loading="lazy"
                   alt="Accounting related image"
                   src={urlFor(course.image).url()}
                 ></img>

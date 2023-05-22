@@ -9,12 +9,12 @@ const CourseGrid = ({data}) => {
       <div
         data-aos="fade-up"
         data-aos-duration="800"
-        className="grid md:grid-cols-2 lg:grid-cols-3 relative text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6"
+        className="grid md:grid-cols-2 xl:grid-cols-3 relative text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6"
       >
         {data?.map((course) =>  (
           
           <Link
-            className="group tap-highlight-color-transparent shadow-faq lg:hover:shadow-faq-hover relative z-10 duration-200 lg:hover:-translate-y-2"
+            className="group bg-white tap-highlight-color-transparent shadow-faq lg:hover:shadow-faq-hover relative z-10 duration-200 lg:hover:-translate-y-2"
             href={`${course.slug.current ?  `/courses/${course.slug.current}` : '/courses'}`}
           >
             <div className="bg-white flex flex-col justify-center text-left ">
@@ -28,7 +28,7 @@ const CourseGrid = ({data}) => {
                 />
               </div>
 
-              <div className="pt-8 px-6 pb-10 md:px-10 md:pb-12 lg:px-8 lg:pt-10 lg:pb-14 ">
+              <div className="pt-8 px-6 pb-10 md:px-8 md:pb-12 lg:px-8 lg:pt-10 lg:pb-14 ">
                 <h3 className="mb-4 lg:group-hover:text-primary text-black text-2xl font-bold leading-snug">
                   {course.title}
                 </h3>

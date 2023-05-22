@@ -20,11 +20,10 @@ const Faq = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-textgray text-lg mt-6">
-            Ipsum velit exercitation adipisicing deserunt sunt magna in labore
-            laborum ut adipisicing adipisicing.
+              Here are some of the frequently asked questions by the aspirants persuing their career in accountancy field
           </p>
         </div>
-        <div className="grid lg:grid-cols-2 gap-5 lg:gap-14 mt-10" data-aos="fade-up" data-aos-duration="800">
+        <div className="grid xl:grid-cols-2 gap-5 xl:gap-14 mt-10" data-aos="fade-up" data-aos-duration="800">
           <div className="relative gap-5 flex flex-col">
             {faqLeft.map((faq, index) => (
               <div

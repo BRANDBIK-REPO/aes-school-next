@@ -50,25 +50,25 @@ export const features = [
 export const faqLeft = [
   {
     id: 1,
-    question: "Reprehenderit officia minim reprehenderit ?",
+    question: "How long does it take to complete CATLAM?",
     answer:
       "Fringilla dictum tristique cras pellentesque morbi consequat, maecenas egestas a. Mi feugiat urna turpis placerat faucibus bibendum hac vulputate.",
   },
   {
     id: 2,
-    question: "Reprehenderit officia minim reprehenderit ?",
+    question: "What are the benefits of studying CATLAM ?",
     answer:
       "Fringilla dictum tristique cras pellentesque morbi consequat, maecenas egestas a. Mi feugiat urna turpis placerat faucibus bibendum hac vulputate.",
   },
   {
     id: 3,
-    question: "Reprehenderit officia minim reprehenderit ?",
+    question: "Which course is better, CA or CMA ?",
     answer:
       "Fringilla dictum tristique cras pellentesque morbi consequat, maecenas egestas a. Mi feugiat urna turpis placerat faucibus bibendum hac vulputate.",
   },
   {
     id: 4,
-    question: "Reprehenderit officia minim reprehenderit ?",
+    question: "What is the difference between CA & CMA ?",
     answer:
       "Fringilla dictum tristique cras pellentesque morbi consequat, maecenas egestas a. Mi feugiat urna turpis placerat faucibus bibendum hac vulputate.",
   },
@@ -77,25 +77,25 @@ export const faqLeft = [
 export const faqRight = [
   {
     id: 5,
-    question: "Reprehenderit officia minim reprehenderit ?",
+    question: "Does this institute provide any scholorships ?",
     answer:
       "Fringilla dictum tristique cras pellentesque morbi consequat, maecenas egestas a. Mi feugiat urna turpis placerat faucibus bibendum hac vulputate.",
   },
   {
     id: 6,
-    question: "Reprehenderit officia minim reprehenderit ?",
+    question: "What is expected salary after  CA or CMA  ?",
     answer:
       "Fringilla dictum tristique cras pellentesque morbi consequat, maecenas egestas a. Mi feugiat urna turpis placerat faucibus bibendum hac vulputate.",
   },
   {
     id: 7,
-    question: "Reprehenderit officia minim reprehenderit ?",
+    question: "Can a student after 12th study, CA or CMA ?",
     answer:
       "Fringilla dictum tristique cras pellentesque morbi consequat, maecenas egestas a. Mi feugiat urna turpis placerat faucibus bibendum hac vulputate.",
   },
   {
     id: 8,
-    question: "Reprehenderit officia minim reprehenderit ?",
+    question: "Can i get job abroad if i study, CATLAM or IFRS ?",
     answer:
       "Fringilla dictum tristique cras pellentesque morbi consequat, maecenas egestas a. Mi feugiat urna turpis placerat faucibus bibendum hac vulputate.",
   },

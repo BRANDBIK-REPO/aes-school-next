@@ -38,13 +38,13 @@ const ContactPage = () => {
                 className="flex items-center lg:hover:text-primary text-blackbg group hover:gap-2 duration-200 leading-none font-bold text-base gap-3 "
                 href="tel:+918089145551"
               >
-                <div className="w-[35px] lg:w-[42px] lg:group-hover:scale-110 duration-200 lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center flex-1 rounded-full items-center bg-primary h-[35px] max-w-[35px] max-h-[35px]  mb-[10px]">
+                <div className="w-[35px] lg:w-[42px] lg:group-hover:scale-110 duration-200 lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] flex justify-center rounded-full items-center bg-primary h-[35px] max-w-[35px] max-h-[35px]  mb-[10px]">
                   <Phone color="white" size={20} />
                 </div>
                 <div className="mb-[10px] ">+91 80891 45551</div>
               </Link>
               <div className="flex items-center text-blackbg  leading-none font-bold text-base gap-3">
-                <div className="w-[35px] lg:w-[42px] lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] lg:max-h-[42px] lg:max-w-[42px]  flex justify-center flex-1 flex-shrink-0 rounded-full items-center bg-primary h-[35px] min-w-[35px] min-h-[35px]  mb-[10px]">
+                <div className="w-[35px] lg:w-[42px] lg:h-[42px] lg:min-h-[42px] lg:min-w-[42px] lg:max-h-[42px] lg:max-w-[42px]  flex justify-center  flex-shrink-0 rounded-full items-center bg-primary h-[35px] min-w-[35px] min-h-[35px]  mb-[10px]">
                   <Map color="white" size={20} />
                 </div>
                 <div className="mb-[10px] max-w-sm leading-tight">
@@ -61,9 +61,6 @@ const ContactPage = () => {
   );
 };
 
-export const metadata = {
-  title : 'Get in touch today',
-  description : 'Want to know more about how to enroll in our specially designed courses and build a great career out of it. Lets talk and start realizing your dreams now.'
-}
+
 
 export default ContactPage;

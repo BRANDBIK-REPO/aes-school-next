@@ -30,10 +30,10 @@ const TestimonialSection = () => {
               modules={[Autoplay,EffectFade]}
             >
               {testimonials.map((testimonial) => (
-                <SwiperSlide>
+                <SwiperSlide key={testimonial.id}>
                   <div
-                    key={testimonial.id}
-                    className="px-6 pt-10 md:pb-10 flex z-10 relative gap-10 lg:gap-20 pb-11 lg:items-center flex-col md:flex-row overflow-hidden lg:pt-20 lg:pb-[75px] lg:px-[92px] shadow-faq bg-white"
+                    
+                    className="px-6 pt-10 md:pb-10 flex z-10 relative gap-10 lg:gap-20 pb-11 md:items-center flex-col md:flex-row overflow-hidden lg:pt-20 lg:pb-[75px] lg:px-[92px] shadow-faq bg-white"
                     data-aos="zoom-up"
                     data-aos-duration="800"
                   >

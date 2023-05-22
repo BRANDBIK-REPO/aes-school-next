@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="overflow-hidden px-5% font-main pt-10 lg:pt-20 ">
       <div className="mx-auto max-w-7xl    ">
-        <div className="grid grid-rows-auto gap-24 lg:grid-cols-2">
+        <div className="grid grid-rows-auto gap-24 xl:grid-cols-2">
           <div
             className="w-full  h-auto relative flex flex-col justify-center"
             data-aos="fade-in"
@@ -70,7 +70,7 @@ const Hero = () => {
               data-aos-offset="-500"
             />
             <div
-              className="absolute top-48 -right-6 lg:right-0 w-36 h-36 -z-10 "
+              className="absolute top-48 -right-6 md:right-14 lg:right-0 w-36 h-36 -z-10 "
               data-aos="fade-in"
               data-aos-duration="800"
               data-aos-delay="500"
