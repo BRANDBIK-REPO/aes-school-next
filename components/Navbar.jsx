@@ -5,6 +5,7 @@ import { navLinks } from "../constants";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from "next/link";
+import NextNProgress from 'nextjs-progressbar';
 
 
 const Navbar = () => {
@@ -15,6 +16,8 @@ const Navbar = () => {
   },[AOS])
   const [isMenu, setIsMenu] = useState(false);
   return (
+    <>
+    <NextNProgress />
     <header
       className={`flex   relative w-full h-auto min-h-[6rem] font-main px-5% items-center z-50 bg-white border-b border-b-white/10`}
       data-aos="fade-in" data-aos-duration="500"
@@ -71,6 +74,7 @@ const Navbar = () => {
         </div>
       </div>
     </header>
+    </>
   );
 };
 

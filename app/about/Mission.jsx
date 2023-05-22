@@ -16,12 +16,12 @@ const Mission = () => {
                 Our Mission
               </h2>
               <p className="mt-6 text-textgray text-lg leading-[1.6]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-                venenatis dictum et nec. Fringilla dictum tristique cras
-                pellentesque morbi consequat, maecenas egestas a. Mi feugiat
-                urna turpis placerat faucibus bibendum hac vulputate. Elit lacus
-                accumsan, nullam semper gravida nunc, magna porta. Leo quis
-                netus ac consequat sed. Volutpat ante donec.
+                AE's School of commerce offers high-quality certification
+                courses in accountancy like CATLAM, IFRS, CA, and CMA. We
+                provide comprehensive training and support for successful
+                careers. Our commitment includes imparting knowledge, skills,
+                and placement assistance to students. Our mission is to ensure
+                diverse career opportunities and lifelong support for graduates.
               </p>
             </div>
             <div className="relative">
@@ -39,7 +39,12 @@ const Mission = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+                <Image
+                  src="/assets/pattern-grid.svg"
+                  width={100}
+                  height={100}
+                  alt="Pattern shape"
+                />
               </div>
             </div>
           </div>
@@ -58,7 +63,12 @@ const Mission = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+                <Image
+                  src="/assets/pattern-grid.svg"
+                  width={100}
+                  height={100}
+                  alt="Pattern shape"
+                />
               </div>
             </div>
             <div
@@ -71,12 +81,13 @@ const Mission = () => {
                 Our Vision
               </h2>
               <p className="mt-6 text-textgray text-lg leading-[1.6] ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-                venenatis dictum et nec. Fringilla dictum tristique cras
-                pellentesque morbi consequat, maecenas egestas a. Mi feugiat
-                urna turpis placerat faucibus bibendum hac vulputate. Elit lacus
-                accumsan, nullam semper gravida nunc, magna porta. Leo quis
-                netus ac consequat sed. Volutpat ante donec.
+                Our vision is to be a leading institute globally recognized for
+                excellence in accountancy certification courses. We shape the
+                future of the accounting industry by producing highly skilled
+                professionals. Our aim is to foster a learning environment that
+                encourages continuous growth, innovation, and ethical practices.
+                We make a positive impact on the profession by producing
+                competent professionals.
               </p>
             </div>
           </div>
