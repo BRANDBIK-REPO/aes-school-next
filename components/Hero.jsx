@@ -21,7 +21,7 @@ const Hero = () => {
               Learn accounting from the best campus in malappuram under the guidance of the best faculties. Top the world of accounting with AE's school of commerce.
             </p>
             <div className="md:mt-20 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3 ">
-              <Button text="Get Free Consultation" />
+              <Button text="Get Free Consultation" href="/contact" />
               <AnimatedButton
                 text="View Courses"
                 animationData={animationData}

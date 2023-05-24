@@ -55,7 +55,7 @@ const OurOffers = () => {
           </div>
         </div>
         <div className="md:mt-20 mt-14 flex flex-col text-center w-full md:justify-center md:items-center  md:flex-row gap-5 md:gap-3">
-          <Button text="Get Free Consultation" />
+          <Button text="Get Free Consultation" href="/contact" />
           <AnimatedButton text="View Courses" animationData={animationJson} />
         </div>
       </div>

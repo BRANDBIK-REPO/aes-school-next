@@ -95,7 +95,7 @@ export const faqRight = [
   },
   {
     id: 8,
-    question: "Can i get job abroad if i study, CATLAM or IFRS ?",
+    question: "Can i get job abroad if i study CATLAM or IFRS ?",
     answer:
       "Fringilla dictum tristique cras pellentesque morbi consequat, maecenas egestas a. Mi feugiat urna turpis placerat faucibus bibendum hac vulputate.",
   },
