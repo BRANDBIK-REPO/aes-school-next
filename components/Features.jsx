@@ -9,17 +9,17 @@ const Features = () => {
           <h2 className="text-2xl mb-12 text-center font-bold text-white">
             Why Should you consider our campus?
           </h2>
-          <div className="grid z-10 grid-cols-2 overflow-hidden relative lg:grid-cols-none lg:grid-flow-col text-center gap-y-10  " data-aos="zoom-up" data-aos-duration='800'>
+          <div className="grid z-10 grid-cols-2 overflow-hidden relative xl:grid-cols-none xl:grid-flow-col text-center gap-y-10  " data-aos="zoom-up" data-aos-duration='800'>
             {features.map((feature) => (
               <div
                 key={feature.id}
-                className={`lg:px-20 px-4 w-full lg:w-auto  ${
+                className={`xl:px-20 px-4 w-full xl:w-auto  ${
                   features.length == feature.id && feature.id % 2 == 0
-                    ? " lg:border-none"
+                    ? " xl:border-none"
                     : ""
                 } ${
                   feature.id % 2 == 0
-                    ? "border-none lg:border-solid"
+                    ? "border-none xl:border-solid"
                     : "border-solid"
                 } border-r border-r-slate-500  text-center`}
               >

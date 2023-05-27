@@ -14,7 +14,7 @@ const Hero = () => {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[61px] md:text-[58px] md:leading-[1.233] font-bold">
+            <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] 2xl:text-[61px] md:text-[55px] md:leading-[1.233] font-bold">
               The best accounting campus in malappuram
             </h1>
             <p className=" text-lg text-textgray">

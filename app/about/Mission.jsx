@@ -4,7 +4,7 @@ const Mission = () => {
   return (
     <section className="overflow-hidden bg-[#fbfbfb] px-5% font-main pt-16 lg:pt-20 py-32">
       <div className="mx-auto max-w-7xl">
-        <div className="relative flex flex-col lg:flex-row z-10 justify-between items-center">
+        <div className="relative flex flex-col gap-10 lg:flex-row z-10 justify-between items-center">
           <div className="relative z-10 max-w-[610px] lg:mt-[52px] mb-8">
             <div
               className=" md:mb-12 mb-10 lg:mb-[156px]"
