@@ -16,13 +16,13 @@ const RootLayout = ({ children }) => {
       <Script
         strategy="lazyOnload"
         async
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_TAG}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-CM6HSXLD0E`}
       ></Script>
       <Script>{`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)}
   gtag('js', new Date());
 
-  gtag('config', '${process.env.GOOGLE_TAG}')`}</Script>
+  gtag('config', 'G-CM6HSXLD0E')`}</Script>
       <body>
         <div className="overflow-hidden">
           <Navbar />

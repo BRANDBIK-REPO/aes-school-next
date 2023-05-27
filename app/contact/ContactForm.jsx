@@ -1,11 +1,19 @@
-'use client'
+"use client";
 
 import React from "react";
+import { useForm } from "@formcarry/react";
 
 const ContactForm = () => {
-  const handleSubmit =(e) => {
-    e.preventDefault();
+  const { state, submit } = useForm({
+    id: `4CHDBW1LNq`,
+  });
+
+  if (state.submitted) {
+    return <div>Thank you! We received your submission.</div>;
   }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <div
       className="relative w-full lg:max-w-[687px] max-w-full"
@@ -16,11 +24,11 @@ const ContactForm = () => {
     >
       <div className="min-h-[850px] shadow-faq py-12 px-6 md:min-h-[951px] md:py-14 md:px-9 lg:min-h-[729px] relative z-10 lg:py-20 lg:px-10 flex items-center border border-[#eaeaea]">
         <div className="flex-1 lg:mr-4">
-          <form>
+          <form onSubmit={submit}>
             <div className="grid grid-cols-1 lg:grid-cols-2 mb-4 gap-y-5 gap-x-9">
               <div className="">
                 <label
-                  for="name"
+                  htmlFor="name"
                   className="block mb-4 text-lg text-blackbg leading-[1.1] font-bold"
                 >
                   Name
@@ -35,7 +43,7 @@ const ContactForm = () => {
               </div>
               <div className="">
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block mb-4 text-lg text-blackbg leading-[1.1] font-bold"
                 >
                   Email
@@ -50,7 +58,7 @@ const ContactForm = () => {
               </div>
               <div className="">
                 <label
-                  for="phone"
+                  htmlFor="phone"
                   className="block mb-4 text-lg text-blackbg leading-[1.1] font-bold"
                 >
                   Phone Number
@@ -65,7 +73,7 @@ const ContactForm = () => {
               </div>
               <div className="">
                 <label
-                  for="subject"
+                  htmlFor="subject"
                   className="block mb-4 text-lg text-blackbg leading-[1.1] font-bold"
                 >
                   Subject
@@ -81,10 +89,10 @@ const ContactForm = () => {
             </div>
             <div className="">
               <label
-                for="message"
+                htmlFor="message"
                 className="block mb-4 text-lg text-blackbg leading-[1.1] font-bold"
               >
-                Subject
+                Message
               </label>
               <textarea
                 placeholder="write your message here.."
@@ -94,12 +102,13 @@ const ContactForm = () => {
                 className="h-auto px-5 max-h-[200px] max-w-full rounded-xl focus:border-primary focus:outline-none bg-[#fbfbfb]  min-h-[163px] min-w-full mb-0 py-5 lg:px-6 border-2 border-[#fbfbfb] text-blackbg text-lg "
               ></textarea>
             </div>
-            <input
+            <button
+              onSubmit={submit}
               type="submit"
-              value="Contact Us"
               className="block px-6 cursor-pointer py-6 w-full lg:w-auto lg:py-6 lg:px-12 bg-primary lg:hover:bg-indigo-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-primary focus:outline-none shadow-cta  rounded-full mt-7 text-white leading-[1.1] font-bold text-center"
-              onClick={(e) => handleSubmit(e)}
-            />
+            >
+              Contact Us
+            </button>
           </form>
         </div>
       </div>
