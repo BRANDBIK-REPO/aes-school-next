@@ -4,9 +4,9 @@ import Mission from "./Mission";
 import OurOffers from "./OurOffers";
 
 export const metadata = {
-  title : 'About us',
-  description : ''
-}
+  title: "About us",
+  description: "",
+};
 
 const about = () => {
   return (
