@@ -18,7 +18,9 @@ const Hero = () => {
               The best accounting campus in malappuram
             </h1>
             <p className=" text-lg text-textgray">
-              Learn accounting from the best campus in malappuram under the guidance of the best faculties. Top the world of accounting with AE's school of commerce.
+              Learn accounting from the best campus in malappuram under the
+              guidance of the best faculties. Top the world of accounting with
+              AE's school of commerce.
             </p>
             <div className="md:mt-20 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3 ">
               <Button text="Get Free Consultation" href="/contact" />
@@ -28,7 +30,7 @@ const Hero = () => {
               />
             </div>
           </div>
-          <div className="relative flex justify-center items-center">
+          <div className="relative  flex justify-center items-center">
             <div
               className="absolute hidden lg:block -top-12 left-40 w-36 h-36 -z-10"
               data-aos="fade-in"
@@ -49,59 +51,82 @@ const Hero = () => {
               </svg>
             </div>
             <div
-              className="absolute -top-2 lg:top-auto lg:bottom-4 left- lg:left-8 w-36 h-36 -z-10 "
+              className="absolute l -top-2 lg:top-auto lg:bottom-4 left- lg:left-8 w-36 h-36 -z-10 "
               data-aos="fade-in"
               data-aos-duration="800"
               data-aos-delay="300"
               data-aos-offset="-200"
             >
-              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+              <Image
+                src="/assets/pattern-grid.svg"
+                width={100}
+                height={100}
+                alt="Pattern shape"
+              />
             </div>
-            <Image
-              src="/assets/hero.webp"
-              alt="Image of a student holding laptop"
-              width={410}
-              height={410}
-              priority
-              loading="eager"
-              data-aos="zoom-out"
-              data-aos-duration="800"
-              data-aos-delay="300"
-              data-aos-offset="-500"
-            />
+            <div className="relative w-[380px] h-[490px] lg:w-[410px] lg:h-[537px]">
+              <Image
+                src="/assets/hero.webp"
+                alt="Image of a student holding laptop"
+                fill={true}
+                priority
+                loading="eager"
+                data-aos="zoom-out"
+                data-aos-duration="800"
+                data-aos-delay="300"
+                data-aos-offset="-500"
+              />
+            </div>
+
             <div
               className="absolute top-48 -right-6 md:right-14 lg:right-0 w-36 h-36 -z-10 "
               data-aos="fade-in"
               data-aos-duration="800"
               data-aos-delay="500"
             >
-              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+              <Image
+                src="/assets/pattern-grid.svg"
+                width={100}
+                height={100}
+                alt="Pattern shape"
+              />
             </div>
           </div>
         </div>
         <div
-        className="bg-[#f8f8f8] py-10 mb-9 w-full lg:flex hidden  justify-center  items-center gap-20"
-        data-aos="fade-up"
-        data-aos-duration="800"
-      >
-        <div className="max-w-[100px] flex">
-          <img className="flex-custom" src="/assets/ca.png" alt="ca logo"  />
-        </div>
-        <div className="max-w-[100px] flex">
-          <img className="flex-custom" src="/assets/cma.webp" alt="cma logo"  />
-        </div>
-        <div className="max-w-[100px] flex">
-          <img className="flex-custom" src="/assets/cs.webp" alt="cs logo"  />
-        </div>
-        <div className="max-w-[100px] flex">
-          <img className="flex-custom" src="/assets/ifrs.png" alt="ifrs logo"  />
-        </div>
-        <div className="max-w-[100px] flex">
-          <img className="flex-custom" src="/assets/catlam.png" alt="catlam logo"  />
+          className="bg-[#f8f8f8] py-10 mb-9 w-full lg:flex hidden  justify-center  items-center gap-20"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
+          <div className="max-w-[100px] flex">
+            <img className="flex-custom" src="/assets/ca.png" alt="ca logo" />
+          </div>
+          <div className="max-w-[100px] flex">
+            <img
+              className="flex-custom"
+              src="/assets/cma.webp"
+              alt="cma logo"
+            />
+          </div>
+          <div className="max-w-[100px] flex">
+            <img className="flex-custom" src="/assets/cs.webp" alt="cs logo" />
+          </div>
+          <div className="max-w-[100px] flex">
+            <img
+              className="flex-custom"
+              src="/assets/ifrs.png"
+              alt="ifrs logo"
+            />
+          </div>
+          <div className="max-w-[100px] flex">
+            <img
+              className="flex-custom"
+              src="/assets/catlam.png"
+              alt="catlam logo"
+            />
+          </div>
         </div>
       </div>
-      </div>
-      
     </section>
   );
 };

@@ -5,6 +5,7 @@ import { navLinks } from "../constants";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from "next/link";
+import Image from "next/image";
 import NextNProgress from 'nextjs-progressbar';
 
 
@@ -23,11 +24,10 @@ const Navbar = () => {
       data-aos="fade-in" data-aos-duration="500"
     >
       <div className="flex w-full h-full py-6 mx-auto max-w-7xl justify-between items-center">
-        <Link href="/" aria-current="page" className="" aria-label="home">
-          <img
+        <Link href="/" aria-current="page" className="w-[180px] relative h-[80px]" aria-label="home">
+          <Image
             src="/assets/logo.png"
-            width={180}
-            height={50}
+            fill ={true}
             alt="Main Logo"
             className="relative z-30"
           />
@@ -66,9 +66,9 @@ const Navbar = () => {
             className="button relative z-40 lg:hidden tap-highlight-color-transparent"
           >
             {isMenu ? (
-              <img src="/assets/close.svg" />
+              <img src="/assets/close.svg" width={18} height={18} />
             ) : (
-              <img src="/assets/menu.svg" alt="Menu Icon" />
+              <img src="/assets/menu.svg" width={24} height={24} alt="Menu Icon" />
             )}
           </button>
         </div>
