@@ -64,11 +64,13 @@ const Hero = () => {
                 alt="Pattern shape"
               />
             </div>
-            <div className="relative w-[380px] h-[490px] lg:w-[410px] lg:h-[537px]">
+            <div className="relative ">
               <Image
                 src="/assets/hero.webp"
                 alt="Image of a student holding laptop"
-                fill={true}
+                width={410}
+                height={410}
+                className=""
                 priority
                 loading="eager"
                 data-aos="zoom-out"
