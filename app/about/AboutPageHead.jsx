@@ -25,7 +25,12 @@ const AboutPageHead = () => {
               data-aos-delay="500"
               data-aos-offset="-200"
             >
-              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+              <Image
+                src="/assets/pattern-grid.svg"
+                width={100}
+                height={100}
+                alt="Pattern shape"
+              />
             </div>
           </div>
           <div
@@ -38,9 +43,10 @@ const AboutPageHead = () => {
               About us
             </h1>
             <p className=" text-lg  text-textgray mb-10 ">
-              Eiusmod nisi enim minim dolore fugiat cillum tempor officia aliqua
-              aliqua. Elit dolore do exercitation officia adipisicing duis irure
-              laborum eiusmod Lorem fugiat cillum.
+              AE's School of Commerce in the Malabar region is a trusted
+              destination offering a wide range of courses including CATLAM,
+              IFRS, CA, CMA, and CS, led by experienced faculty, to shape a
+              successful career in the accounting field.
             </p>
             <div className="mb-3 grid grid-cols-1  gap-4 ">
               <div className="flex gap-4 items-center text-blackbg leading-[1.1]">

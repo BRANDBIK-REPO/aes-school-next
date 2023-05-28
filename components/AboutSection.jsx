@@ -16,10 +16,15 @@ const AboutSection = () => {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+              <Image
+                src="/assets/pattern-grid.svg"
+                width={100}
+                height={100}
+                alt="Pattern shape"
+              />
             </div>
             <img
-              src='/assets/classroom.jpg'
+              src="/assets/classroom.jpg"
               alt="AE'S School of Commerce Classroom image"
               data-aos="zoom-out"
               data-aos-duration="800"
@@ -27,20 +32,26 @@ const AboutSection = () => {
               loading="lazy"
             />
           </div>
-          <div className="relative flex order-1 lg:order-2 flex-col justify-center lg:mr-5" data-aos="fade-in"
-              data-aos-duration="800"
-              data-aos-delay="200">
+          <div
+            className="relative flex order-1 lg:order-2 flex-col justify-center lg:mr-5"
+            data-aos="fade-in"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
             <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">
               About Us
             </h2>
             <p className="mt-6 text-textgray text-lg ">
-              Tempor in labore pariatur enim anim exercitation duis commodo
-              adipisicing irure. Tempor in labore pariatur enim anim
-              exercitation duis commodo adipisicing irure. <br />
-              <br /> Tempor in labore pariatur enim anim exercitation duis
-              commodo adipisicing irure.
+              AE's School of Commerce is one of the most trusted destination for
+              building a great future in the commerce field in the malabar
+              region.
+              <br />
+              <br /> We provide varities of courses like CATLAM, IFRS, CA, CMA,
+              CS that help our student to pursue a great career in the
+              accounting field. Our team of highly experienced faculties guide
+              you to a successfull path.
             </p>
-            <div className="md:mt-20 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3">
+            <div className="md:mt-16 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3">
               <Button text="About Us" href="/about" />
               <AnimatedButton
                 text="View Courses"

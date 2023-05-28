@@ -96,7 +96,7 @@ const Hero = () => {
           </div>
         </div>
         <div
-          className="bg-[#f8f8f8] py-10 mb-9 w-full lg:flex hidden  justify-center  items-center gap-20"
+          className="bg-[#f8f8f8] py-10 mb-9 w-full lg:flex hidden   justify-center  items-center gap-20"
           data-aos="fade-up"
           data-aos-duration="800"
         >
