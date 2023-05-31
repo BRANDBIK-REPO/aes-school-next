@@ -15,6 +15,10 @@ export const navLinks = [
     link: "/courses",
   },
   {
+    page: "Gallery",
+    link: "/gallery",
+  },
+  {
     page: "About us",
     link: "/about",
   },

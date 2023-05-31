@@ -9,7 +9,6 @@ async function getCourse() {
 
 const CoursesHero = async () => {
   const data = await getCourse();
-  console.log(data)
   return (
     <section className="overflow-hidden px-5%  font-main pt-10 lg:pt-20 py-32">
       <div
