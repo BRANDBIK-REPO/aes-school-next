@@ -14,9 +14,9 @@ const page = async ({ params: { slug } }) => {
               data-aos="fade-in"
               data-aos-duration="800"
               data-aos-delay="100"
-              className="flex justify-between gap-5 items-center "
+              className="flex justify-between  items-center "
             >
-              <div className="relative z-10 max-w-2xl min-w-[445px] mr-5">
+              <div className="relative z-10 w-full max-w-full lg:max-w-2xl lg:min-w-[445px] mr-5">
                 {course.fullTitle && (
                   <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[52px] md:text-[48px] md:leading-[1.233] font-bold">
                     {course.fullTitle}
@@ -51,13 +51,13 @@ const page = async ({ params: { slug } }) => {
                   )}
                 </div>
               </div>
-              <div className="relative w-full max-w-[723px]"></div>
+              <div className="relative max-w-[723px]"></div>
             </div>
           ))}
         </div>
       </section>
       <section className=" font-main pb-16 pt-20 lg:pb-32 px-5% lg:pt-40 bg-[#fbfbfb]">
-        <div className="mx-auto max-w-7xl ">
+        <div className="mx-auto max-w-full lg:max-w-7xl ">
           <div className="max-w-3xl">
             <div className="w-full" data-aos="fade-in" data-aos-duration="800">
               <h2 className="text-black mb-6  font-bold leading-tight text-[28px] md:text-4xl lg:text-[40px]">
