@@ -14,7 +14,7 @@ const CourseGrid = ({data}) => {
         {data?.map((course) =>  (
           
           <Link
-            className="group bg-white tap-highlight-color-transparent shadow-faq lg:hover:shadow-faq-hover relative z-10 duration-200 lg:hover:-translate-y-2"
+            className="group bg-white border border-[#eaeaea] tap-highlight-color-transparent shadow-faq lg:hover:shadow-faq-hover relative z-10 duration-200 lg:hover:-translate-y-2"
             href={`${course.slug.current ?  `/courses/${course.slug.current}` : '/courses'}`}
           >
             <div className="bg-white flex flex-col justify-center text-left ">
