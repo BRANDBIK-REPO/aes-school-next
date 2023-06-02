@@ -16,7 +16,7 @@ const page = async ({ params: { slug } }) => {
               data-aos-delay="100"
               className="flex justify-between  items-center "
             >
-              <div className="relative z-10 w-full max-w-full lg:max-w-2xl lg:min-w-[445px] mr-5">
+              <div className="relative z-10 w-full max-w-full lg:max-w-2xl lg:min-w-[445px] ">
                 {course.fullTitle && (
                   <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[52px] md:text-[48px] md:leading-[1.233] font-bold">
                     {course.fullTitle}

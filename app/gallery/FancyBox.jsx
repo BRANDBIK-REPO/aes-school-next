@@ -24,7 +24,7 @@ function Fancybox(props) {
 
   return (
     <div
-      className="grid grid-cols-4 gap-3 "
+      className="grid lg:grid-cols-4 gap-3 "
       data-aos="fade-up"
       data-aos-duration="1000"
       ref={containerRef}
