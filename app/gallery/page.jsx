@@ -5,7 +5,7 @@ import Fancybox from "./FancyBox";
 
 async function getCourse() {
   const query = '*[_type=="images" ]';
-  const importantCourses = await client.fetch(query);
+  const importantCourses = await client.fetch(query) ;
   return importantCourses;
 }
 

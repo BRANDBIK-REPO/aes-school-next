@@ -9,6 +9,31 @@ export default {
       type: 'string',
     },
     {
+      name: 'fullTitle',
+      title: 'Full Title',
+      type: 'string',
+    },
+    {
+      name: 'duration',
+      title: 'Duration',
+      type: 'string',
+    },
+    {
+      name: 'eligibility',
+      title: 'Eligibility',
+      type: 'string',
+    },
+    {
+      name : 'stages',
+      title : 'Stages',
+      type : 'array',
+      of : [
+        {
+          type : 'string'
+        }
+      ]
+    },
+    {
       name: 'shortDescription',
       title: 'Short Description',
       type: 'string',

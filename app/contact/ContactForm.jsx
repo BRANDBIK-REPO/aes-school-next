@@ -16,7 +16,7 @@ const ContactForm = () => {
   };
   return (
     <div
-      className="relative w-full lg:max-w-[687px] max-w-full"
+      className="relative font-main bg-white w-full lg:max-w-[687px] max-w-full"
       data-aos="zoom-out"
       data-aos-duration="800"
       data-aos-delay="300"
