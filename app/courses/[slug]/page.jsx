@@ -35,7 +35,7 @@ const page = async ({ params: { slug } }) => {
                         <ClockIcon color="white" size={20} />
                       </div>
                       <div className="mb-[10px]">
-                        {`Eligibility : ${course.duration}`}
+                        {`Duration : ${course.duration}`}
                       </div>
                     </div>
                   )}
@@ -46,7 +46,7 @@ const page = async ({ params: { slug } }) => {
                         <GraduationCapIcon color="white" size={20} />
                       </div>
                       <div className="mb-[10px]">
-                        {`Duration : ${course.eligibility}`}
+                        {`Eligibility : ${course.eligibility}`}
                       </div>
                     </div>
                   )}
