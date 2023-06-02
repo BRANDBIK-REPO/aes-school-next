@@ -1,10 +1,11 @@
 import React from "react";
 import { client, urlFor } from "@lib/client";
 import { ClockIcon, GraduationCapIcon } from "lucide-react";
-
+import CourseGrid from "@components/CourseGrid";
 
 const page = async ({ params: { slug } }) => {
   const courseDetails = await getData(slug);
+  const data = await getCourses()
   return (
     <>
       <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20 pb-14 lg:pb-32">
@@ -72,10 +73,14 @@ const page = async ({ params: { slug } }) => {
                   )}
                   {course.stages && (
                     <div className="mt-6">
-                      <h3 className="mb-4  text-black text-2xl font-bold leading-snug">Stages</h3>
+                      <h3 className="mb-4  text-black text-2xl font-bold leading-snug">
+                        Stages
+                      </h3>
                       <ol className="list-decimal ml-7">
                         {course.stages.map((stage) => (
-                          <li className="text-base mb-1 text-textgray">{stage}</li>
+                          <li className="text-base mb-1 text-textgray">
+                            {stage}
+                          </li>
                         ))}
                       </ol>
                     </div>
@@ -86,14 +91,30 @@ const page = async ({ params: { slug } }) => {
           </div>
         </div>
       </section>
+      <section className="overflow-hidden bg-[#fbfbfb] px-5% font-main py-20 md:py-[100px] lg:py-32 ">
+        <div className="mx-auto max-w-7xl">
+          <h2 className="text-black  font-bold leading-tight text-[28px] md:text-4xl lg:text-[40px]">
+            All Courses
+          </h2>
+          <div className="mb-8">
+            <CourseGrid data={data} />
+          </div>
+        </div>
+      </section>
     </>
   );
 };
 
+export const getCourses = async => {
+  const query = '*[_type=="course"]';
+  const products = client.fetch(query);
+  return products;
+}
+
 export const getData = async (slug) => {
   const query = `*[_type=="course" && slug.current == "${slug}"]`;
-  const couses = await client.fetch(query);
-  return couses;
+  const courses = await client.fetch(query);
+  return courses;
 };
 
 export const revalidate = 3600;
