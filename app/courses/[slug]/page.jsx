@@ -1,23 +1,30 @@
 import React from "react";
 import { client, urlFor } from "@lib/client";
-import { ClockIcon, GraduationCapIcon } from "lucide-react";
+import { ClockIcon, GraduationCapIcon, PlayCircle } from "lucide-react";
 import CourseGrid from "@components/CourseGrid";
+import Image from "next/image";
+import Play from "@public/assets/play.svg";
+import Link from "next/link";
 
 const page = async ({ params: { slug } }) => {
   const courseDetails = await getData(slug);
-  const data = await getCourses()
+  const data = await getCourses();
   return (
     <>
-      <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20 pb-14 lg:pb-32">
+      <section className="oveflow-hidden w-full font-main relative px-5% pt-5 md:pt-10 lg:pt-20 pb-14 lg:pb-32">
         <div className="mx-auto max-w-7xl ">
           {courseDetails.map((course) => (
             <div
-              data-aos="fade-in"
-              data-aos-duration="800"
-              data-aos-delay="100"
-              className="flex justify-between  items-center "
+              className={`flex flex-col w-full ${
+                course.url ? "gap-5 gap-y-9" : ""
+              } lg:flex-row gap-5 justify-between  items-center `}
             >
-              <div className="relative z-10 w-full max-w-full lg:max-w-2xl lg:min-w-[445px] ">
+              <div
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="100"
+                className="relative z-10 w-full max-w-full lg:max-w-2xl lg:min-w-[445px] "
+              >
                 {course.fullTitle && (
                   <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[52px] md:text-[48px] md:leading-[1.233] font-bold">
                     {course.fullTitle}
@@ -52,7 +59,32 @@ const page = async ({ params: { slug } }) => {
                   )}
                 </div>
               </div>
-              <div className="relative max-w-[723px]"></div>
+              {course.url && (
+                <div
+                  data-aos="zoom-in"
+                  data-aos-duration="500"
+                  data-aos-delay="300"
+                  className="relative bg-teal-800 w-full max-w-full  lg:max-w-[723px]"
+                >
+                  <div className="aspect-video relative">
+                    <Image className="" fill src={urlFor(course.image).url()} />
+                    <div className="absolute w-full h-full inset-0 bg-black/40 z-20" />
+                    <Link
+                      href={course.url}
+                      className="absolute top-1/2 left-1/2 -translate-x-1/2 z-30 lg:hover:scale-105 duration-300 -translate-y-1/2 bg-white w-20 h-20 rounded-full flex justify-center items-center "
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <Image
+                        src={Play}
+                        width={20}
+                        height={20}
+                        className="ml-2"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -109,7 +141,7 @@ export const getCourses = async () => {
   const query = '*[_type=="course"]';
   const products = await client.fetch(query);
   return products;
-}
+};
 
 export const getData = async (slug) => {
   const query = `*[_type=="course" && slug.current == "${slug}"]`;

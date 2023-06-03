@@ -24,14 +24,14 @@ export default {
       type: 'string',
     },
     {
-      name : 'stages',
-      title : 'Stages',
-      type : 'array',
-      of : [
+      name: 'stages',
+      title: 'Stages',
+      type: 'array',
+      of: [
         {
-          type : 'string'
-        }
-      ]
+          type: 'string',
+        },
+      ],
     },
     {
       name: 'shortDescription',
@@ -48,7 +48,7 @@ export default {
       title: 'Image',
       type: 'image',
       options: {
-        hotspot: true, 
+        hotspot: true,
       },
     },
     {
@@ -61,9 +61,14 @@ export default {
       },
     },
     {
-        name : 'isFeature',
-        title : 'Is Featured',
-        type : 'boolean'
+      name: 'isFeature',
+      title: 'Is Featured',
+      type: 'boolean',
+    },
+    {
+      name: 'url',
+      title: 'Youtube Link',
+      type: 'string',
     },
   ],
 }
