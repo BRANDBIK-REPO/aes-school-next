@@ -105,9 +105,9 @@ const page = async ({ params: { slug } }) => {
   );
 };
 
-export const getCourses = async => {
+export const getCourses = async () => {
   const query = '*[_type=="course"]';
-  const products = client.fetch(query);
+  const products = await client.fetch(query);
   return products;
 }
 
