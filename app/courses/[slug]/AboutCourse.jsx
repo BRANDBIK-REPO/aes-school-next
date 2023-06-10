@@ -17,11 +17,11 @@ const AboutCourse = ({ courseDetails }) => {
               <Tab
                 className={({ selected }) =>
                   classNames(
-                    " w-full pb-3 border-b border-b-slate-300 px-5 text-lg",
+                    " w-full pb-3 px-5 text-lg",
                     "ring-white ring-opacity-60 ring-offset-2  focus:outline-none ",
                     selected
                       ? "text-primary font-bold  border-b-2 border-b-primary"
-                      : "text-slate-300 font-medium"
+                      : "text-slate-300 border-b border-b-slate-300  font-medium"
                   )
                 }
               >
@@ -30,11 +30,11 @@ const AboutCourse = ({ courseDetails }) => {
               <Tab
                 className={({ selected }) =>
                 classNames(
-                    " w-full pb-3 border-b border-b-slate-300 px-5 text-lg",
+                    " w-full pb-3  px-5 text-lg",
                     "ring-white ring-opacity-60 ring-offset-2  focus:outline-none ",
                     selected
                       ? "text-primary font-bold border-b-2 border-b-primary"
-                      : "text-slate-300 font-medium"
+                      : "text-slate-300 border-b border-b-slate-300 font-medium"
                   )
                 }
               >
