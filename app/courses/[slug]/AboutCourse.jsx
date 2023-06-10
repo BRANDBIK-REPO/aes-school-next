@@ -54,7 +54,7 @@ const AboutCourse = ({ courseDetails }) => {
                   {courseDetails.map((course) => (
                     <div className="">
                       {course.description && (
-                        <p className="text-lg text-textgray">
+                        <p className=" text-base lg:text-lg  text-textgray">
                           {course.description}
                         </p>
                       )}
