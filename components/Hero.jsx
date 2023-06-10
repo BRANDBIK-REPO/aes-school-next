@@ -71,7 +71,7 @@ const Hero = () => {
                 width={410}
                 height={410}
                 className=""
-                priority
+                priority 
                 loading="eager"
                 data-aos="zoom-out"
                 data-aos-duration="800"

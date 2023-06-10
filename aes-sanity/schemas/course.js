@@ -70,5 +70,55 @@ export default {
       title: 'Youtube Link',
       type: 'string',
     },
+    {
+      name : 'syllabus',
+      title : 'Syllabus',
+      type : 'array',
+      of : [
+        
+        {
+          type : 'object',
+          name : 'section',
+          title : 'section',
+          
+          fields: [
+            {
+              type : 'string',
+              name : 'sectionName',
+              title : 'Section Name'
+            },
+            {
+              name: 'chapter',
+              title: 'Chapter ',
+              type: 'array',
+              of : [
+                {
+                  type : 'object',
+                  fields : [
+                    {
+                      type : 'string',
+                      name: 'chapterName',
+                      title : 'Chapter Name'
+                    },
+                    {
+                      name: 'unit',
+                      title : 'Units',
+                      type : 'array',
+                      of : [
+                        {
+                          type: 'string'
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              
+            },
+            
+          ]
+        }
+      ]
+    }
   ],
 }

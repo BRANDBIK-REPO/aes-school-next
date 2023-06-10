@@ -5,6 +5,7 @@ import CourseGrid from "@components/CourseGrid";
 import Image from "next/image";
 import Play from "@public/assets/play.svg";
 import Link from "next/link";
+import AboutCourse from "./AboutCourse";
 
 const page = async ({ params: { slug } }) => {
   const courseDetails = await getData(slug);
@@ -89,40 +90,7 @@ const page = async ({ params: { slug } }) => {
           ))}
         </div>
       </section>
-      <section className=" font-main pb-16 pt-20 lg:pb-32 px-5% lg:pt-40 bg-[#fbfbfb]">
-        <div className="mx-auto max-w-full lg:max-w-7xl ">
-          <div className="max-w-3xl">
-            <div className="w-full" data-aos="fade-in" data-aos-duration="800">
-              <h2 className="text-black mb-6  font-bold leading-tight text-[28px] md:text-4xl lg:text-[40px]">
-                About the course
-              </h2>
-              {courseDetails.map((course) => (
-                <div className="">
-                  {course.description && (
-                    <p className="text-lg text-textgray">
-                      {course.description}
-                    </p>
-                  )}
-                  {course.stages && (
-                    <div className="mt-6">
-                      <h3 className="mb-4  text-black text-2xl font-bold leading-snug">
-                        Stages
-                      </h3>
-                      <ol className="list-decimal ml-7">
-                        {course.stages.map((stage) => (
-                          <li className="text-base mb-1 text-textgray">
-                            {stage}
-                          </li>
-                        ))}
-                      </ol>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <AboutCourse courseDetails={courseDetails} />
       <section className="overflow-hidden  px-5% font-main py-20 md:py-[100px] lg:py-32 ">
         <div className="mx-auto max-w-7xl">
           <h2 className="text-black  font-bold leading-tight text-[28px] md:text-4xl lg:text-[40px]">
