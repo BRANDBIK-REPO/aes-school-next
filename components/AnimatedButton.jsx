@@ -9,17 +9,7 @@ const AnimatedButton = ({animationData,text}) => {
   const containerRef = useRef(null);
   const [anim, setAnim] = useState(null);
 
-  const handleMouseEnter = () => {
-    if (anim) {
-      anim.play();
-    }
-  };
-
-  const handleMouseLeave = () => {
-    if (anim) {
-      anim.stop();
-    }
-  };
+  
 
   useEffect(() => {
     const newAnim = Lottie.loadAnimation({
@@ -34,8 +24,6 @@ const AnimatedButton = ({animationData,text}) => {
   }, []);
   return (
     <Link
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
       className="border tap-highlight-color-transparent border-slate-200 duration-200 lg:hover:text-primary flex justify-center items-center gap-3 lg:hover:border-primary px-8 py-[16px]  rounded-full text-slate-800"
       href="/courses"
     >
