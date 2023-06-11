@@ -1,11 +1,11 @@
-"use client";
+"use client"
 
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import { Autoplay, EffectFade} from "swiper";
-import { testimonials } from "@constants";
+import React from "react"
+import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/css"
+import "swiper/css/effect-fade"
+import { Autoplay, EffectFade } from "swiper"
+import { testimonials } from "@constants"
 
 const TestimonialSection = () => {
   return (
@@ -15,29 +15,28 @@ const TestimonialSection = () => {
           Hear what our amazing students say
         </h2>
         <p className="text-slate-100 max-w-lg text-center mx-auto flex-1  text-lg mt-6">
-          Having the best alumni is what make an institute great. Hear to what some of our notable alumni have to say about us.
+          Having the best alumni is what make an institute great. Hear to what some of our notable alumni have to say
+          about us.
         </p>
       </div>
       <div className="relative px-[5%] lg:px-6 max-w-[1048px] mx-auto ">
         <div className="">
-          <div className="relative inline-block w-full h-full whitespace-normal text-left" >
+          <div className="relative inline-block w-full h-full whitespace-normal text-left">
             <Swiper
-            
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
               }}
-              modules={[Autoplay,EffectFade]}
+              modules={[Autoplay, EffectFade]}
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide key={testimonial.id}>
                   <div
-                    
                     className="px-6 pt-10 md:pb-10 flex z-10 relative gap-10 lg:gap-20 pb-11 md:items-center flex-col md:flex-row overflow-hidden lg:pt-20 lg:pb-[75px] lg:px-[92px] shadow-faq bg-white"
                     data-aos="zoom-up"
                     data-aos-duration="800"
                   >
-                    <img
+                    <Image
                       src={`/assets/student-${testimonial.id}.jpg`}
                       sizes="(max-width: 768px) 10vw"
                       loading="lazy"
@@ -45,19 +44,11 @@ const TestimonialSection = () => {
                       alt="Image of a person"
                     />
                     <div className="max-w-[483px]  mb-[14px]">
-                      <h3 className="mb-4 text-black font-bold text-[25px] leading-snug">
-                        {testimonial.title}
-                      </h3>
-                      <p className="text-slate-400 text-lg mb-5 ">
-                        {testimonial.desciption}
-                      </p>
+                      <h3 className="mb-4 text-black font-bold text-[25px] leading-snug">{testimonial.title}</h3>
+                      <p className="text-slate-400 text-lg mb-5 ">{testimonial.desciption}</p>
                       <div className="mt-6 mb-[30px] w-full min-h-[1px] bg-slate-400 "></div>
-                      <div className="mb-[1px] text-black text-lg leading-normal font-bold">
-                        {testimonial.name}
-                      </div>
-                      <div className="text-lg text-primary font-medium leading-snug ">
-                        {testimonial.place}
-                      </div>
+                      <div className="mb-[1px] text-black text-lg leading-normal font-bold">{testimonial.name}</div>
+                      <div className="text-lg text-primary font-medium leading-snug ">{testimonial.place}</div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -69,7 +60,7 @@ const TestimonialSection = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default TestimonialSection;
+export default TestimonialSection

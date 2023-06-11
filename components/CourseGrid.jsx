@@ -1,9 +1,9 @@
-import Link from "next/link";
-import GhostButton from "./GhostButton";
-import Image from "next/image";
-import { urlFor } from "@lib/client";
+import Link from "next/link"
+import GhostButton from "./GhostButton"
+import Image from "next/image"
+import { urlFor } from "@lib/client"
 
-const CourseGrid = ({data}) => {
+const CourseGrid = ({ data }) => {
   return (
     <div className="relative z-10">
       <div
@@ -11,15 +11,14 @@ const CourseGrid = ({data}) => {
         data-aos-duration="800"
         className="grid md:grid-cols-2 xl:grid-cols-3 relative text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6"
       >
-        {data?.map((course) =>  (
-          
+        {data?.map((course) => (
           <Link
             className="group bg-white border border-[#eaeaea] tap-highlight-color-transparent shadow-faq lg:hover:shadow-faq-hover relative z-10 duration-200 lg:hover:-translate-y-2"
-            href={`${course.slug.current ?  `/courses/${course.slug.current}` : '/courses'}`}
+            href={`${course.slug.current ? `/courses/${course.slug.current}` : "/courses"}`}
           >
             <div className="bg-white flex flex-col justify-center text-left ">
               <div className="w-full relative object-cover h-56">
-                <img
+                <Image
                   className="object-cover h-full w-full "
                   loading="lazy"
                   alt="Accounting related image"
@@ -32,13 +31,8 @@ const CourseGrid = ({data}) => {
                 <h3 className="mb-4 lg:group-hover:text-primary text-black text-2xl font-bold leading-snug">
                   {course.title}
                 </h3>
-                <p className="text-lg text-textgray mb-8">
-                  {course.shortDescription}
-                </p>
-                <GhostButton
-                  text="View More"
-                  icon={false}
-                />
+                <p className="text-lg text-textgray mb-8">{course.shortDescription}</p>
+                <GhostButton text="View More" icon={false} />
               </div>
             </div>
           </Link>
@@ -62,7 +56,7 @@ const CourseGrid = ({data}) => {
         <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CourseGrid;
+export default CourseGrid
