@@ -1,8 +1,8 @@
-import React from "react";
-import Button from "./Button";
-import AnimatedButton from "./AnimatedButton";
-import AnimationJson from "@lottie/system-outline-19-book.json";
-import Image from "next/image";
+import React from "react"
+import Button from "./Button"
+import AnimatedButton from "./AnimatedButton"
+import AnimationJson from "@lottie/system-outline-19-book.json"
+import Image from "next/image"
 
 const AboutSection = () => {
   return (
@@ -16,19 +16,16 @@ const AboutSection = () => {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              <Image
-                src="/assets/pattern-grid.svg"
-                width={100}
-                height={100}
-                alt="Pattern shape"
-              />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
             </div>
-            <img
+            <Image
               src="/assets/classroom.jpg"
               alt="AE'S School of Commerce Classroom image"
               data-aos="zoom-out"
               data-aos-duration="800"
-              className="z-10 "
+              className="z-10"
+              width={500}
+              height={500}
               loading="lazy"
             />
           </div>
@@ -38,31 +35,24 @@ const AboutSection = () => {
             data-aos-duration="800"
             data-aos-delay="200"
           >
-            <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">
-              About Us
-            </h2>
+            <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">About Us</h2>
             <p className="mt-6 text-textgray text-lg ">
-              AE's School of Commerce is one of the most trusted destination for
-              building a great future in the commerce field in the malabar
-              region.
+              AE's School of Commerce is one of the most trusted destination for building a great future in the commerce
+              field in the malabar region.
               <br />
-              <br /> We provide varities of courses like CATLAM, IFRS, CA, CMA,
-              CS that help our student to pursue a great career in the
-              accounting field. Our team of highly experienced faculties guide
-              you to a successfull path.
+              <br /> We provide varities of courses like CATLAM, IFRS, CA, CMA, CS that help our student to pursue a
+              great career in the accounting field. Our team of highly experienced faculties guide you to a successfull
+              path.
             </p>
             <div className="md:mt-16 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3">
               <Button text="About Us" href="/about" />
-              <AnimatedButton
-                text="View Courses"
-                animationData={AnimationJson}
-              />
+              <AnimatedButton text="View Courses" animationData={AnimationJson} />
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutSection;
+export default AboutSection

@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Image from "next/image"
+import Link from "next/link"
 
 const GhostButton = ({ text, href, icon }) => {
   return (
@@ -13,12 +14,12 @@ const GhostButton = ({ text, href, icon }) => {
 
         {icon && (
           <div className="bg-secondaygreen flex justify-center items-center py-[14px] px-2">
-            <img width="20" height="20" src="/assets/arrow.png" alt="" />
+            <Image width="20" height="20" src="/assets/arrow.png" alt="" />
           </div>
         )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default GhostButton;
+export default GhostButton

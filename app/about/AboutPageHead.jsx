@@ -1,8 +1,8 @@
-import React from "react";
-import Button from "@components/Button";
-import AnimatedButton from "@components/AnimatedButton";
-import animationData from "@lottie/system-outline-19-book.json";
-import Image from "next/image";
+import React from "react"
+import Button from "@components/Button"
+import AnimatedButton from "@components/AnimatedButton"
+import animationData from "@lottie/system-outline-19-book.json"
+import Image from "next/image"
 
 const AboutPageHead = () => {
   return (
@@ -10,7 +10,7 @@ const AboutPageHead = () => {
       <div className="mx-auto max-w-7xl ">
         <div className="flex lg:flex-row flex-col-reverse gap-y-14 relative justify-between items-center">
           <div className="relative  flex max-w-2xl lg:mr-9 justify-center items-center">
-            <img
+            <Image
               className="relative z-10"
               src="/assets/hero.jpeg"
               data-aos="zoom-out"
@@ -25,12 +25,7 @@ const AboutPageHead = () => {
               data-aos-delay="500"
               data-aos-offset="-200"
             >
-              <Image
-                src="/assets/pattern-grid.svg"
-                width={100}
-                height={100}
-                alt="Pattern shape"
-              />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
             </div>
           </div>
           <div
@@ -43,85 +38,47 @@ const AboutPageHead = () => {
               About us
             </h1>
             <p className=" text-lg  text-textgray mb-10 ">
-              AE's School of Commerce in the Malabar region is a trusted
-              destination offering a wide range of courses including CATLAM,
-              IFRS, CA, CMA, and CS, led by experienced faculty, to shape a
-              successful career in the accounting field.
+              AE's School of Commerce in the Malabar region is a trusted destination offering a wide range of courses
+              including CATLAM, IFRS, CA, CMA, and CS, led by experienced faculty, to shape a successful career in the
+              accounting field.
             </p>
             <div className="mb-3 grid grid-cols-1  gap-4 ">
               <div className="flex gap-4 items-center text-blackbg leading-[1.1]">
-                <svg
-                  width="26"
-                  height="26"
-                  viewBox="0 0 26 26"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx={13} cy={13} r="13" fill="#2e328d" />
-                  <path
-                    d="M19.5 8.66666L10.8334 17.3333L6.50003 13"
-                    stroke="white"
-                    stroke-miterlimit="10"
-                  />
+                  <path d="M19.5 8.66666L10.8334 17.3333L6.50003 13" stroke="white" stroke-miterlimit="10" />
                 </svg>
-                <div className="text-lg font-medium">
-                  15+ years of experience
-                </div>
+                <div className="text-lg font-medium">15+ years of experience</div>
               </div>
             </div>
             <div className="mb-12 grid grid-cols-1  gap-4 ">
               <div className="flex gap-4 items-center text-blackbg leading-[1.1]">
-                <svg
-                  width="26"
-                  height="26"
-                  viewBox="0 0 26 26"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx={13} cy={13} r="13" fill="#2e328d" />
-                  <path
-                    d="M19.5 8.66666L10.8334 17.3333L6.50003 13"
-                    stroke="white"
-                    stroke-miterlimit="10"
-                  />
+                  <path d="M19.5 8.66666L10.8334 17.3333L6.50003 13" stroke="white" stroke-miterlimit="10" />
                 </svg>
                 <div className="text-lg font-medium">10+ Experts to teach</div>
               </div>
               <div className="mb-3 grid grid-cols-1  gap-4 ">
                 <div className="flex gap-4 items-center text-blackbg leading-[1.1]">
-                  <svg
-                    width="26"
-                    height="26"
-                    viewBox="0 0 26 26"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx={13} cy={13} r="13" fill="#2e328d" />
-                    <path
-                      d="M19.5 8.66666L10.8334 17.3333L6.50003 13"
-                      stroke="white"
-                      stroke-miterlimit="10"
-                    />
+                    <path d="M19.5 8.66666L10.8334 17.3333L6.50003 13" stroke="white" stroke-miterlimit="10" />
                   </svg>
-                  <div className="text-lg font-medium">
-                    Teached over 255+ students{" "}
-                  </div>
+                  <div className="text-lg font-medium">Teached over 255+ students </div>
                 </div>
               </div>
             </div>
 
             <div className=" flex flex-col text-center  md:flex-row gap-5 md:gap-3 ">
               <Button text="Get Free Consultation" href="/contact" />
-              <AnimatedButton
-                text="View Courses"
-                animationData={animationData}
-              />
+              <AnimatedButton text="View Courses" animationData={animationData} />
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutPageHead;
+export default AboutPageHead
