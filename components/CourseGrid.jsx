@@ -9,7 +9,7 @@ const CourseGrid = ({ data }) => {
       <div
         data-aos="fade-up"
         data-aos-duration="800"
-        className="grid md:grid-cols-2 xl:grid-cols-3 relative text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6"
+        className="grid md:grid-cols-2 z-10 xl:grid-cols-3 relative text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6"
       >
         {data?.map((course) => (
           <Link

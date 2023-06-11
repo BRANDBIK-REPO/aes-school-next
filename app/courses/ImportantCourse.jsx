@@ -10,7 +10,7 @@ const ImportantCourse = ({ data }) => {
         data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="300"
-        className="grid md:grid-cols-2 lg:grid-cols-2 relative text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6"
+        className="grid md:grid-cols-2 lg:grid-cols-2 relative z-10 text-center grid-flow-row mt-20 gap-5 md:gap-5 lg:gap-6"
       >
         {data.map((course) => (
           <Link
@@ -18,10 +18,11 @@ const ImportantCourse = ({ data }) => {
             href={`${course.slug.current ? `/courses/${course.slug.current}` : "/courses"}`}
           >
             <div className="bg-white flex flex-col justify-center text-left ">
-              <div className="w-full object-cover h-56 lg:h-80">
+              <div className="w-full relative object-cover h-56 lg:h-80">
                 <Image
                   className="object-cover h-full w-full "
                   alt="Accounting related image"
+                  fill
                   src={urlFor(course.image).url()}
                 ></Image>
               </div>
