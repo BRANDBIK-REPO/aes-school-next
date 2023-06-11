@@ -6,6 +6,7 @@ import "swiper/css"
 import "swiper/css/effect-fade"
 import { Autoplay, EffectFade } from "swiper"
 import { testimonials } from "@constants"
+import Image from "next/image"
 
 const TestimonialSection = () => {
   return (
@@ -36,7 +37,7 @@ const TestimonialSection = () => {
                     data-aos="zoom-up"
                     data-aos-duration="800"
                   >
-                    <Image
+                    <img
                       src={`/assets/student-${testimonial.id}.jpg`}
                       sizes="(max-width: 768px) 10vw"
                       loading="lazy"

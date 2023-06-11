@@ -2,6 +2,7 @@ import React from "react"
 import { client } from "@lib/client"
 import { urlFor } from "@lib/client"
 import Fancybox from "./FancyBox"
+import Image from "next/image"
 
 async function getCourse() {
   const query = '*[_type=="images" ]'

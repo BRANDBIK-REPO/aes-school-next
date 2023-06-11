@@ -81,19 +81,19 @@ const Hero = () => {
           data-aos-duration="800"
         >
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/ca.png" alt="ca logo" />
+            <Image className="flex-custom" src="/assets/ca.png" width={100} height={100} alt="ca logo" />
           </div>
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/cma.webp" alt="cma logo" />
+            <Image className="flex-custom" src="/assets/cma.webp" width={100} height={100} alt="cma logo" />
           </div>
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/cs.webp" alt="cs logo" />
+            <Image className="flex-custom" src="/assets/cs.webp" width={100} height={100} alt="cs logo" />
           </div>
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/ifrs.png" alt="ifrs logo" />
+            <Image className="flex-custom" src="/assets/ifrs.png" width={100} height={100} alt="ifrs logo" />
           </div>
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/catlam.png" alt="catlam logo" />
+            <Image className="flex-custom" src="/assets/catlam.png" width={100} height={100} alt="catlam logo" />
           </div>
         </div>
       </div>

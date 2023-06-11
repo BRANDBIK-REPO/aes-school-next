@@ -23,7 +23,9 @@ const AboutSection = () => {
               alt="AE'S School of Commerce Classroom image"
               data-aos="zoom-out"
               data-aos-duration="800"
-              className="z-10 "
+              className="z-10"
+              width={500}
+              height={500}
               loading="lazy"
             />
           </div>
