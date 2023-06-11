@@ -55,7 +55,7 @@ const Hero = () => {
                 alt="Image of a student holding laptop"
                 width={410}
                 height={410}
-                className=""
+                className="hidden lg:block"
                 priority
                 loading="eager"
                 data-aos="zoom-out"
