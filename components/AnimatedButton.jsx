@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Book } from "lucide-react";
 
 
 const AnimatedButton = ({text}) => {
@@ -8,7 +9,7 @@ const AnimatedButton = ({text}) => {
       href="/courses"
     >
       
-      <div>{text}</div>
+      <div   className="flex items-center justify-center text-slate-800 gap-3">{text} <Book className="text-slate-800" strokeWidth="0.9"  size={20}/> </div>
     </Link>
   );
 };

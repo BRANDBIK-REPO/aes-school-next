@@ -2,18 +2,16 @@
 
 import React, { useState, useEffect } from "react"
 import { navLinks } from "../constants"
-import AOS from "aos"
-import "aos/dist/aos.css"
 import Link from "next/link"
 import Image from "next/image"
 import NextNProgress from "nextjs-progressbar"
+import { usePathname } from "next/navigation"
+
+
 
 const Navbar = () => {
-  useEffect(() => {
-    AOS.init({
-      once: true,
-    })
-  }, [AOS])
+  const pathname = usePathname()
+  
   const [isMenu, setIsMenu] = useState(false)
   return (
     <>
@@ -33,12 +31,13 @@ const Navbar = () => {
             } nav bg-white absolute h-screen lg:h-auto  right-0 left-0 -translate-x-full lg:translate-x-0 duration-100 lg:duration-0 lg:transition-none top-0 flex-col bg-primarybg lg:bg-transparent text-textwhite w-full lg:w-auto  z-30  pt-20 lg:pt-0 pb-5 lg:pb-0  justify-center  items-center`}
           >
             <ul className="flex flex-col gap-4 lg:gap-3  lg:flex-row pl-10 pt-10 lg:pt-0 lg:pl-0 lg:items-center ">
-              {navLinks.map((navlink, index) => (
+              {navLinks.map((navlink, index) =>  (
+                
                 <li className="mb-0 " key={index}>
                   <Link
                     onClick={() => setIsMenu(!isMenu)}
                     href={navlink.link}
-                    className="relative lg:hover:text-primary font-[500] tap-highlight-color-transparent text-left text-blackbg  lg:text-zinc-600 inline-block align-top text-xl  lg:text-[17px] lg:mx-auto py-2 px-4"
+                    className={`relative lg:hover:text-primary font-[500] tap-highlight-color-transparent text-left ${pathname == navlink.link ? "text-primary" : "text-blackbg lg:text-zinc-600" }    inline-block align-top text-xl  lg:text-[17px] lg:mx-auto py-2 px-4`}
                   >
                     {navlink.page}
                   </Link>
