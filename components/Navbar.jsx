@@ -23,7 +23,7 @@ const Navbar = () => {
       >
         <div className="flex w-full h-full py-6 mx-auto max-w-7xl justify-between items-center">
           <Link href="/" aria-current="page" className="w-[180px] relative h-[80px]" aria-label="home">
-            <Image src="/assets/logo.png" fill={true} alt="Main Logo" className="relative z-30" />
+            <Image src="/assets/logo.png" sizes="100vw" fill={true} alt="Main Logo" className="relative z-30" />
           </Link>
           <nav
             className={`lg:relative ${
