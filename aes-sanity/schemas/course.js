@@ -9,6 +9,16 @@ export default {
       type: 'string',
     },
     {
+      name: 'pageTitle',
+      title: 'Page Title',
+      type: 'string',
+    },
+    {
+      name: 'pageDescription',
+      title: 'Page Description',
+      type: 'string',
+    },
+    {
       name: 'fullTitle',
       title: 'Full Title',
       type: 'string',

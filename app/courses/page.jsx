@@ -9,8 +9,8 @@ async function getData() {
 }
 
 export const metadata = {
-  title: "Our Courses",
-  description: "",
+  title: "Comprehensive Courses in CA, CMA, CS, IFRS, and CATLAM | AE's School of Commerce",
+  description: "Explore our range of comprehensive courses in CA, CMA, CS, IFRS, and CATLAM. Gain the knowledge and skills you need for a successful career in accountancy and finance. Enroll today!",
 };
 
 const page = async () => {

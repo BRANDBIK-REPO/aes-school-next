@@ -68,12 +68,13 @@ const page = async ({ params: { slug } }) => {
                   className="relative bg-teal-800 w-full max-w-full  lg:max-w-[723px]"
                 >
                   <div className="aspect-video relative">
-                    <Image className="" fill src={urlFor(course.image).url()} />
+                    <Image className="" fill alt="Course image" src={urlFor(course.image).url()} />
                     <div className="absolute w-full h-full inset-0 bg-black/40 z-20" />
                     <Link
                       href={course.url}
                       className="absolute top-1/2 left-1/2 -translate-x-1/2 z-30 lg:hover:scale-105 duration-300 -translate-y-1/2 bg-white w-20 h-20 rounded-full flex justify-center items-center "
                       target="_blank"
+                      
                       rel="noopener"
                     >
                       <Image

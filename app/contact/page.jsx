@@ -3,8 +3,8 @@ import Faq from "@components/Faq";
 import ContactPage from "./Contact";
 
 export const metadata = {
-  title : 'Get in touch ',
-  description : 'Want to know more about how to enroll in our specially designed courses and build a great career out of it. Lets talk and start realizing your dreams now.'
+  title : `Contact AE's School of Commerce | Get in Touch with Us`,
+  description : `Have questions? Contact AE's School of Commerce today. We're here to assist you and provide more information about our courses, admissions, and any other inquiries you may have.`
 }
 
 const Contact = () => {

@@ -5,8 +5,8 @@ import Badge from "@components/Badge";
 import Script from "next/script";
 
 export const metadata = {
-  title: "AE'S School of Commerce : The best accounting campus in malappuram",
-  description: `Learn accounting from the best campus in malappuram under the guidance of the best faculties. Top the world of accounting with AE's school of commerce.`,
+  title: "AE's School of Commerce | Best Accounting Campus in Perinthalmanna",
+  description: `Unlock your potential in accountancy and finance at AE's School of Commerce, the leading accounting campus in Perinthalmanna. Explore our comprehensive courses in CA, CMA, CS, IFRS, and CATLAM. Contact us today for more information and take the first step towards a successful career.`,
 };
 
 const RootLayout = ({ children }) => {

@@ -10,6 +10,11 @@ async function getCourse() {
   return importantCourses
 }
 
+export const metadata =  {
+  title : `Captivating Moments at AE's School of Commerce | Photo Gallery` , 
+  description : `Browse through our photo gallery showcasing captivating moments and events at AE's School of Commerce. Get a glimpse of our vibrant campus and engaging learning environment.`
+}
+
 const page = async () => {
   const data = await getCourse()
   return (
