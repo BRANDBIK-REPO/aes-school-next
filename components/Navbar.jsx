@@ -37,7 +37,7 @@ const Navbar = () => {
                   <Link
                     onClick={() => setIsMenu(!isMenu)}
                     href={navlink.link}
-                    className={`relative lg:hover:text-primary font-[500] tap-highlight-color-transparent text-left ${pathname == navlink.link ? "text-primary" : "text-blackbg lg:text-zinc-600" }    inline-block align-top text-xl  lg:text-[17px] lg:mx-auto py-2 px-4`}
+                    className={`relative lg:hover:text-primary font-[500] tap-highlight-color-transparent text-left ${pathname == navlink.link   ? "text-primary" : "text-blackbg lg:text-zinc-600" }    inline-block align-top text-xl  lg:text-[17px] lg:mx-auto py-2 px-4`}
                   >
                     {navlink.page}
                   </Link>

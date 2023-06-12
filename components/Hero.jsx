@@ -53,6 +53,7 @@ const Hero = () => {
               <Image
                 src="/assets/hero.webp"
                 alt="Image of a student holding laptop"
+                sizes="100vw"
                 width={410}
                 height={410}
                 priority

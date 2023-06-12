@@ -4,11 +4,6 @@ import Footer from "@components/Footer";
 import Badge from "@components/Badge";
 import Script from "next/script";
 
-export const metadata = {
-  title: "AE's School of Commerce | Best Accounting Campus in Perinthalmanna",
-  description: `Unlock your potential in accountancy and finance at AE's School of Commerce, the leading accounting campus in Perinthalmanna. Explore our comprehensive courses in CA, CMA, CS, IFRS, and CATLAM. Contact us today for more information and take the first step towards a successful career.`,
-};
-
 const RootLayout = ({ children }) => {
   return (
     <html lang="en" className="scroll-smooth">
