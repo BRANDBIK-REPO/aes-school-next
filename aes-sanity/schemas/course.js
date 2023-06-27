@@ -103,6 +103,7 @@ export default {
               type: 'array',
               of : [
                 {
+                  name : 'object',
                   type : 'object',
                   fields : [
                     {
@@ -116,7 +117,8 @@ export default {
                       type : 'array',
                       of : [
                         {
-                          type: 'string'
+                          type: 'string',
+                          name : 'unitName'
                         }
                       ]
                     }
