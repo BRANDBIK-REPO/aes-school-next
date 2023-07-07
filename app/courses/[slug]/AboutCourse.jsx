@@ -114,12 +114,7 @@ const AboutCourse = ({ courseDetails }) => {
                                 </span>{" "}
                                 {syllabus.sectionName}{" "}
                               </span>{" "}
-                              <span className="text-sm font-medium text-textgray font">
-                                {" "}
-                                {syllabus.chapter.length > 1
-                                  ? `${syllabus.chapter.length} Chapters`
-                                  : `${syllabus.chapter.length} Chapter`}
-                              </span>
+                              
                             </Disclosure.Button>
                             <Disclosure.Panel>
                               {syllabus.chapter.map((chapter) => (
