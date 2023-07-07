@@ -10,7 +10,6 @@ const classNames = (...classes) => {
 };
 
 const AboutCourse = ({ courseDetails }) => {
-  console.log(courseDetails);
   return (
     <section className=" font-main pb-16 pt-14 lg:pb-32 px-5% lg:pt-40 bg-[#fbfbfb]">
       <div className="mx-auto max-w-full lg:max-w-7xl ">
@@ -56,7 +55,7 @@ const AboutCourse = ({ courseDetails }) => {
                       About the course
                     </h2>
                     {courseDetails.map((course) => (
-                      <div className="">
+                      <div className="" key={course._id}>
                         {course.description && (
                           <p className="  text-lg  text-textgray">
                             {course.description}
@@ -68,8 +67,8 @@ const AboutCourse = ({ courseDetails }) => {
                               Stages
                             </h3>
                             <ol className="list-decimal ml-7">
-                              {course.stages.map((stage) => (
-                                <li className="text-base mb-1 text-textgray">
+                              {course.stages.map((stage , index) => (
+                                <li key={index} className="text-base mb-1 text-textgray">
                                   {stage}
                                 </li>
                               ))}
@@ -117,8 +116,8 @@ const AboutCourse = ({ courseDetails }) => {
                               
                             </Disclosure.Button>
                             <Disclosure.Panel>
-                              {syllabus.chapter.map((chapter) => (
-                                <div className="my-3">
+                              {syllabus.chapter.map((chapter,index) => (
+                                <div key={index} className="my-3">
                                   <div
                                     className="flex items-center py-3 gap-2"
                                     key={chapter._key}
@@ -132,8 +131,8 @@ const AboutCourse = ({ courseDetails }) => {
                                     </span>
                                   </div>
                                   <ul className="ml-11">
-                                    {chapter.unit.map((unit) => (
-                                      <div>
+                                    {chapter.unit.map((unit,index) => (
+                                      <div key={index}>
                                         {unit && (
                                           <li className="text-base p-2 text-textgray items-start flex gap-2">
                                             {" "}
@@ -163,7 +162,7 @@ const AboutCourse = ({ courseDetails }) => {
                 About the course
               </h2>
               {courseDetails.map((course) => (
-                <div className="">
+                <div key={course._id} className="">
                   {course.description && (
                     <p className="  text-lg  text-textgray">
                       {course.description}

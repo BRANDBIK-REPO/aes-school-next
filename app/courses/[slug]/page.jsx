@@ -7,6 +7,14 @@ import Play from "@public/assets/play.svg";
 import Link from "next/link";
 import AboutCourse from "./AboutCourse";
 
+export async function generateMetadata({ params: { slug } }) {
+  const courseDetails = await getData(slug);
+  return {
+    title: courseDetails[0].pageTitle,
+    description : courseDetails[0].pageDescription,
+  }
+}
+
 const page = async ({ params: { slug } }) => {
   const courseDetails = await getData(slug);
   const data = await getCourses();
