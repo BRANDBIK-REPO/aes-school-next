@@ -211,6 +211,6 @@ export const offering = [
     icon: <BookOpen color="white" strokeWidth={1} size={48} />,
     title: "Industry driven curriculum",
     desciption:
-      " AE's offer relevant and up-to-date education aligned with industry needs",
+      " AE's offer relevant and up-to-date education aligned with upto date industry needs",
   },
 ];
