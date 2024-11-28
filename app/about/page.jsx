@@ -4,8 +4,8 @@ import Mission from "./Mission";
 import OurOffers from "./OurOffers";
 
 export const metadata = {
-  title: "About AE's School of Commerce",
-  description: "Learn about AE's School of Commerce, a trusted institute for accountancy and finance education. Discover our experienced faculty, state-of-the-art facilities, and dedication to providing quality education.",
+  title: "Top Accounting Courses in Malappuram | AE's School of Commerce",
+  description: "oin the Best Accounting Courses in Malappuram at AE's School of Commerce. Learn from expert faculty and gain a successful career in accounting and finance Now",
 };
 
 const about = () => {
