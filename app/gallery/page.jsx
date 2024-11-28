@@ -11,8 +11,8 @@ async function getCourse() {
 }
 
 export const metadata = {
-  title: `Captivating Moments at AE's School of Commerce | Photo Gallery`,
-  description: `Browse through our photo gallery showcasing captivating moments and events at AE's School of Commerce. Get a glimpse of our vibrant campus and engaging learning environment.`,
+  title: `Best ACCA Institute in Perinthalmanna | Expert ACCA Coaching`,
+  description: `Join Top ACCA Institute in Perinthalmanna. AE's School of Commerce provides professional ACCA coaching for foundation and advanced levels to shape your career`,
 };
 
 const page = async () => {
