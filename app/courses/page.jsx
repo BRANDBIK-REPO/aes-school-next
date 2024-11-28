@@ -9,8 +9,8 @@ async function getData() {
 }
 
 export const metadata = {
-  title: "Comprehensive Courses in CA, CMA, CS, IFRS, and CATLAM | AE's School of Commerce",
-  description: "Explore our range of comprehensive courses in CA, CMA, CS, IFRS, and CATLAM. Gain the knowledge and skills you need for a successful career in accountancy and finance. Enroll today!",
+  title: "Best Accounting Course in Perinthalmanna | Best CA Institute",
+  description: "Best Accounting courses in Perinthalmanna are offered at AE's School of Commerce, where expert faculty help you gain practical skills and knowledge. Contact Now",
 };
 
 const page = async () => {
