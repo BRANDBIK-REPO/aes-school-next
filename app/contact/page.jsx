@@ -3,8 +3,8 @@ import Faq from "@components/Faq";
 import ContactPage from "./Contact";
 
 export const metadata = {
-  title : `Contact AE's School of Commerce | Get in Touch with Us`,
-  description : `Have questions? Contact AE's School of Commerce today. We're here to assist you and provide more information about our courses, admissions, and any other inquiries you may have.`
+  title : `Top Accounting Courses in Palakkad | AE's School of Commerce`,
+  description : `Professional accounting courses in Palakkad at AE's School of Commerce. Get expert training and practical knowledge to excel in accounting and finance careers.`
 }
 
 const Contact = () => {
