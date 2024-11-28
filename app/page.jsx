@@ -14,8 +14,8 @@ async function getData() {
 }
 
 export const metadata = {
-  title: "AE's School of Commerce | Best Accounting Campus in Perinthalmanna",
-  description: `Unlock your potential in accountancy and finance at AE's School of Commerce, the leading accounting campus in Perinthalmanna. Explore our comprehensive courses in CA, CMA, CS, IFRS, and CATLAM. Contact us today for more information and take the first step towards a successful career.`,
+  title: "Top CMA Institute in Perinthalmanna | AE School of Commerce",
+  description: `Best CMA Institute in Perinthalmanna, AE's School of Commerce, can help you realize your CMA goals by providing top-notch coaching and best practical training`,
 };
 
 const Home = async () => {
