@@ -15,10 +15,10 @@ const Hero = () => {
             data-aos-delay="100"
           >
             <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] 2xl:text-[61px] md:text-[55px] md:leading-[1.233] font-bold">
-              The best accounting campus in Perinthalmanna
+              The Best Accounting Institute in Perinthalmanna
             </h1>
             <p className=" text-lg text-textgray">
-              Learn accounting from the best campus in Perinthalmanna under the guidance of the best faculties. Top the
+              Learn accounting from the Best Accounting Institute in Perinthalmanna under the guidance of the best faculties. Top the
               world of accounting with AE's school of commerce.
             </p>
             <div className="md:mt-20 mt-14 flex flex-col text-center  md:flex-row gap-5 md:gap-3 ">
