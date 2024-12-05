@@ -25,7 +25,7 @@ const Mission = () => {
                 src="/assets/hero.jpeg"
                 className="z-10 relative"
                 data-aos="zoom-out"
-                alt="Classroom image"
+                alt="Best accounting courses in Perinthalmanna"
                 data-aos-duration="800"
                 data-aos-delay="300"
               />
@@ -35,7 +35,7 @@ const Mission = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+                <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Affordable accounting institute in Perinthalmanna" />
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Mission = () => {
             <div className="relative mb-0  lg:mb-[171px]">
               <Image
                 src="/assets/hero.jpeg"
-                alt="An Image of Classroom "
+                alt="Top ACCA coaching institute in Perinthalmanna"
                 className="z-10 relative"
                 data-aos="zoom-out"
                 data-aos-duration="800"
