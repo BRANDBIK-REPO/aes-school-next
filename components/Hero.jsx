@@ -47,12 +47,12 @@ const Hero = () => {
               data-aos-delay="300"
               data-aos-offset="-200"
             >
-              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Affordable accounting institute in Perinthalmanna" />
             </div>
             <div className="relative ">
               <Image
                 src="/assets/hero.webp"
-                alt="Image of a student holding laptop"
+                alt="Top ACCA coaching institute in Perinthalmanna"
                 sizes="50 vh"
                 width={410}
                 height={410}
@@ -71,7 +71,7 @@ const Hero = () => {
               data-aos-duration="800"
               data-aos-delay="500"
             >
-              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="CMA training center in Perinthalmanna" />
             </div>
           </div>
         </div>
@@ -81,19 +81,19 @@ const Hero = () => {
           data-aos-duration="800"
         >
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/ca.png" width={100} height={100} alt="ca logo" />
+            <Image className="flex-custom" src="/assets/ca.png" width={100} height={100} alt="CMA professional course in Perinthalmanna" />
           </div>
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/cma.webp" width={100} height={100} alt="cma logo" />
+            <Image className="flex-custom" src="/assets/cma.webp" width={100} height={100} alt="CA coaching classes in Perinthalmanna" />
           </div>
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/cs.webp" width={100} height={100} alt="cs logo" />
+            <Image className="flex-custom" src="/assets/cs.webp" width={100} height={100} alt="Advanced CA course in Perinthalmanna" />
           </div>
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/ifrs.png" width={100} height={100} alt="ifrs logo" />
+            <Image className="flex-custom" src="/assets/ifrs.png" width={100} height={100} alt="Reputed CS institute in Perinthalmanna" />
           </div>
           <div className="max-w-[100px] flex">
-            <Image className="flex-custom" src="/assets/catlam.png" width={100} height={100} alt="catlam logo" />
+            <Image className="flex-custom" src="/assets/catlam.png" width={100} height={100} alt="CS course in Perinthalmanna" />
           </div>
         </div>
       </div>
