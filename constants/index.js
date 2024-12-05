@@ -142,7 +142,7 @@ export const testimonials = [
     id: 1,
     name: "Ashfaq Ahammed",
     title:
-      '"The best accounting courses are available to power up your accounting skills"',
+      '"Best Accounting Courses in Perinthalmanna for Career Advancement"',
     desciption:
       "AE's School of Commerce is the top choice for accounting courses in Perinthalmanna, offering comprehensive and practical training.It is the best place to take the CA course in Perinthalmanna because of their knowledgeable professors and individualized coaching. I heartily suggest this school to anyone hoping to pursue a productive accounting career!",
     image: "/assets/avatar.jpg",
@@ -162,7 +162,7 @@ export const testimonials = [
     id: 3,
     name: "Thahini Bandar",
     title:
-      '"AE's School of Commerce: The Top CMA Institute in Perinthalmanna for Career Success"',
+      '"The Top CMA Institute in Perinthalmanna for Career Success"',
     desciption:
       "The top CMA institute in Perinthalmanna, AE's School of Commerce, is renowned for its top-notch training courses. Their method of teaching the CMA course in Perinthalmanna guarantees that students acquire both theoretical understanding and real-world expertise. An excellent place to begin your career!",
     image: "./assets/avatar.jpg",
