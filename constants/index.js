@@ -90,7 +90,7 @@ export const faqLeft = [
   {
     id: 2,
     question: "What are the benefits of studying CATLAM ?",
-    answer: "Practical skills in accounts, tax, and law Comprehensive knowledge in relevant subjects Independence and self-reliance in handling accounting matters Development of management skills Emphasis on practical application and adaptabilit Improved career prospects in accounting management.",
+    answer: "The CATLAM program offers valuable knowledge in tax laws and management, essential for accountants. It boosts career opportunities and leads to high-paying jobs. As one of the best Accounting Courses in Perinthalmanna, it provides in-depth skills to excel in the competitive job market.",
   },
   {
     id: 3,
