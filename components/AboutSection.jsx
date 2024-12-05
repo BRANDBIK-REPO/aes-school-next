@@ -16,11 +16,11 @@ const AboutSection = () => {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Certified ACCA training in Perinthalmanna" />
             </div>
             <Image
               src="/assets/classroom.jpg"
-              alt="AE'S School of Commerce Classroom image"
+              alt="CMA course near me in Perinthalmanna"
               data-aos="zoom-out"
               data-aos-duration="800"
               className="z-10"
