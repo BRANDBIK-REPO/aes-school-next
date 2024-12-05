@@ -54,7 +54,7 @@ const Mission = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+                <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="CA coaching classes in Perinthalmanna" />
               </div>
             </div>
             <div className="" data-aos="zoom-out" data-aos-duration="800" data-aos-delay="100">
