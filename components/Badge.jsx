@@ -15,7 +15,7 @@ const Badge = () => {
               Start Learning Today!
             </h2>
             <p className="text-slate-400 text-center lg:text-left text-lg">
-              Discover some of our well designed courses and build your
+              Discover some of our Best Accounting courses and build your
               dream career with us
             </p>
           </div>
