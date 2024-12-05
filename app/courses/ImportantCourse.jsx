@@ -21,7 +21,7 @@ const ImportantCourse = ({ data }) => {
               <div className="w-full relative object-cover h-56 lg:h-80">
                 <Image
                   className="object-cover h-full w-full "
-                  alt="Accounting related image"
+                  alt="CS foundation course in Perinthalmanna"
                   fill
                   src={urlFor(course.image).url()}
                 ></Image>
@@ -49,14 +49,14 @@ const ImportantCourse = ({ data }) => {
         data-aos-delay="1000"
         className="absolute -top-4  lg:-top-8 -right-14 lg:-right-[5.5rem] w-36 h-36 z-0 "
       >
-        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Professional accounting courses in Malappuram" />
       </div>
       <div
         className="absolute -bottom-14 lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
         data-aos="fade-in"
         data-aos-duration="800"
       >
-        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Top-rated accounting institute in Palakkad" />
       </div>
     </div>
   )
