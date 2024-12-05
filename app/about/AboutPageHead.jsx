@@ -14,7 +14,7 @@ const AboutPageHead = () => {
               className="relative z-10"
               src="/assets/hero.jpeg"
               data-aos="zoom-out"
-              alt="Image of a Person"
+              alt="CMA training center in Perinthalmanna"
               data-aos-duration="800"
               data-aos-delay="100"
             />
@@ -25,7 +25,7 @@ const AboutPageHead = () => {
               data-aos-delay="500"
               data-aos-offset="-200"
             >
-              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+              <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="CMA professional course in Perinthalmanna" />
             </div>
           </div>
           <div
