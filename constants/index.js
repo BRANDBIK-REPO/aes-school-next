@@ -142,9 +142,9 @@ export const testimonials = [
     id: 1,
     name: "Ashfaq Ahammed",
     title:
-      '"The best campus course available to power up your accounting skills"',
+      '"The best accounting courses are available to power up your accounting skills"',
     desciption:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
+      "AE's School of Commerce is the top choice for accounting courses in Perinthalmanna, offering comprehensive and practical training.It is the best place to take the CA course in Perinthalmanna because of their knowledgeable professors and individualized coaching. I heartily suggest this school to anyone hoping to pursue a productive accounting career!",
     image: "/assets/avatar.jpg",
     place: "Kozhikode",
   },
@@ -154,7 +154,7 @@ export const testimonials = [
     title:
       '"The best campus course available to power up your accounting skills"',
     desciption:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
+      "There is no better accounting institute in Perinthalmanna than AE's School of Commerce. With its hands-on approach and knowledgeable instruction, their CMA course in Perinthalmanna surpassed my expectations. Anyone who is serious about pursuing a profession in finance and accounting should go here.",
     image: "./assets/avatar.jpg",
     place: "Tirur",
   },
@@ -164,7 +164,7 @@ export const testimonials = [
     title:
       '"The best campus course available to power up your accounting skills"',
     desciption:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, aliquet duis pellentesque pretium mattis orci. Vestibulum nunc diam tellus ac tempor. Nulla a commod.",
+      "The top CMA institute in Perinthalmanna, AE's School of Commerce, is renowned for its top-notch training courses. Their method of teaching the CMA course in Perinthalmanna guarantees that students acquire both theoretical understanding and real-world expertise. An excellent place to begin your career!",
     image: "./assets/avatar.jpg",
     place: "Perinthalmanna",
   },
