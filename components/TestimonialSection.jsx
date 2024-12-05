@@ -42,7 +42,7 @@ const TestimonialSection = () => {
                       sizes="(max-width: 768px) 10vw"
                       loading="lazy"
                       className="rounded-[100%] lg:w-[300px] lg:h-[300px] md:w-[200px] md:h-[200px] w-[150px] h-[150px]   lg:mt-0"
-                      alt="Image of a person"
+                      alt="Best CA coaching center in Perinthalmanna"
                     />
                     <div className="max-w-[483px]  mb-[14px]">
                       <h3 className="mb-4 text-black font-bold text-[25px] leading-snug">{testimonial.title}</h3>
