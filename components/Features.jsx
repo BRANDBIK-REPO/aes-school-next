@@ -7,7 +7,7 @@ const Features = () => {
       <div className="mx-auto max-w-7xl">
         <div className=" font-main ">
           <h2 className="text-2xl mb-12 text-center font-bold text-white">
-            Why Should you consider our campus?
+            Why we are the Best Accounting Institute?
           </h2>
           <div className="grid z-10 grid-cols-2 overflow-hidden relative xl:grid-cols-none xl:grid-flow-col text-center gap-y-10  " data-aos="zoom-up" data-aos-duration='800'>
             {features.map((feature) => (
