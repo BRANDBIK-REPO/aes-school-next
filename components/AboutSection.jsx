@@ -37,10 +37,10 @@ const AboutSection = () => {
           >
             <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">About Us</h2>
             <p className="mt-6 text-textgray text-lg ">
-              AE's School of Commerce is one of the most trusted destination for building a great future in the commerce
-              field in the malabar region.
+              AE's School of Commerce is one of the Best Accounting Institutes in Perinthalmannna offering Best Accounting
+              Courses in the malabar region.
               <br />
-              <br /> We provide varities of courses like CATLAM, IFRS, CA, CMA, CS that help our student to pursue a
+              <br /> We provide the Best Accounting courses like CATLAM, IFRS, CA, CMA, CS that help our student to pursue a
               great career in the accounting field. Our team of highly experienced faculties guide you to a successfull
               path.
             </p>
