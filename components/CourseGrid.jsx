@@ -21,7 +21,7 @@ const CourseGrid = ({ data }) => {
                 <Image
                   className="object-cover h-full w-full "
                   loading="lazy"
-                  alt="Accounting related image"
+                  alt="CS coaching institute near me in Perinthalmanna"
                   src={urlFor(course.image).url()}
                   fill={true}
                 />
@@ -44,7 +44,7 @@ const CourseGrid = ({ data }) => {
         data-aos-duration="500"
         data-aos-delay="800"
       >
-        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Accounting and finance courses in Malappuram" />
       </div>
       <div
         className="absolute -bottom-14 lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
@@ -53,7 +53,7 @@ const CourseGrid = ({ data }) => {
         data-aos-delay="800"
         data-aos-offset="-200"
       >
-        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+        <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Advanced ACCA courses in Perinthalmanna" />
       </div>
     </div>
   )
