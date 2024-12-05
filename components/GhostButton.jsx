@@ -14,7 +14,7 @@ const GhostButton = ({ text, href, icon }) => {
 
         {icon && (
           <div className="bg-secondaygreen flex justify-center items-center py-[14px] px-2">
-            <Image width="20" height="20" src="/assets/arrow.png" alt="" />
+            <Image width="20" height="20" src="/assets/arrow.png" alt="Best accounting courses in Perinthalmanna" />
           </div>
         )}
       </div>
