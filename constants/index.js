@@ -152,7 +152,7 @@ export const testimonials = [
     id: 2,
     name: "Kishore Krishna",
     title:
-      '"The best campus course available to power up your accounting skills"',
+      '"The Leading Accounting Institute in Perinthalmanna for Your Professional Growth"',
     desciption:
       "There is no better accounting institute in Perinthalmanna than AE's School of Commerce. With its hands-on approach and knowledgeable instruction, their CMA course in Perinthalmanna surpassed my expectations. Anyone who is serious about pursuing a profession in finance and accounting should go here.",
     image: "./assets/avatar.jpg",
@@ -162,7 +162,7 @@ export const testimonials = [
     id: 3,
     name: "Thahini Bandar",
     title:
-      '"The best campus course available to power up your accounting skills"',
+      '"AE's School of Commerce: The Top CMA Institute in Perinthalmanna for Career Success"',
     desciption:
       "The top CMA institute in Perinthalmanna, AE's School of Commerce, is renowned for its top-notch training courses. Their method of teaching the CMA course in Perinthalmanna guarantees that students acquire both theoretical understanding and real-world expertise. An excellent place to begin your career!",
     image: "./assets/avatar.jpg",
