@@ -42,7 +42,7 @@ const OurOffers = () => {
             data-aos-duration="500"
             data-aos-delay="800"
           >
-            <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+            <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Advanced CA course in Perinthalmanna" />
           </div>
           <div
             className="absolute top-auto lg:-bottom-[4.5rem] -left-8 lg:-left-10 w-36 h-36 z-0 "
@@ -51,7 +51,7 @@ const OurOffers = () => {
             data-aos-delay="800"
             data-aos-offset="-200"
           >
-            <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="Pattern shape" />
+            <Image src="/assets/pattern-grid.svg" width={100} height={100} alt="CS institute in Perinthalmanna" />
           </div>
         </div>
         <div className="md:mt-20 mt-14 flex flex-col text-center w-full md:justify-center md:items-center  md:flex-row gap-5 md:gap-3">
