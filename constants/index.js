@@ -85,7 +85,7 @@ export const faqLeft = [
     id: 1,
     question: "How long does it take to complete CATLAM?",
     answer:
-      "CATLAM is a 6-month in-house certificate program designed for individuals interested in a career in accounts, tax, and law. The course provides practical training in accounting, income tax laws, and accounting standards. It also covers practical knowledge in areas like goods and service tax and accounting software. CATLAM aims to equip students with the skills necessary for a sustainable career in the field.",
+      "CATLAM is a 6-month in-house certificate program designed for individuals interested in a career in accounts, tax, and law. AE's, the Best Accounting Institute in Perinthalmanna provides practical training in accounting, income tax laws, and accounting standards. It also covers practical knowledge in areas like goods and service tax and accounting software. CATLAM aims to equip students with the skills necessary for a sustainable career in the field.",
   },
   {
     id: 2,
@@ -96,13 +96,13 @@ export const faqLeft = [
     id: 3,
     question: "Which course is better, CA or CMA ?",
     answer:
-      "The choice between CA (Chartered Accountancy) and CMA (Cost and Management Accountancy) depends on your career goals and interests. CA primarily focuses on accounting, auditing, taxation, and financial reporting, while CMA emphasizes cost management, financial analysis, and strategic planning. Both courses have their unique advantages and career opportunities. It's essential to consider your preferences and long-term career aspirations to determine which course aligns better with your goals.",
+      "The choice between CA (Chartered Accountancy) and CMA (Cost and Management Accountancy) depends on your career goals and interests. CA primarily focuses on accounting, auditing, taxation, and financial reporting, while CMA emphasizes cost management, financial analysis, and strategic planning. Both are Best Accounting courses and have their unique advantages and career opportunities. It's essential to consider your preferences and long-term career aspirations to determine which course aligns better with your goals.",
   },
   {
     id: 4,
     question: "What is the difference between CA & CMA ?",
     answer:
-      "CA (Chartered Accountancy) and CMA (Cost and Management Accountancy) differ in their focus and specialization. CA covers accounting, auditing, taxation, financial reporting, and business laws. CMA emphasizes cost management, financial analysis, strategic planning, and performance evaluation. Both designations have unique career opportunities. CA enables practice in auditing, tax consulting, and finance, while CMA is suitable for cost management, financial analysis, and strategic planning roles within organizations. Choose based on your interests and long-term goals.",
+      "CA (Chartered Accountancy) and CMA (Cost and Management Accountancy) are the Best Accounting Courses and differ in their focus and specialization. CA covers accounting, auditing, taxation, financial reporting, and business laws. CMA emphasizes cost management, financial analysis, strategic planning, and performance evaluation. Both designations have unique career opportunities. CA enables practice in auditing, tax consulting, and finance, while CMA is suitable for cost management, financial analysis, and strategic planning roles within organizations. Choose based on your interests and long-term goals.",
   },
 ];
 
@@ -111,7 +111,7 @@ export const faqRight = [
     id: 5,
     question: "Does this institute provide any scholorships ?",
     answer:
-      "Yes, AES School of Commerce provides scholarships through entrance exams. The institute offers scholarships to deserving students based on their performance in the entrance examination. This provides an opportunity for talented individuals to receive financial assistance and support their education at the institute.",
+      "Yes, AES School of Commerce, the Best Accounting Institute in Perinthalmanna provides scholarships through entrance exams. The institute offers scholarships to deserving students based on their performance in the entrance examination. This provides an opportunity for talented individuals to receive financial assistance and support their education at the institute.",
   },
   {
     id: 6,
@@ -123,7 +123,7 @@ export const faqRight = [
     id: 7,
     question: "Can a student after 12th study, CA or CMA ?",
     answer:
-      "Yes, students can pursue CA or CMA after completing their 12th grade. CA has a Foundation Course open to students from any stream, while CMA has a Foundation Course for students who have completed 10+2 from a recognized board. Both courses require dedication and rigorous study to obtain the qualifications.",
+      "Yes, students can pursue CA or CMA after completing their 12th grade because they are the Best Accounting Courses. CA has a Foundation Course open to students from any stream, while CMA has a Foundation Course for students who have completed 10+2 from a recognized board. Both courses require dedication and rigorous study to obtain the qualifications.",
   },
   {
     id: 8,
