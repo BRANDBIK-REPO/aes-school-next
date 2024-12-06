@@ -16,7 +16,7 @@ const TestimonialSection = () => {
           Hear what our amazing students say
         </h2>
         <p className="text-slate-100 max-w-lg text-center mx-auto flex-1  text-lg mt-6">
-          Having the best alumni is what make an institute great. Hear to what some of our notable alumni have to say
+          Having the best alumni is what make us the Best Accounting Institute. Hear to what some of our notable alumni have to say
           about us.
         </p>
       </div>
