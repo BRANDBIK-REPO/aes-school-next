@@ -19,7 +19,7 @@ const ContactPage = () => {
         >
           <div className="z-10 relative w-full lg:max-w-xl lg:min-w-[380px] mr-8">
             <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[61px] md:text-[58px] md:leading-[1.233] font-bold">
-              Get in touch today
+              Contact Best Accounting Institute Today
             </h1>
             <p className=" text-lg text-textgray mb-10 ">
               Want to know more about how to enroll in our specially designed courses and build a great career out of it. Lets talk and start realizing your dreams now.
