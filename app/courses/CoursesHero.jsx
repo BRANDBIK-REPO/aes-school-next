@@ -21,7 +21,7 @@ const CoursesHero = async () => {
           Our Courses
         </h1>
         <p className=" text-lg text-textgray">
-          Discover some of our well designed courses and build a great career out of it. We have sketched some of the most important certification courses to enrich your experience in the field of accountancy that help you realize your dreams
+          Discover some of our best accounting courses and build a great career out of it. AE's, the Best Accounting Institute in Perinthalmanna have sketched some of the most important certification courses to enrich your experience in the field of accountancy that help you realize your dreams
         </p>
       </div>
       <div className="max-w-[1342px] mx-auto ">
