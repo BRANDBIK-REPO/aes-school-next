@@ -14,8 +14,8 @@ const Mission = () => {
             >
               <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">Our Mission</h2>
               <p className="mt-6 text-textgray text-lg leading-[1.6]">
-                AE's School of commerce offers high-quality certification courses in accountancy like CATLAM, IFRS, CA,
-                and CMA. We provide comprehensive training and support for successful careers. Our commitment includes
+                AE's School of commerce offers best accounting courses in Perinthalmanna like CATLAM, IFRS, CA,
+                and CMA. As the best accounting institute in Perinthalmanna provide comprehensive training and support for <br></br>successful careers. Our commitment includes
                 imparting knowledge, skills, and placement assistance to students. Our mission is to ensure diverse
                 career opportunities and lifelong support for graduates.
               </p>
