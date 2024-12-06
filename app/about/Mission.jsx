@@ -15,7 +15,7 @@ const Mission = () => {
               <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">Our Mission</h2>
               <p className="mt-6 text-textgray text-lg leading-[1.6]">
                 AE's School of commerce offers best accounting courses in Perinthalmanna like CATLAM, IFRS, CA,
-                and CMA. As the best accounting institute in Perinthalmanna provide comprehensive training and support for successful careers. Our commitment includes
+                and CMA. As the best accounting institute in Perinthalmanna, We provide comprehensive training and support for successful careers. Our commitment includes
                 imparting knowledge, skills, and placement assistance to students. Our mission is to ensure diverse
                 career opportunities and lifelong support for graduates.
               </p>
@@ -60,7 +60,7 @@ const Mission = () => {
             <div className="" data-aos="zoom-out" data-aos-duration="800" data-aos-delay="100">
               <h2 className="text-black md:text-4xl font-bold leading-tight text-[28px] lg:text-[40px]">Our Vision</h2>
               <p className="mt-6 text-textgray text-lg leading-[1.6] ">
-                Our vision is to be a leading institute globally recognized for excellence in accountancy certification
+                Our vision is to be a the best accounting institute globally recognized for excellence in accountancy certification
                 courses. We shape the future of the accounting industry by producing highly skilled professionals. Our
                 aim is to foster a learning environment that encourages continuous growth, innovation, and ethical
                 practices. We make a positive impact on the profession by producing competent professionals.
