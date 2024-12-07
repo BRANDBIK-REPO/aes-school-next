@@ -17,7 +17,15 @@ export const metadata = {
   title: "Top CMA Institute in Perinthalmanna | AE School of Commerce",
   description: `Best CMA Institute in Perinthalmanna, AE's School of Commerce, can help you realize your CMA goals by providing top-notch coaching and best practical training`,
 };
-
+useEffect(() => {
+    // Initialize Google Analytics once
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-6ZYD0RKJ4E'); // Replace with your Google Analytics ID
+  }, []);
 const Home = async () => {
   const data = await getData();
   return (
@@ -30,15 +38,6 @@ const Home = async () => {
       <Faq />
       <Analytics />
     </>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZYD0RKJ4E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6ZYD0RKJ4E');
-</script>
   );
 };
 export const revalidate = 3600;
