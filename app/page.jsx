@@ -18,7 +18,6 @@ export const metadata = {
   description: `Best CMA Institute in Perinthalmanna, AE's School of Commerce, can help you realize your CMA goals by providing top-notch coaching and best practical training`,
 };
 
-<Head>
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
@@ -44,7 +43,6 @@ export const metadata = {
             }),
           }}
         ></script>
-      </Head>
 const Home = async () => {
   const data = await getData();
   return (
