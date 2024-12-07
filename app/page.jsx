@@ -30,6 +30,15 @@ const Home = async () => {
       <Faq />
       <Analytics />
     </>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZYD0RKJ4E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6ZYD0RKJ4E');
+</script>
   );
 };
 export const revalidate = 3600;
