@@ -24,7 +24,7 @@ useEffect(() => {
       window.dataLayer.push(arguments);
     }
     gtag('js', new Date());
-    gtag('config', 'G-6ZYD0RKJ4E'); // Replace with your Google Analytics ID
+    gtag('config', 'G-6ZYD0RKJ4E'); //
   }, []);
 const Home = async () => {
   const data = await getData();
