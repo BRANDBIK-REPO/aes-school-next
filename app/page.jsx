@@ -22,6 +22,18 @@ const Home = async () => {
   const data = await getData();
   return (
     <>
+  <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-6ZYD0RKJ4E"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-6ZYD0RKJ4E');
+        `}
+      </Script>
       <Hero />
       <CoursesSection data={data} />
       <Features />
