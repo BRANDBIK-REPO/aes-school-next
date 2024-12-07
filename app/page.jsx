@@ -17,15 +17,7 @@ export const metadata = {
   title: "Top CMA Institute in Perinthalmanna | AE School of Commerce",
   description: `Best CMA Institute in Perinthalmanna, AE's School of Commerce, can help you realize your CMA goals by providing top-notch coaching and best practical training`,
 };
-useEffect(() => {
-    //
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-6ZYD0RKJ4E'); //
-  }, []);
+
 const Home = async () => {
   const data = await getData();
   return (
