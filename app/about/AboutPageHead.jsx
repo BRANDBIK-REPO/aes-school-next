@@ -4,6 +4,74 @@ import AnimatedButton from "@components/AnimatedButton"
 import animationData from "@lottie/system-outline-19-book.json"
 import Image from "next/image"
 
+<script>  
+const jsonLd = {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Top CMA Institute in Perinthalmanna | AE School of Commerce",
+        "item": "https://www.aessoc.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Best Accounting Course in Perinthalmanna | Best CA Institute",
+        "item": "https://www.aessoc.com/courses"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Best ACCA Institute in Perinthalmanna | Expert ACCA Coaching",
+        "item": "https://www.aessoc.com/gallery"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Top Accounting Courses in Malappuram | AE's School of Commerce",
+        "item": "https://www.aessoc.com/about"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Top Accounting Courses in Palakkad | AE's School of Commerce",
+        "item": "https://www.aessoc.com/contact"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Best CA Institute in Perinthalmanna | Best Accounting Course",
+        "item": "https://www.aessoc.com/courses/catlam"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Top Accounting Institute in Perinthalmanna | Best CA Courses",
+        "item": "https://www.aessoc.com/courses/ifrs"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Best CA Course in Perinthalmanna | AE's School of Commerce",
+        "item": "https://www.aessoc.com/courses/ca"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "CMA Course in Perinthalmanna | Best CMA Institute | AE SOC",
+        "item": "https://www.aessoc.com/courses/cma"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Best CS Course in Perinthalmanna | Best Accounting Institute",
+        "item": "https://www.aessoc.com/courses/cs"
+      }
+    ]
+  };
+</script>
 const AboutPageHead = () => {
   return (
     <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20 pb-14 lg:pb-32">
