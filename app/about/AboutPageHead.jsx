@@ -3,8 +3,7 @@ import Button from "@components/Button"
 import AnimatedButton from "@components/AnimatedButton"
 import animationData from "@lottie/system-outline-19-book.json"
 import Image from "next/image"
-
-<script>  
+  
 const jsonLd = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -71,7 +70,7 @@ const jsonLd = {
       }
     ]
   };
-</script>
+
 const AboutPageHead = () => {
   return (
     <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20 pb-14 lg:pb-32">
