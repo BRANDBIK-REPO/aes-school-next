@@ -13,7 +13,6 @@ async function getData() {
   return products;
 }
 
-export default function Page() {
 const jsonLd = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -80,6 +79,13 @@ const jsonLd = {
       }
     ]
   };
+return (
+    <section>
+      {/* Add JSON-LD to your page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 export const metadata = {
   title: "Top CMA Institute in Perinthalmanna | AE School of Commerce",
   description: `Best CMA Institute in Perinthalmanna, AE's School of Commerce, can help you realize your CMA goals by providing top-notch coaching and best practical training`,
