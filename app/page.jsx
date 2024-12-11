@@ -13,6 +13,7 @@ async function getData() {
   return products;
 }
 
+export default function Page() {
 const jsonLd = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
