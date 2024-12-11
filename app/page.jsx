@@ -12,8 +12,7 @@ async function getData() {
   const products = client.fetch(query);
   return products;
 }
-
-<script>  
+ 
 const jsonLd = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -80,7 +79,6 @@ const jsonLd = {
       }
     ]
   };
-</script>
 export const metadata = {
   title: "Top CMA Institute in Perinthalmanna | AE School of Commerce",
   description: `Best CMA Institute in Perinthalmanna, AE's School of Commerce, can help you realize your CMA goals by providing top-notch coaching and best practical training`,
