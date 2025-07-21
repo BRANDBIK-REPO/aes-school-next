@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "@formcarry/react";
 
 const ContactForm = () => {
@@ -8,12 +8,42 @@ const ContactForm = () => {
     id: `4CHDBW1LNq`,
   });
 
+  // Add state for each field
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+
   if (state.submitted) {
     return <div>Thank you! We received your submission.</div>;
   }
+
+  // Update state on input change
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm((prev) => ({ ...prev, [name]: value }));
+  };
+
+  // Custom submit handler
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Submit to Formcarry
+    submit(e);
+    // Construct WhatsApp message
+    const whatsappNumber = "918089145551";
+    const text =
+      `Name: ${form.name}\n` +
+      `Email: ${form.email}\n` +
+      `Phone: ${form.phone}\n` +
+      `Subject: ${form.subject}\n` +
+      `Message: ${form.message}`;
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+    window.open(url, "_blank");
   };
+
   return (
     <div
       className="relative font-main bg-white w-full lg:max-w-[687px] max-w-full"
@@ -24,7 +54,7 @@ const ContactForm = () => {
     >
       <div className="min-h-[850px] shadow-faq py-12 px-6 md:min-h-[951px] md:py-14 md:px-9 lg:min-h-[729px] relative z-10 lg:py-20 lg:px-10 flex items-center border border-[#eaeaea]">
         <div className="flex-1 lg:mr-4">
-          <form onSubmit={submit}>
+          <form onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 lg:grid-cols-2 mb-4 gap-y-5 gap-x-9">
               <div className="">
                 <label
@@ -38,6 +68,8 @@ const ContactForm = () => {
                   id="name"
                   name="name"
                   placeholder="Your Name"
+                  value={form.name}
+                  onChange={handleChange}
                   className="px-5 w-full lg:px-6 min-h-[68px]  focus:border-primary focus:outline-none mb-0 border-2 bg-[#fbfbfb] rounded-full border-[#fbfbfb] text-blackbg font-lg leading-[1.1]"
                 />
               </div>
@@ -53,6 +85,8 @@ const ContactForm = () => {
                   placeholder="example@yourmail.com"
                   id="email"
                   name="email"
+                  value={form.email}
+                  onChange={handleChange}
                   className="px-5  lg:px-6 min-h-[68px] w-full mb-0 border-2 focus:border-primary focus:outline-none bg-[#fbfbfb]  rounded-full border-[#fbfbfb] text-blackbg font-lg leading-[1.1]"
                 />
               </div>
@@ -68,6 +102,8 @@ const ContactForm = () => {
                   placeholder="9876543210"
                   id="phone"
                   name="phone"
+                  value={form.phone}
+                  onChange={handleChange}
                   className="px-5 lg:px-6 min-h-[68px] w-full mb-0 focus:border-primary focus:outline-none border-2 bg-[#fbfbfb]  rounded-full border-[#fbfbfb] text-blackbg font-lg leading-[1.1]"
                 />
               </div>
@@ -83,6 +119,8 @@ const ContactForm = () => {
                   placeholder="Course Enquiry"
                   id="subject"
                   name="subject"
+                  value={form.subject}
+                  onChange={handleChange}
                   className="px-5 lg:px-6 min-h-[68px] w-full mb-0 focus:border-primary focus:outline-none border-2 bg-[#fbfbfb]  rounded-full border-[#fbfbfb] text-blackbg font-lg leading-[1.1]"
                 />
               </div>
@@ -99,11 +137,12 @@ const ContactForm = () => {
                 maxLength={5000}
                 id="message"
                 name="message"
+                value={form.message}
+                onChange={handleChange}
                 className="h-auto px-5 max-h-[200px] max-w-full rounded-xl focus:border-primary focus:outline-none bg-[#fbfbfb]  min-h-[163px] min-w-full mb-0 py-5 lg:px-6 border-2 border-[#fbfbfb] text-blackbg text-lg "
               ></textarea>
             </div>
             <button
-              onSubmit={submit}
               type="submit"
               className="block px-6 cursor-pointer py-6 w-full lg:w-auto lg:py-6 lg:px-12 bg-primary lg:hover:bg-indigo-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-primary focus:outline-none shadow-cta  rounded-full mt-7 text-white leading-[1.1] font-bold text-center"
             >
