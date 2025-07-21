@@ -2,7 +2,7 @@ import React from "react";
 import ContactForm from "./ContactForm";
 import Link from "next/link";
 import { Mail, Phone, Map } from "lucide-react";
-
+import { FaInstagram } from "react-icons/fa";
 
 
 const ContactPage = () => {
@@ -52,6 +52,18 @@ const ContactPage = () => {
                   Perintalmanna,Malappuram, Kerala 679322
                 </div>
               </div>
+            </div>
+            <div className="flex items-center gap-2 mt-4">
+              <a
+                href="https://www.instagram.com/aesschoolofcommerce?igsh=MWoxZWxzOXl2cG9rZQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="w-10 h-10 rounded-full flex justify-center items-center border border-slate-200 hover:border-primary hover:text-primary duration-150 text-slate-600 text-xl"
+              >
+                <FaInstagram />
+              </a>
+              <span className="text-slate-700 text-base">Follow us on Instagram</span>
             </div>
           </div>
           <ContactForm />

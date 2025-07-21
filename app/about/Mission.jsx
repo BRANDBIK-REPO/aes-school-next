@@ -4,7 +4,7 @@ const Mission = () => {
   return (
     <section className="overflow-hidden bg-[#fbfbfb] px-5% font-main pt-16 lg:pt-20 py-32">
       <div className="mx-auto max-w-7xl">
-        <div className="relative flex flex-col gap-10 lg:flex-row z-10 justify-between items-center">
+        <div className="flex relative z-10 flex-col gap-10 justify-between items-center lg:flex-row">
           <div className="relative z-10 max-w-[610px] lg:mt-[52px] mb-8">
             <div
               className=" md:mb-12 mb-10 lg:mb-[156px]"
@@ -23,14 +23,17 @@ const Mission = () => {
             <div className="relative">
               <Image
                 src="/assets/hero.jpeg"
-                className="z-10 relative"
+                className="relative z-10"
+              
                 data-aos="zoom-out"
                 alt="Best accounting courses in Perinthalmanna"
                 data-aos-duration="800"
                 data-aos-delay="300"
+                width={800}
+                height={600}
               />
               <div
-                className="absolute  lg:-top-10 -top-3 -left-3  lg:left-8  z-0 "
+                className="absolute -top-3 -left-3 z-0 lg:-top-10 lg:left-8"
                 data-aos="fade-in"
                 data-aos-duration="800"
                 data-aos-delay="300"
@@ -42,14 +45,16 @@ const Mission = () => {
           <div className="relative flex flex-col-reverse gap-y-12 lg:gap-y-0 lg:flex-col z-10 max-w-[610px] mt-[52px] mb-8">
             <div className="relative mb-0  lg:mb-[171px]">
               <Image
-                src="/assets/hero.jpeg"
+                src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=800&q=80"
                 alt="Top ACCA coaching institute in Perinthalmanna"
-                className="z-10 relative"
+                className="relative z-10"
                 data-aos="zoom-out"
                 data-aos-duration="800"
+                width={800}
+                height={600}
               />
               <div
-                className="absolute  lg:-bottom-16  lg:right-2 -bottom-7 -right-3 z-0 "
+                className="absolute -right-3 -bottom-7 z-0 lg:-bottom-16 lg:right-2"
                 data-aos="fade-in"
                 data-aos-duration="800"
                 data-aos-delay="300"

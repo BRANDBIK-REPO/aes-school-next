@@ -1,8 +1,8 @@
 import React from "react";
 import { client } from "@lib/client";
-import { urlFor } from "@lib/client";
+// import { urlFor } from "@lib/client";
 import Fancybox from "./FancyBox";
-import Image from "next/image";
+// import Image from "next/image";
 
 async function getCourse() {
   const query = '*[_type=="images" ]';
@@ -27,10 +27,10 @@ const page = async () => {
             },
           }}
         >
-          {data.map((data) => (
+          {/* {data.map((data) => (
             <a
               data-fancybox="gallery"
-              className="w-full h-auto relative"
+              className="relative w-full h-auto"
               href={urlFor(data.image).url()}
             >
               <Image
@@ -41,7 +41,7 @@ const page = async () => {
                 src={urlFor(data.image).url()}
               />
             </a>
-          ))}
+          ))} */}
         </Fancybox>{" "}
       </div>
     </div>

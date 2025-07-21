@@ -7,19 +7,21 @@ import Image from "next/image"
 const AboutPageHead = () => {
   return (
     <section className="oveflow-hidden font-main relative px-5% pt-5 md:pt-10 lg:pt-20 pb-14 lg:pb-32">
-      <div className="mx-auto max-w-7xl ">
-        <div className="flex lg:flex-row flex-col-reverse gap-y-14 relative justify-between items-center">
-          <div className="relative  flex max-w-2xl lg:mr-9 justify-center items-center">
+      <div className="mx-auto max-w-7xl">
+        <div className="flex relative flex-col-reverse gap-y-14 justify-between items-center lg:flex-row">
+          <div className="flex relative justify-center items-center max-w-2xl lg:mr-9">
             <Image
               className="relative z-10"
-              src="/assets/hero.jpeg"
+              src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=800&q=80"
               data-aos="zoom-out"
               alt="CMA training center in Perinthalmanna"
               data-aos-duration="800"
               data-aos-delay="100"
+              width={800}
+              height={600}
             />
             <div
-              className="absolute  lg:-top-2 -bottom-8 lg:left-8  z-0 "
+              className="absolute -bottom-8 z-0 lg:-top-2 lg:left-8"
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="500"
@@ -37,12 +39,12 @@ const AboutPageHead = () => {
             <h1 className="mt-0 mb-8 text-black text-[32px] leading-[1.15] lg:text-[61px] md:text-[58px] md:leading-[1.233] font-bold">
               About us
             </h1>
-            <p className=" text-lg  text-textgray mb-10 ">
+            <p className="mb-10 text-lg text-textgray">
               AE's School of Commerce, the Best Accounting Institute in Perinthalmanna offers a wide range of Best Accounting Courses
               including CATLAM, IFRS, CA, CMA, and CS, led by experienced faculty, to shape a successful career in the
               accounting field.
             </p>
-            <div className="mb-3 grid grid-cols-1  gap-4 ">
+            <div className="grid grid-cols-1 gap-4 mb-3">
               <div className="flex gap-4 items-center text-blackbg leading-[1.1]">
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx={13} cy={13} r="13" fill="#2e328d" />
@@ -51,7 +53,7 @@ const AboutPageHead = () => {
                 <div className="text-lg font-medium">15+ years of experience</div>
               </div>
             </div>
-            <div className="mb-12 grid grid-cols-1  gap-4 ">
+            <div className="grid grid-cols-1 gap-4 mb-12">
               <div className="flex gap-4 items-center text-blackbg leading-[1.1]">
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx={13} cy={13} r="13" fill="#2e328d" />
@@ -59,7 +61,7 @@ const AboutPageHead = () => {
                 </svg>
                 <div className="text-lg font-medium">10+ Experts to teach</div>
               </div>
-              <div className="mb-3 grid grid-cols-1  gap-4 ">
+              <div className="grid grid-cols-1 gap-4 mb-3">
                 <div className="flex gap-4 items-center text-blackbg leading-[1.1]">
                   <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx={13} cy={13} r="13" fill="#2e328d" />
@@ -70,7 +72,7 @@ const AboutPageHead = () => {
               </div>
             </div>
 
-            <div className=" flex flex-col text-center  md:flex-row gap-5 md:gap-3 ">
+            <div className="flex flex-col gap-5 text-center md:flex-row md:gap-3">
               <Button text="Get Free Consultation" href="/contact" />
               <AnimatedButton text="View Courses" animationData={animationData} />
             </div>

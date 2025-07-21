@@ -4,9 +4,9 @@ import Footer from "@components/Footer";
 import Badge from "@components/Badge";
 import Script from "next/script";
 
-const RootLayout = ({ children }) => {
+export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en">
       <head></head>
       <Script
         strategy="lazyOnload"
@@ -21,13 +21,11 @@ const RootLayout = ({ children }) => {
       <body>
         <div className="overflow-hidden">
           <Navbar />
-          <main className="app">{children}</main>
+          <main className="pt-[6rem]">{children}</main>
           <Badge />
           <Footer />
         </div>
       </body>
     </html>
   );
-};
-
-export default RootLayout;
+}
